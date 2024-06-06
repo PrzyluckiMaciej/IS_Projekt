@@ -16,6 +16,7 @@ namespace Project_app
         public MainView()
         {
             InitializeComponent();
+            columnButton.Visible = false;
         }
 
         //użyte do pobrania nazw kolumn z bazy danych w celu utworzenia klasy do implementacji ORM

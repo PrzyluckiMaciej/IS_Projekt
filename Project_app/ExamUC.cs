@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using Org.BouncyCastle.Crmf;
 
 namespace Project_app
 {
@@ -31,12 +32,24 @@ namespace Project_app
         {
             IList<ExamResult> results = repo.GetAllExamResultsBefore();
             dataGridView.DataSource = results;
+            sizeDGV(dataGridView);
         }
 
         private void afterButton_Click(object sender, EventArgs e)
         {
             IList<ExamResult> results = repo.GetAllExamResultsAfter();
             dataGridView.DataSource = results;
+            sizeDGV(dataGridView);
+        }
+
+        private void sizeDGV(DataGridView dgv)
+        {
+            DataGridViewElementStates states = DataGridViewElementStates.None;
+            dgv.ScrollBars = ScrollBars.None;
+            var totalHeight = dgv.Rows.GetRowsHeight(states) + dgv.ColumnHeadersHeight;
+            var totalWidth = dgv.Columns.GetColumnsWidth(states) + dgv.RowHeadersWidth;
+            dgv.ClientSize = new Size(totalWidth, totalHeight);
+            dgv.Left = (this.ClientSize.Width - dgv.Width) / 2;
         }
     }
 }

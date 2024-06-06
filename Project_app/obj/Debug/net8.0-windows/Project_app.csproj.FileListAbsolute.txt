@@ -87,3 +87,4 @@ D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\r
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\Insight.Database.Providers.MySql.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.sourcelink.json
