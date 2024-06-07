@@ -28,8 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             examLabel = new Label();
-            lineChart1 = new MindFusion.Charting.WinForms.LineChart();
+            casesChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            examsChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            ((System.ComponentModel.ISupportInitialize)casesChart).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)examsChart).BeginInit();
             SuspendLayout();
             // 
             // examLabel
@@ -43,40 +50,50 @@
             examLabel.Text = "Wykresy";
             examLabel.TextAlign = ContentAlignment.TopCenter;
             // 
-            // lineChart1
+            // casesChart
             // 
-            lineChart1.LegendTitle = "Legend";
-            lineChart1.Location = new Point(32, 47);
-            lineChart1.Name = "lineChart1";
-            lineChart1.Padding = new Padding(5);
-            lineChart1.ShowLegend = true;
-            lineChart1.Size = new Size(384, 256);
-            lineChart1.SubtitleFontName = null;
-            lineChart1.SubtitleFontSize = null;
-            lineChart1.SubtitleFontStyle = null;
-            lineChart1.TabIndex = 5;
-            lineChart1.Text = "lineChart1";
-            lineChart1.Theme.UniformSeriesFill = new MindFusion.Drawing.SolidBrush("#FF90EE90");
-            lineChart1.Theme.UniformSeriesStroke = new MindFusion.Drawing.SolidBrush("#FF000000");
-            lineChart1.Theme.UniformSeriesStrokeThickness = 2D;
-            lineChart1.TitleFontName = null;
-            lineChart1.TitleFontSize = null;
-            lineChart1.TitleFontStyle = null;
+            chartArea1.Name = "ChartArea1";
+            casesChart.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            casesChart.Legends.Add(legend1);
+            casesChart.Location = new Point(3, 24);
+            casesChart.Name = "casesChart";
+            casesChart.Size = new Size(455, 300);
+            casesChart.TabIndex = 5;
+            casesChart.Text = "chart1";
+            // 
+            // examsChart
+            // 
+            chartArea2.Name = "ChartArea1";
+            examsChart.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            examsChart.Legends.Add(legend2);
+            examsChart.Location = new Point(469, 24);
+            examsChart.Name = "examsChart";
+            examsChart.Size = new Size(455, 300);
+            examsChart.TabIndex = 7;
+            examsChart.Text = "chart2";
             // 
             // GraphUC
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(lineChart1);
+            Controls.Add(examsChart);
+            Controls.Add(casesChart);
             Controls.Add(examLabel);
             Name = "GraphUC";
             Size = new Size(927, 558);
+            ((System.ComponentModel.ISupportInitialize)casesChart).EndInit();
+            ((System.ComponentModel.ISupportInitialize)examsChart).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Label examLabel;
-        private MindFusion.Charting.WinForms.LineChart lineChart1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart casesChart;
+        private DataGridView dataGridView1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart examsChart;
+        private DataGridView dataGridView2;
     }
 }

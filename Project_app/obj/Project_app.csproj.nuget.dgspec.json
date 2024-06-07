@@ -57,13 +57,13 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
-            "MindFusion.Charting": {
-              "target": "Package",
-              "version": "[4.2.0, )"
-            },
             "MySql.Data": {
               "target": "Package",
               "version": "[8.4.0, )"
+            },
+            "WinForms.DataVisualization": {
+              "target": "Package",
+              "version": "[1.9.2, )"
             }
           },
           "imports": [

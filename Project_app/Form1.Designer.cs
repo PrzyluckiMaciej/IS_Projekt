@@ -206,7 +206,7 @@
             MaximumSize = new Size(1130, 597);
             MinimumSize = new Size(1130, 597);
             Name = "Form1";
-            Text = "Covid";
+            Text = "Klient";
             menu.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
