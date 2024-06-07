@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             examLabel = new Label();
+            lineChart1 = new MindFusion.Charting.WinForms.LineChart();
             SuspendLayout();
             // 
             // examLabel
@@ -42,10 +43,31 @@
             examLabel.Text = "Wykresy";
             examLabel.TextAlign = ContentAlignment.TopCenter;
             // 
+            // lineChart1
+            // 
+            lineChart1.LegendTitle = "Legend";
+            lineChart1.Location = new Point(32, 47);
+            lineChart1.Name = "lineChart1";
+            lineChart1.Padding = new Padding(5);
+            lineChart1.ShowLegend = true;
+            lineChart1.Size = new Size(384, 256);
+            lineChart1.SubtitleFontName = null;
+            lineChart1.SubtitleFontSize = null;
+            lineChart1.SubtitleFontStyle = null;
+            lineChart1.TabIndex = 5;
+            lineChart1.Text = "lineChart1";
+            lineChart1.Theme.UniformSeriesFill = new MindFusion.Drawing.SolidBrush("#FF90EE90");
+            lineChart1.Theme.UniformSeriesStroke = new MindFusion.Drawing.SolidBrush("#FF000000");
+            lineChart1.Theme.UniformSeriesStrokeThickness = 2D;
+            lineChart1.TitleFontName = null;
+            lineChart1.TitleFontSize = null;
+            lineChart1.TitleFontStyle = null;
+            // 
             // GraphUC
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(lineChart1);
             Controls.Add(examLabel);
             Name = "GraphUC";
             Size = new Size(927, 558);
@@ -55,5 +77,6 @@
         #endregion
 
         private Label examLabel;
+        private MindFusion.Charting.WinForms.LineChart lineChart1;
     }
 }

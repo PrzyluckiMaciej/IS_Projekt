@@ -88,3 +88,12 @@ D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\r
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\Insight.Database.Providers.MySql.dll
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.sourcelink.json
+D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\MindFusion.Charting.WinForms.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\MindFusion.Charting.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\MindFusion.Common.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\MindFusion.Gauges.WinForms.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\MindFusion.Gauges.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\MindFusion.Licensing.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\MindFusion.Pdf.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\MindFusion.Scripting.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\MindFusion.Svg.dll

@@ -43,7 +43,7 @@
             deathsLabel.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 238);
             deathsLabel.Location = new Point(0, 0);
             deathsLabel.Name = "deathsLabel";
-            deathsLabel.Size = new Size(927, 21);
+            deathsLabel.Size = new Size(912, 21);
             deathsLabel.TabIndex = 1;
             deathsLabel.Text = "Śmierci na COVID-19 w 2020 roku";
             deathsLabel.TextAlign = ContentAlignment.TopCenter;
@@ -51,7 +51,7 @@
             // afterButton
             // 
             afterButton.Dock = DockStyle.Right;
-            afterButton.Location = new Point(461, 0);
+            afterButton.Location = new Point(446, 0);
             afterButton.Name = "afterButton";
             afterButton.Size = new Size(142, 23);
             afterButton.TabIndex = 6;
@@ -62,7 +62,7 @@
             // beforeButton
             // 
             beforeButton.Dock = DockStyle.Right;
-            beforeButton.Location = new Point(319, 0);
+            beforeButton.Location = new Point(304, 0);
             beforeButton.Name = "beforeButton";
             beforeButton.Size = new Size(142, 23);
             beforeButton.TabIndex = 5;
@@ -75,7 +75,7 @@
             dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView.Location = new Point(3, 53);
             dataGridView.Name = "dataGridView";
-            dataGridView.Size = new Size(921, 502);
+            dataGridView.Size = new Size(906, 502);
             dataGridView.TabIndex = 7;
             // 
             // panel1
@@ -85,7 +85,7 @@
             panel1.Location = new Point(3, 24);
             panel1.Name = "panel1";
             panel1.Padding = new Padding(0, 0, 318, 0);
-            panel1.Size = new Size(921, 23);
+            panel1.Size = new Size(906, 23);
             panel1.TabIndex = 8;
             // 
             // DeathsUC
@@ -96,7 +96,7 @@
             Controls.Add(dataGridView);
             Controls.Add(deathsLabel);
             Name = "DeathsUC";
-            Size = new Size(927, 558);
+            Size = new Size(912, 558);
             ((System.ComponentModel.ISupportInitialize)dataGridView).EndInit();
             panel1.ResumeLayout(false);
             ResumeLayout(false);

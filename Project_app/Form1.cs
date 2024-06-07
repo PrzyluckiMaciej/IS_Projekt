@@ -15,11 +15,12 @@ namespace Project_app
             examUC = new ExamUC();
             graphUC = new GraphUC();
             InitializeComponent();
+            ucPanel.Controls.Add(mainView);
         }
 
         private void hideUC()
         {
-            mainViewUC.Visible = false;
+            //mainViewUC.Visible = false;
             mainView.Visible = false;
             casesUC.Visible = false;
             deathsUC.Visible = false;
@@ -31,35 +32,35 @@ namespace Project_app
         {
             hideUC();
             casesUC.Visible = true;
-            contentPanel.Controls.Add(casesUC);
+            ucPanel.Controls.Add(casesUC);
         }
 
         private void mainPageLabel_Click(object sender, EventArgs e)
         {
             hideUC();
             mainView.Visible = true;
-            contentPanel.Controls.Add(mainView);
+            ucPanel.Controls.Add(mainView);
         }
 
         private void deathsButton_Click(object sender, EventArgs e)
         {
             hideUC();
             deathsUC.Visible = true;
-            contentPanel.Controls.Add(deathsUC);
+            ucPanel.Controls.Add(deathsUC);
         }
 
         private void examButton_Click(object sender, EventArgs e)
         {
             hideUC();
             examUC.Visible = true;
-            contentPanel.Controls.Add(examUC);
+            ucPanel.Controls.Add(examUC);
         }
 
         private void graphButton_Click(object sender, EventArgs e)
         {
             hideUC();
             graphUC.Visible = true;
-            contentPanel.Controls.Add(graphUC);
+            ucPanel.Controls.Add(graphUC);
         }
     }
 }

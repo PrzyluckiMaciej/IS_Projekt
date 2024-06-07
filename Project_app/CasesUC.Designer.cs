@@ -43,7 +43,7 @@
             casesLabel.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 238);
             casesLabel.Location = new Point(0, 0);
             casesLabel.Name = "casesLabel";
-            casesLabel.Size = new Size(927, 21);
+            casesLabel.Size = new Size(912, 21);
             casesLabel.TabIndex = 0;
             casesLabel.Text = "Zachorowania na COVID-19 w 2020 roku";
             casesLabel.TextAlign = ContentAlignment.TopCenter;
@@ -53,13 +53,13 @@
             dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView.Location = new Point(3, 53);
             dataGridView.Name = "dataGridView";
-            dataGridView.Size = new Size(921, 502);
+            dataGridView.Size = new Size(906, 502);
             dataGridView.TabIndex = 2;
             // 
             // beforeButton
             // 
             beforeButton.Dock = DockStyle.Right;
-            beforeButton.Location = new Point(319, 0);
+            beforeButton.Location = new Point(307, 0);
             beforeButton.Name = "beforeButton";
             beforeButton.Size = new Size(142, 23);
             beforeButton.TabIndex = 3;
@@ -70,7 +70,7 @@
             // afterButton
             // 
             afterButton.Dock = DockStyle.Right;
-            afterButton.Location = new Point(461, 0);
+            afterButton.Location = new Point(449, 0);
             afterButton.Name = "afterButton";
             afterButton.Size = new Size(142, 23);
             afterButton.TabIndex = 4;
@@ -85,7 +85,7 @@
             panel1.Location = new Point(3, 24);
             panel1.Name = "panel1";
             panel1.Padding = new Padding(0, 0, 318, 0);
-            panel1.Size = new Size(921, 23);
+            panel1.Size = new Size(909, 23);
             panel1.TabIndex = 5;
             // 
             // CasesUC
@@ -96,7 +96,7 @@
             Controls.Add(dataGridView);
             Controls.Add(casesLabel);
             Name = "CasesUC";
-            Size = new Size(927, 558);
+            Size = new Size(912, 558);
             ((System.ComponentModel.ISupportInitialize)dataGridView).EndInit();
             panel1.ResumeLayout(false);
             ResumeLayout(false);

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y6FJ6TjiqRhI7WiFONqXPS94EhK6cTeg5QApoYkbr5NZGODc7WHwK7W3mXn6bsCY1k9kBVLCOkQt4rOFt0iHYg==",
+  "dgSpecHash": "BdzCcFBZHa2vrieYcR8b4cC7JY8QV2zzINE735+QB6qgr4xMasCye9BAyK/hWsMJ43r1IRGoienAuAwpCdQ+XQ==",
   "success": true,
   "projectFilePath": "D:\\Studia\\Integracja Systemów\\IS_Projekt\\Project_app\\Project_app.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "C:\\Users\\macie\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\macie\\.nuget\\packages\\microsoft.web.webview2\\1.0.864.35\\microsoft.web.webview2.1.0.864.35.nupkg.sha512",
     "C:\\Users\\macie\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\macie\\.nuget\\packages\\mindfusion.charting\\4.2.0\\mindfusion.charting.4.2.0.nupkg.sha512",
     "C:\\Users\\macie\\.nuget\\packages\\mysql.data\\8.4.0\\mysql.data.8.4.0.nupkg.sha512",
     "C:\\Users\\macie\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\macie\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",

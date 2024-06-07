@@ -556,6 +556,35 @@
           }
         }
       },
+      "MindFusion.Charting/4.2.0": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/MindFusion.Charting.WinForms.dll": {},
+          "ref/net6.0/MindFusion.Charting.dll": {},
+          "ref/net6.0/MindFusion.Common.dll": {},
+          "ref/net6.0/MindFusion.Gauges.WinForms.dll": {},
+          "ref/net6.0/MindFusion.Gauges.dll": {},
+          "ref/net6.0/MindFusion.Licensing.dll": {},
+          "ref/net6.0/MindFusion.Pdf.dll": {},
+          "ref/net6.0/MindFusion.Scripting.dll": {},
+          "ref/net6.0/MindFusion.Svg.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MindFusion.Charting.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Charting.dll": {
+            "related": ".WinForms.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Common.dll": {},
+          "lib/net6.0/MindFusion.Gauges.WinForms.dll": {},
+          "lib/net6.0/MindFusion.Gauges.dll": {},
+          "lib/net6.0/MindFusion.Licensing.dll": {},
+          "lib/net6.0/MindFusion.Pdf.dll": {},
+          "lib/net6.0/MindFusion.Scripting.dll": {},
+          "lib/net6.0/MindFusion.Svg.dll": {}
+        }
+      },
       "MySql.Data/8.4.0": {
         "type": "package",
         "dependencies": {
@@ -1877,6 +1906,88 @@
         "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "MindFusion.Charting/4.2.0": {
+      "sha512": "0PtdSfvLRDWYtAcN9QbgvFKp8LPXTB3LKPfbfHmF6H61odeXQKD01zwAsEWdLf7zsOFWY7DRJP9DqjGekzYjJA==",
+      "type": "package",
+      "path": "mindfusion.charting/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MindFusion.Charting.WinForms.dll",
+        "lib/net45/MindFusion.Charting.WinForms.xml",
+        "lib/net45/MindFusion.Charting.dll",
+        "lib/net45/MindFusion.Charting.xml",
+        "lib/net45/MindFusion.Common.dll",
+        "lib/net45/MindFusion.Gauges.WinForms.dll",
+        "lib/net45/MindFusion.Gauges.dll",
+        "lib/net45/MindFusion.Licensing.dll",
+        "lib/net45/MindFusion.Pdf.dll",
+        "lib/net45/MindFusion.Scripting.dll",
+        "lib/net45/MindFusion.Svg.dll",
+        "lib/net5.0/MindFusion.Charting.WinForms.dll",
+        "lib/net5.0/MindFusion.Charting.WinForms.xml",
+        "lib/net5.0/MindFusion.Charting.dll",
+        "lib/net5.0/MindFusion.Charting.xml",
+        "lib/net5.0/MindFusion.Common.dll",
+        "lib/net5.0/MindFusion.Gauges.WinForms.dll",
+        "lib/net5.0/MindFusion.Gauges.dll",
+        "lib/net5.0/MindFusion.Licensing.dll",
+        "lib/net5.0/MindFusion.Pdf.dll",
+        "lib/net5.0/MindFusion.Scripting.dll",
+        "lib/net5.0/MindFusion.Svg.dll",
+        "lib/net6.0/MindFusion.Charting.WinForms.dll",
+        "lib/net6.0/MindFusion.Charting.WinForms.xml",
+        "lib/net6.0/MindFusion.Charting.dll",
+        "lib/net6.0/MindFusion.Charting.xml",
+        "lib/net6.0/MindFusion.Common.dll",
+        "lib/net6.0/MindFusion.Gauges.WinForms.dll",
+        "lib/net6.0/MindFusion.Gauges.dll",
+        "lib/net6.0/MindFusion.Licensing.dll",
+        "lib/net6.0/MindFusion.Pdf.dll",
+        "lib/net6.0/MindFusion.Scripting.dll",
+        "lib/net6.0/MindFusion.Svg.dll",
+        "lib/netcoreapp3.0/MindFusion.Charting.WinForms.dll",
+        "lib/netcoreapp3.0/MindFusion.Charting.WinForms.xml",
+        "lib/netcoreapp3.0/MindFusion.Charting.dll",
+        "lib/netcoreapp3.0/MindFusion.Charting.xml",
+        "lib/netcoreapp3.0/MindFusion.Common.dll",
+        "lib/netcoreapp3.0/MindFusion.Gauges.WinForms.dll",
+        "lib/netcoreapp3.0/MindFusion.Gauges.dll",
+        "lib/netcoreapp3.0/MindFusion.Licensing.dll",
+        "lib/netcoreapp3.0/MindFusion.Pdf.dll",
+        "lib/netcoreapp3.0/MindFusion.Scripting.dll",
+        "lib/netcoreapp3.0/MindFusion.Svg.dll",
+        "mindfusion.charting.4.2.0.nupkg.sha512",
+        "mindfusion.charting.nuspec",
+        "ref/net5.0/MindFusion.Charting.WinForms.dll",
+        "ref/net5.0/MindFusion.Charting.dll",
+        "ref/net5.0/MindFusion.Common.dll",
+        "ref/net5.0/MindFusion.Gauges.WinForms.dll",
+        "ref/net5.0/MindFusion.Gauges.dll",
+        "ref/net5.0/MindFusion.Licensing.dll",
+        "ref/net5.0/MindFusion.Pdf.dll",
+        "ref/net5.0/MindFusion.Scripting.dll",
+        "ref/net5.0/MindFusion.Svg.dll",
+        "ref/net6.0/MindFusion.Charting.WinForms.dll",
+        "ref/net6.0/MindFusion.Charting.dll",
+        "ref/net6.0/MindFusion.Common.dll",
+        "ref/net6.0/MindFusion.Gauges.WinForms.dll",
+        "ref/net6.0/MindFusion.Gauges.dll",
+        "ref/net6.0/MindFusion.Licensing.dll",
+        "ref/net6.0/MindFusion.Pdf.dll",
+        "ref/net6.0/MindFusion.Scripting.dll",
+        "ref/net6.0/MindFusion.Svg.dll",
+        "ref/netcoreapp3.0/MindFusion.Charting.WinForms.dll",
+        "ref/netcoreapp3.0/MindFusion.Charting.dll",
+        "ref/netcoreapp3.0/MindFusion.Common.dll",
+        "ref/netcoreapp3.0/MindFusion.Gauges.WinForms.dll",
+        "ref/netcoreapp3.0/MindFusion.Gauges.dll",
+        "ref/netcoreapp3.0/MindFusion.Licensing.dll",
+        "ref/netcoreapp3.0/MindFusion.Pdf.dll",
+        "ref/netcoreapp3.0/MindFusion.Scripting.dll",
+        "ref/netcoreapp3.0/MindFusion.Svg.dll"
       ]
     },
     "MySql.Data/8.4.0": {
@@ -3259,6 +3370,7 @@
     "net8.0-windows7.0": [
       "Insight.Database >= 8.0.0",
       "Insight.Database.Providers.MySql >= 8.0.0",
+      "MindFusion.Charting >= 4.2.0",
       "MySql.Data >= 8.4.0"
     ]
   },
@@ -3318,6 +3430,10 @@
           "Insight.Database.Providers.MySql": {
             "target": "Package",
             "version": "[8.0.0, )"
+          },
+          "MindFusion.Charting": {
+            "target": "Package",
+            "version": "[4.2.0, )"
           },
           "MySql.Data": {
             "target": "Package",

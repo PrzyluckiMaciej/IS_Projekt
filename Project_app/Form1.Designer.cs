@@ -39,8 +39,8 @@
             examButton = new Button();
             panel4 = new Panel();
             graphButton = new Button();
+            ucPanel = new Panel();
             contentPanel = new Panel();
-            mainViewUC = new MainView();
             menu.SuspendLayout();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -177,21 +177,23 @@
             graphButton.UseVisualStyleBackColor = true;
             graphButton.Click += graphButton_Click;
             // 
+            // ucPanel
+            // 
+            ucPanel.BackColor = SystemColors.Control;
+            ucPanel.Location = new Point(0, 0);
+            ucPanel.Name = "ucPanel";
+            ucPanel.Size = new Size(912, 558);
+            ucPanel.TabIndex = 0;
+            // 
             // contentPanel
             // 
-            contentPanel.Controls.Add(mainViewUC);
-            contentPanel.Location = new Point(207, 0);
+            contentPanel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            contentPanel.BackColor = Color.FromArgb(255, 128, 128);
+            contentPanel.Controls.Add(ucPanel);
+            contentPanel.Location = new Point(202, 0);
             contentPanel.Name = "contentPanel";
-            contentPanel.Size = new Size(908, 558);
+            contentPanel.Size = new Size(912, 558);
             contentPanel.TabIndex = 2;
-            // 
-            // mainViewUC
-            // 
-            mainViewUC.Location = new Point(3, 0);
-            mainViewUC.Margin = new Padding(3, 4, 3, 4);
-            mainViewUC.Name = "mainViewUC";
-            mainViewUC.Size = new Size(906, 558);
-            mainViewUC.TabIndex = 0;
             // 
             // Form1
             // 
@@ -225,10 +227,10 @@
         private Panel panel5;
         private Button examButton;
         private Label mainPageLabel;
-        private Panel contentPanel;
-        private MainView mainViewUC;
         private Button casesButton;
         private Panel panel4;
         private Button graphButton;
+        private Panel ucPanel;
+        private Panel contentPanel;
     }
 }
