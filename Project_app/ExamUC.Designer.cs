@@ -43,7 +43,7 @@
             examLabel.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 238);
             examLabel.Location = new Point(0, 0);
             examLabel.Name = "examLabel";
-            examLabel.Size = new Size(912, 21);
+            examLabel.Size = new Size(1042, 28);
             examLabel.TabIndex = 3;
             examLabel.Text = "Wyniki egzaminów maturalnych w Polsce";
             examLabel.TextAlign = ContentAlignment.TopCenter;
@@ -52,18 +52,20 @@
             // 
             panel1.Controls.Add(beforeButton);
             panel1.Controls.Add(afterButton);
-            panel1.Location = new Point(3, 24);
+            panel1.Location = new Point(3, 32);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Padding = new Padding(0, 0, 318, 0);
-            panel1.Size = new Size(906, 23);
+            panel1.Padding = new Padding(0, 0, 363, 0);
+            panel1.Size = new Size(1035, 31);
             panel1.TabIndex = 11;
             // 
             // beforeButton
             // 
             beforeButton.Dock = DockStyle.Right;
-            beforeButton.Location = new Point(304, 0);
+            beforeButton.Location = new Point(348, 0);
+            beforeButton.Margin = new Padding(3, 4, 3, 4);
             beforeButton.Name = "beforeButton";
-            beforeButton.Size = new Size(142, 23);
+            beforeButton.Size = new Size(162, 31);
             beforeButton.TabIndex = 7;
             beforeButton.Text = "Dane przed 03.2020";
             beforeButton.UseVisualStyleBackColor = true;
@@ -72,9 +74,10 @@
             // afterButton
             // 
             afterButton.Dock = DockStyle.Right;
-            afterButton.Location = new Point(446, 0);
+            afterButton.Location = new Point(510, 0);
+            afterButton.Margin = new Padding(3, 4, 3, 4);
             afterButton.Name = "afterButton";
-            afterButton.Size = new Size(142, 23);
+            afterButton.Size = new Size(162, 31);
             afterButton.TabIndex = 8;
             afterButton.Text = "Dane po 03.2020";
             afterButton.UseVisualStyleBackColor = true;
@@ -83,20 +86,23 @@
             // dataGridView
             // 
             dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView.Location = new Point(3, 53);
+            dataGridView.Location = new Point(3, 71);
+            dataGridView.Margin = new Padding(3, 4, 3, 4);
             dataGridView.Name = "dataGridView";
-            dataGridView.Size = new Size(906, 502);
+            dataGridView.RowHeadersWidth = 51;
+            dataGridView.Size = new Size(1035, 669);
             dataGridView.TabIndex = 10;
             // 
             // ExamUC
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(dataGridView);
             Controls.Add(panel1);
             Controls.Add(examLabel);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "ExamUC";
-            Size = new Size(912, 558);
+            Size = new Size(1042, 744);
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView).EndInit();
             ResumeLayout(false);

@@ -33,9 +33,9 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             examLabel = new Label();
-            casesChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            casesDeathsChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             examsChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            ((System.ComponentModel.ISupportInitialize)casesChart).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)casesDeathsChart).BeginInit();
             ((System.ComponentModel.ISupportInitialize)examsChart).BeginInit();
             SuspendLayout();
             // 
@@ -45,45 +45,52 @@
             examLabel.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 238);
             examLabel.Location = new Point(0, 0);
             examLabel.Name = "examLabel";
-            examLabel.Size = new Size(927, 21);
+            examLabel.Size = new Size(1059, 28);
             examLabel.TabIndex = 4;
             examLabel.Text = "Wykresy";
             examLabel.TextAlign = ContentAlignment.TopCenter;
             // 
-            // casesChart
+            // casesDeathsChart
             // 
             chartArea1.Name = "ChartArea1";
-            casesChart.ChartAreas.Add(chartArea1);
+            casesDeathsChart.ChartAreas.Add(chartArea1);
+            legend1.Alignment = StringAlignment.Center;
+            legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
             legend1.Name = "Legend1";
-            casesChart.Legends.Add(legend1);
-            casesChart.Location = new Point(3, 24);
-            casesChart.Name = "casesChart";
-            casesChart.Size = new Size(455, 300);
-            casesChart.TabIndex = 5;
-            casesChart.Text = "chart1";
+            casesDeathsChart.Legends.Add(legend1);
+            casesDeathsChart.Location = new Point(3, 32);
+            casesDeathsChart.Margin = new Padding(3, 4, 3, 4);
+            casesDeathsChart.Name = "casesDeathsChart";
+            casesDeathsChart.Size = new Size(520, 400);
+            casesDeathsChart.TabIndex = 5;
+            casesDeathsChart.Text = "chart1";
             // 
             // examsChart
             // 
             chartArea2.Name = "ChartArea1";
             examsChart.ChartAreas.Add(chartArea2);
+            legend2.Alignment = StringAlignment.Center;
+            legend2.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
             legend2.Name = "Legend1";
             examsChart.Legends.Add(legend2);
-            examsChart.Location = new Point(469, 24);
+            examsChart.Location = new Point(536, 32);
+            examsChart.Margin = new Padding(3, 4, 3, 4);
             examsChart.Name = "examsChart";
-            examsChart.Size = new Size(455, 300);
+            examsChart.Size = new Size(520, 400);
             examsChart.TabIndex = 7;
             examsChart.Text = "chart2";
             // 
             // GraphUC
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(examsChart);
-            Controls.Add(casesChart);
+            Controls.Add(casesDeathsChart);
             Controls.Add(examLabel);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "GraphUC";
-            Size = new Size(927, 558);
-            ((System.ComponentModel.ISupportInitialize)casesChart).EndInit();
+            Size = new Size(1059, 744);
+            ((System.ComponentModel.ISupportInitialize)casesDeathsChart).EndInit();
             ((System.ComponentModel.ISupportInitialize)examsChart).EndInit();
             ResumeLayout(false);
         }
@@ -91,7 +98,7 @@
         #endregion
 
         private Label examLabel;
-        private System.Windows.Forms.DataVisualization.Charting.Chart casesChart;
+        private System.Windows.Forms.DataVisualization.Charting.Chart casesDeathsChart;
         private DataGridView dataGridView1;
         private System.Windows.Forms.DataVisualization.Charting.Chart examsChart;
         private DataGridView dataGridView2;

@@ -13,5 +13,9 @@ namespace Project_app.ORM_interfaces
         IList<CountrySet> GetAllCasesBefore();
         IList<CountrySet> GetAllDeathsAfter();
         IList<CountrySet> GetAllDeathsBefore();
+        IList<AverageCountryData> GetAverageCasesAfter();
+        IList<AverageCountryData> GetAverageCasesBefore();
+        IList<AverageCountryData> GetAverageDeathsAfter();
+        IList<AverageCountryData> GetAverageDeathsBefore();
     }
 }

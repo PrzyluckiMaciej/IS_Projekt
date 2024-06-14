@@ -45,11 +45,11 @@ namespace Project_app
         private void sizeDGV(DataGridView dgv)
         {
             DataGridViewElementStates states = DataGridViewElementStates.None;
-            dgv.ScrollBars = ScrollBars.None;
-            var totalHeight = dgv.Rows.GetRowsHeight(states) + dgv.ColumnHeadersHeight;
+            dgv.ScrollBars = ScrollBars.Vertical;
             var totalWidth = dgv.Columns.GetColumnsWidth(states) + dgv.RowHeadersWidth;
-            dgv.ClientSize = new Size(totalWidth, totalHeight);
+            dgv.Width = totalWidth;
             dgv.Left = (this.ClientSize.Width - dgv.Width) / 2;
+            
         }
     }
 }

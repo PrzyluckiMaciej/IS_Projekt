@@ -38,9 +38,9 @@
             mainDescriptionLabel.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             mainDescriptionLabel.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 238);
             mainDescriptionLabel.ForeColor = SystemColors.ActiveCaptionText;
-            mainDescriptionLabel.Location = new Point(238, 0);
+            mainDescriptionLabel.Location = new Point(272, 0);
             mainDescriptionLabel.Name = "mainDescriptionLabel";
-            mainDescriptionLabel.Size = new Size(674, 144);
+            mainDescriptionLabel.Size = new Size(770, 192);
             mainDescriptionLabel.TabIndex = 1;
             mainDescriptionLabel.Text = "Zestawienie różnych danych statystycznych przed wybuchem pandemii COVID-19 (przed 03.2020 r.) oraz w czasie jej trwania (po 03.2020 r.), prezentacja zmian wartości w wybranym okresie.";
             mainDescriptionLabel.TextAlign = ContentAlignment.TopRight;
@@ -49,9 +49,9 @@
             // 
             authorsLabel.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             authorsLabel.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            authorsLabel.Location = new Point(750, 256);
+            authorsLabel.Location = new Point(827, 341);
             authorsLabel.Name = "authorsLabel";
-            authorsLabel.Size = new Size(156, 75);
+            authorsLabel.Size = new Size(208, 100);
             authorsLabel.TabIndex = 2;
             authorsLabel.Text = "Autorzy:\r\nPatryk Przybyś\r\nMaciej Przyłucki";
             authorsLabel.TextAlign = ContentAlignment.TopRight;
@@ -59,9 +59,10 @@
             // columnButton
             // 
             columnButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            columnButton.Location = new Point(808, 334);
+            columnButton.Location = new Point(923, 445);
+            columnButton.Margin = new Padding(3, 4, 3, 4);
             columnButton.Name = "columnButton";
-            columnButton.Size = new Size(75, 23);
+            columnButton.Size = new Size(86, 31);
             columnButton.TabIndex = 3;
             columnButton.Text = "Eksportuj";
             columnButton.UseVisualStyleBackColor = true;
@@ -69,13 +70,14 @@
             // 
             // MainView
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(columnButton);
             Controls.Add(authorsLabel);
             Controls.Add(mainDescriptionLabel);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "MainView";
-            Size = new Size(915, 558);
+            Size = new Size(1046, 744);
             ResumeLayout(false);
         }
 

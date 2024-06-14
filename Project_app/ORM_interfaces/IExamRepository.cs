@@ -11,5 +11,7 @@ namespace Project_app.ORM_interfaces
     {
         IList<ExamResult> GetAllExamResultsAfter();
         IList<ExamResult> GetAllExamResultsBefore();
+        IList<AverageExamData> GetAverageExamPerYearAfter();
+        IList<AverageExamData> GetAverageExamPerYearBefore();
     }
 }
