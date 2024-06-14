@@ -12,6 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace Project_app
 {
@@ -29,6 +30,7 @@ namespace Project_app
             examRepo = con.As<IExamRepository>();
             InitializeComponent();
             generateCasesChart();
+            generateExamChart();
         }
 
         public void generateCasesChart()
@@ -75,6 +77,8 @@ namespace Project_app
             {
                 casesDeathsChart.Series["Śmierci"].Points.AddXY(i.month, i.average);
             }
+            createVerticalLine(casesDeathsChart, 3);
+            stylizeChart(casesDeathsChart);
         }
 
         public void generateExamChart()
@@ -86,10 +90,49 @@ namespace Project_app
             exams.AddRange(examsAfter);
 
             var objChart = examsChart.ChartAreas[0];
-            objChart.AxisX.IntervalType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Number;
-            objChart.AxisX.Minimum = 0;
+            objChart.AxisX.IntervalType = DateTimeIntervalType.Number;
+            objChart.AxisX.Minimum = 2015;
+            objChart.AxisX.Maximum = 2023;
 
-            objChart.AxisY.IntervalType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Number;
+            objChart.AxisY.IntervalType = DateTimeIntervalType.Number;
+            objChart.AxisY.Minimum = 40;
+            objChart.AxisY.Maximum = 70;
+
+            examsChart.Series.Clear();
+
+            examsChart.Series.Add("Średnia");
+            examsChart.Series["Średnia"].Color = Color.FromArgb(31, 128, 35);
+            examsChart.Series["Średnia"].Legend = "Legend1";
+            examsChart.Series["Średnia"].ChartArea = "ChartArea1";
+            examsChart.Series["Średnia"].ChartType = SeriesChartType.Line;
+            foreach (AverageExamData i in exams)
+            {
+                examsChart.Series["Średnia"].Points.AddXY(i.rok, i.srednia);
+            }
+            createVerticalLine(examsChart, 2020);
+            stylizeChart(examsChart);
+        }
+
+        public void stylizeChart(Chart chart)
+        {
+            chart.BackColor = Color.FromArgb(240, 240, 240);
+            chart.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dot;
+            chart.ChartAreas[0].AxisX.MinorGrid.LineDashStyle = ChartDashStyle.Dot;
+            chart.ChartAreas[0].AxisY.MajorGrid.LineDashStyle = ChartDashStyle.Dot;
+            chart.ChartAreas[0].AxisY.MinorGrid.LineDashStyle = ChartDashStyle.Dot;
+        }
+
+        public void createVerticalLine(Chart chart, double x)
+        {
+            var line = new VerticalLineAnnotation();
+            line.AxisX = chart.ChartAreas[0].AxisX;
+            line.IsInfinitive = true;
+            line.ClipToChartArea = chart.ChartAreas[0].Name;
+            line.Name = "Początek pandemii";
+            line.LineColor = Color.Black; 
+            line.LineWidth = 2;
+            line.X = x;
+            chart.Annotations.Add(line);
         }
     }
 }

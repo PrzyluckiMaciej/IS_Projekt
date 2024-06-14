@@ -45,7 +45,7 @@
             examLabel.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 238);
             examLabel.Location = new Point(0, 0);
             examLabel.Name = "examLabel";
-            examLabel.Size = new Size(1059, 28);
+            examLabel.Size = new Size(927, 21);
             examLabel.TabIndex = 4;
             examLabel.Text = "Wykresy";
             examLabel.TextAlign = ContentAlignment.TopCenter;
@@ -58,10 +58,9 @@
             legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
             legend1.Name = "Legend1";
             casesDeathsChart.Legends.Add(legend1);
-            casesDeathsChart.Location = new Point(3, 32);
-            casesDeathsChart.Margin = new Padding(3, 4, 3, 4);
+            casesDeathsChart.Location = new Point(3, 24);
             casesDeathsChart.Name = "casesDeathsChart";
-            casesDeathsChart.Size = new Size(520, 400);
+            casesDeathsChart.Size = new Size(455, 300);
             casesDeathsChart.TabIndex = 5;
             casesDeathsChart.Text = "chart1";
             // 
@@ -73,23 +72,21 @@
             legend2.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
             legend2.Name = "Legend1";
             examsChart.Legends.Add(legend2);
-            examsChart.Location = new Point(536, 32);
-            examsChart.Margin = new Padding(3, 4, 3, 4);
+            examsChart.Location = new Point(469, 24);
             examsChart.Name = "examsChart";
-            examsChart.Size = new Size(520, 400);
+            examsChart.Size = new Size(455, 300);
             examsChart.TabIndex = 7;
             examsChart.Text = "chart2";
             // 
             // GraphUC
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(examsChart);
             Controls.Add(casesDeathsChart);
             Controls.Add(examLabel);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "GraphUC";
-            Size = new Size(1059, 744);
+            Size = new Size(927, 558);
             ((System.ComponentModel.ISupportInitialize)casesDeathsChart).EndInit();
             ((System.ComponentModel.ISupportInitialize)examsChart).EndInit();
             ResumeLayout(false);

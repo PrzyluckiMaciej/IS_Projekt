@@ -9,6 +9,6 @@ namespace Project_app.ORM_classes
     public class AverageExamData
     {
         public int rok {  get; set; }
-        public double average {  get; set; }
+        public double srednia {  get; set; }
     }
 }
