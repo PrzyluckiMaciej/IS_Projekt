@@ -30,6 +30,10 @@
         {
             examLabel = new Label();
             panel1 = new Panel();
+            ChoiceExportExams = new ComboBox();
+            ChoiceImportExams = new ComboBox();
+            ImportExams = new Button();
+            ExportExams = new Button();
             beforeButton = new Button();
             afterButton = new Button();
             dataGridView = new DataGridView();
@@ -50,6 +54,10 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(ChoiceExportExams);
+            panel1.Controls.Add(ChoiceImportExams);
+            panel1.Controls.Add(ImportExams);
+            panel1.Controls.Add(ExportExams);
             panel1.Controls.Add(beforeButton);
             panel1.Controls.Add(afterButton);
             panel1.Location = new Point(3, 32);
@@ -58,6 +66,46 @@
             panel1.Padding = new Padding(0, 0, 363, 0);
             panel1.Size = new Size(1035, 31);
             panel1.TabIndex = 11;
+            // 
+            // ChoiceExportExams
+            // 
+            ChoiceExportExams.FormattingEnabled = true;
+            ChoiceExportExams.Items.AddRange(new object[] { "JSON", "XML", "YAML" });
+            ChoiceExportExams.Location = new Point(884, 1);
+            ChoiceExportExams.Name = "ChoiceExportExams";
+            ChoiceExportExams.Size = new Size(151, 28);
+            ChoiceExportExams.TabIndex = 16;
+            ChoiceExportExams.SelectedIndex = 0;
+            // 
+            // ChoiceImportExams
+            // 
+            ChoiceImportExams.FormattingEnabled = true;
+            ChoiceImportExams.Items.AddRange(new object[] { "JSON", "XML", "YAML" });
+            ChoiceImportExams.Location = new Point(99, 2);
+            ChoiceImportExams.Name = "ChoiceImportExams";
+            ChoiceImportExams.Size = new Size(151, 28);
+            ChoiceImportExams.TabIndex = 15;
+            ChoiceImportExams.SelectedIndex = 0;
+            // 
+            // ImportExams
+            // 
+            ImportExams.Location = new Point(-1, 1);
+            ImportExams.Name = "ImportExams";
+            ImportExams.Size = new Size(94, 29);
+            ImportExams.TabIndex = 14;
+            ImportExams.Text = "IMPORT";
+            ImportExams.UseVisualStyleBackColor = true;
+            ImportExams.Click += import_Click;
+            // 
+            // ExportExams
+            // 
+            ExportExams.Location = new Point(784, 1);
+            ExportExams.Name = "ExportExams";
+            ExportExams.Size = new Size(94, 28);
+            ExportExams.TabIndex = 13;
+            ExportExams.Text = "EXPORT";
+            ExportExams.UseVisualStyleBackColor = true;
+            ExportExams.Click += export_Click;
             // 
             // beforeButton
             // 
@@ -115,5 +163,9 @@
         private Button beforeButton;
         private Button afterButton;
         private DataGridView dataGridView;
+        private ComboBox ChoiceExportExams;
+        private ComboBox ChoiceImportExams;
+        private Button ImportExams;
+        private Button ExportExams;
     }
 }
