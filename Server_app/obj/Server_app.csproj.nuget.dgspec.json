@@ -45,9 +45,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Insight.Database": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Insight.Database.Providers.MySql": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.4.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

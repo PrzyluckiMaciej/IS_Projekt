@@ -20,10 +20,10 @@ namespace Server_app.Sevices.Users
         private static List<User> users = new List<User>
         {
             new User{Id = 1, Username = "Viewer", Password =
-            "viewer", Roles = new List<Role>{ new Role { Role_ = "read" } } },
+            "viewer", Roles = new List<Role>{ new Role { roleName = "read" } } },
             new User{Id = 2, Username = "Admin", Password =
-            "admin", Roles = new List<Role>{ new Role { Role_ =
-            "read" }, new Role { Role_ = "write" } } }
+            "admin", Roles = new List<Role>{ new Role { roleName =
+            "read" }, new Role { roleName = "write" } } }
         };
         private IConfiguration configuration;
         public UserServiceImpl(IConfiguration configuration)
@@ -61,7 +61,7 @@ namespace Server_app.Sevices.Users
             foreach (var role in user.Roles)
             {
                 claims.Add(new
-               Claim(ClaimTypes.Role, role.Role_));
+               Claim(ClaimTypes.Role, role.roleName));
             }
             var tokenDescriptor = new SecurityTokenDescriptor
             {

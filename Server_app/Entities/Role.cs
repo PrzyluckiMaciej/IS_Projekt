@@ -7,6 +7,6 @@ namespace Server_app.Entities
 {
     public class Role
     {
-        public string Role_ {  get; set; }
+        public string roleName {  get; set; }
     }
 }

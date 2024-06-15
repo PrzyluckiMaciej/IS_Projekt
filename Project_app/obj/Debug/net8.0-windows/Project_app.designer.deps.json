@@ -851,6 +851,14 @@
           }
         }
       },
+      "YamlDotNet/15.1.6": {
+        "runtime": {
+          "lib/net8.0/YamlDotNet.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.1.6.0"
+          }
+        }
+      },
       "ZstdSharp.Port/0.7.1": {
         "runtime": {
           "lib/net7.0/ZstdSharp.dll": {
@@ -1309,6 +1317,13 @@
       "sha512": "sha512-e1aPoWqPS1GThTK2ZpI4GkIhteorW7smNQ5SP3y5EaODL7W2u21nX0hlHtmkerBWi9gpy6Rw8I53jvo5CF+4rA==",
       "path": "winforms.datavisualization/1.9.2",
       "hashPath": "winforms.datavisualization.1.9.2.nupkg.sha512"
+    },
+    "YamlDotNet/15.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T/cQEK/KHK96Q8kytJ4iUGDXg1/fj2Qtk6rCQeIlHYU1zTeyGVHW0QNZgREQyxZpygGMDMmrXNWt0sj5TsQnjA==",
+      "path": "yamldotnet/15.1.6",
+      "hashPath": "yamldotnet.15.1.6.nupkg.sha512"
     },
     "ZstdSharp.Port/0.7.1": {
       "type": "package",
