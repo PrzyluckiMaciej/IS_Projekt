@@ -12,8 +12,8 @@
           "Insight.Database.Providers.MySql": "8.0.0",
           "MySql.Data": "8.4.0",
           "Newtonsoft.Json": "13.0.3",
-          "WinForms.DataVisualization": "1.9.2",
-          "YamlDotNet": "15.1.6"
+          "RestSharp": "111.2.0",
+          "WinForms.DataVisualization": "1.9.2"
         },
         "runtime": {
           "Project_app.dll": {}
@@ -478,6 +478,14 @@
           }
         }
       },
+      "RestSharp/111.2.0": {
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "assemblyVersion": "111.2.0.0",
+            "fileVersion": "111.2.0.0"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {},
       "System.Configuration.ConfigurationManager/8.0.0": {
         "dependencies": {
@@ -674,14 +682,6 @@
           "lib/net8.0-windows7.0/WinForms.DataVisualization.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.9.2.0"
-          }
-        }
-      },
-      "YamlDotNet/15.1.6": {
-        "runtime": {
-          "lib/net8.0/YamlDotNet.dll": {
-            "assemblyVersion": "15.0.0.0",
-            "fileVersion": "15.1.6.0"
           }
         }
       },
@@ -925,6 +925,13 @@
       "path": "newtonsoft.json/13.0.3",
       "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
+    "RestSharp/111.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OkWr6AGM0zirdkRpxVOxXMWx9OHEIWrDzrpx1XIx5KyvTcmtjJVsKBscVkYTcFerhj5w5Bny7boRIV4a0ENGaQ==",
+      "path": "restsharp/111.2.0",
+      "hashPath": "restsharp.111.2.0.nupkg.sha512"
+    },
     "System.Buffers/4.5.1": {
       "type": "package",
       "serviceable": true,
@@ -1141,13 +1148,6 @@
       "sha512": "sha512-e1aPoWqPS1GThTK2ZpI4GkIhteorW7smNQ5SP3y5EaODL7W2u21nX0hlHtmkerBWi9gpy6Rw8I53jvo5CF+4rA==",
       "path": "winforms.datavisualization/1.9.2",
       "hashPath": "winforms.datavisualization.1.9.2.nupkg.sha512"
-    },
-    "YamlDotNet/15.1.6": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-T/cQEK/KHK96Q8kytJ4iUGDXg1/fj2Qtk6rCQeIlHYU1zTeyGVHW0QNZgREQyxZpygGMDMmrXNWt0sj5TsQnjA==",
-      "path": "yamldotnet/15.1.6",
-      "hashPath": "yamldotnet.15.1.6.nupkg.sha512"
     },
     "ZstdSharp.Port/0.7.1": {
       "type": "package",

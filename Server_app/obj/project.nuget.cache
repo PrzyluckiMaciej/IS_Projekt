@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "m8DJ8OsIJIAaZ8ipPxEPBYXyb/rRed467lN40VlqZg4z0ADoOp0o20PaauczUuVgy5kO4ktH1T2QQdQNAABWzg==",
+  "success": true,
+  "projectFilePath": "D:\\Studia\\Integracja Systemów\\IS_Projekt — kopia\\Server_app\\Server_app.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\macie\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.6\\microsoft.aspnetcore.authentication.jwtbearer.8.0.6.nupkg.sha512",
+    "C:\\Users\\macie\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.6.0\\microsoft.identitymodel.abstractions.7.6.0.nupkg.sha512",
+    "C:\\Users\\macie\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.6.0\\microsoft.identitymodel.jsonwebtokens.7.6.0.nupkg.sha512",
+    "C:\\Users\\macie\\.nuget\\packages\\microsoft.identitymodel.logging\\7.6.0\\microsoft.identitymodel.logging.7.6.0.nupkg.sha512",
+    "C:\\Users\\macie\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.1.2\\microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "C:\\Users\\macie\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+    "C:\\Users\\macie\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.6.0\\microsoft.identitymodel.tokens.7.6.0.nupkg.sha512",
+    "C:\\Users\\macie\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.6.0\\system.identitymodel.tokens.jwt.7.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
