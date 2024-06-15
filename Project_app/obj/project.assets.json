@@ -1164,6 +1164,19 @@
           }
         }
       },
+      "YamlDotNet/15.1.6": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "ZstdSharp.Port/0.7.1": {
         "type": "package",
         "compile": {
@@ -3385,6 +3398,31 @@
         "winforms.datavisualization.nuspec"
       ]
     },
+    "YamlDotNet/15.1.6": {
+      "sha512": "T/cQEK/KHK96Q8kytJ4iUGDXg1/fj2Qtk6rCQeIlHYU1zTeyGVHW0QNZgREQyxZpygGMDMmrXNWt0sj5TsQnjA==",
+      "type": "package",
+      "path": "yamldotnet/15.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "images/yamldotnet.png",
+        "lib/net47/YamlDotNet.dll",
+        "lib/net47/YamlDotNet.xml",
+        "lib/net6.0/YamlDotNet.dll",
+        "lib/net6.0/YamlDotNet.xml",
+        "lib/net7.0/YamlDotNet.dll",
+        "lib/net7.0/YamlDotNet.xml",
+        "lib/net8.0/YamlDotNet.dll",
+        "lib/net8.0/YamlDotNet.xml",
+        "lib/netstandard2.0/YamlDotNet.dll",
+        "lib/netstandard2.0/YamlDotNet.xml",
+        "lib/netstandard2.1/YamlDotNet.dll",
+        "lib/netstandard2.1/YamlDotNet.xml",
+        "yamldotnet.15.1.6.nupkg.sha512",
+        "yamldotnet.nuspec"
+      ]
+    },
     "ZstdSharp.Port/0.7.1": {
       "sha512": "Idgg+mJEyAujqDPzA3APy9dNoyw0YQcNA65GgYjktDRtJ+nvx/hv+J+m6Eax3JJMGEYGy04oc5YNP6ZvQ3Y1vQ==",
       "type": "package",
@@ -3411,28 +3449,24 @@
       "MySql.Data >= 8.4.0",
       "Newtonsoft.Json >= 13.0.3",
       "RestSharp >= 111.2.0",
-      "WinForms.DataVisualization >= 1.9.2"
+      "WinForms.DataVisualization >= 1.9.2",
+      "YamlDotNet >= 15.1.6"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\macie\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Patryk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Studia\\Integracja Systemów\\IS_Projekt\\Project_app\\Project_app.csproj",
+      "projectUniqueName": "C:\\Users\\Patryk\\Desktop\\Projekt IntegracjaSystemów\\IS_Projekt\\Project_app\\Project_app.csproj",
       "projectName": "Project_app",
-      "projectPath": "D:\\Studia\\Integracja Systemów\\IS_Projekt\\Project_app\\Project_app.csproj",
-      "packagesPath": "C:\\Users\\macie\\.nuget\\packages\\",
-      "outputPath": "D:\\Studia\\Integracja Systemów\\IS_Projekt\\Project_app\\obj\\",
+      "projectPath": "C:\\Users\\Patryk\\Desktop\\Projekt IntegracjaSystemów\\IS_Projekt\\Project_app\\Project_app.csproj",
+      "packagesPath": "C:\\Users\\Patryk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Patryk\\Desktop\\Projekt IntegracjaSystemów\\IS_Projekt\\Project_app\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\macie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Patryk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3486,6 +3520,10 @@
           "WinForms.DataVisualization": {
             "target": "Package",
             "version": "[1.9.2, )"
+          },
+          "YamlDotNet": {
+            "target": "Package",
+            "version": "[15.1.6, )"
           }
         },
         "imports": [

@@ -12,6 +12,15 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using Org.BouncyCastle.Crmf;
+using Newtonsoft.Json;
+using System.Xml.Serialization;
+
+using System.Collections.Generic;
+using System.IO;
+using System.Runtime.Serialization.Json;
+using Newtonsoft.Json;
+using YamlDotNet.Serialization;
+
 
 namespace Project_app
 {
@@ -20,6 +29,7 @@ namespace Project_app
         private string connectionStr;
         private MySqlConnection con;
         private IExamRepository repo;
+        private string when;
         public ExamUC()
         {
             connectionStr = "SERVER=localhost;DATABASE=covid;UID=covidAdmin;PASSWORD=covid;";
@@ -32,6 +42,7 @@ namespace Project_app
         {
             IList<ExamResult> results = repo.GetAllExamResultsBefore();
             dataGridView.DataSource = results;
+            when = "before";
             sizeDGV(dataGridView);
         }
 
@@ -39,7 +50,20 @@ namespace Project_app
         {
             IList<ExamResult> results = repo.GetAllExamResultsAfter();
             dataGridView.DataSource = results;
+            when = "after";
             sizeDGV(dataGridView);
+        }
+
+        private void export_Click(object sender, EventArgs e)
+        {
+            IList<ExamResult> results = dataGridView.DataSource as IList<ExamResult>;
+            string selectedFormat = ChoiceExportExams.SelectedItem.ToString().ToUpper();
+            DataExporter.ExportData(results, selectedFormat, when, "exams");
+        }
+
+        private void import_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Import do zrobienia.", "Import", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void sizeDGV(DataGridView dgv)
@@ -49,7 +73,6 @@ namespace Project_app
             var totalWidth = dgv.Columns.GetColumnsWidth(states) + dgv.RowHeadersWidth;
             dgv.Width = totalWidth;
             dgv.Left = (this.ClientSize.Width - dgv.Width) / 2;
-            
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿namespace Project_app
+﻿
+namespace Project_app
 {
     partial class CasesUC
     {
@@ -33,6 +34,10 @@
             beforeButton = new Button();
             afterButton = new Button();
             panel1 = new Panel();
+            ChoiceExportCases = new ComboBox();
+            ChoiceImportCases = new ComboBox();
+            ImportCases = new Button();
+            ExportCases = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -43,7 +48,7 @@
             casesLabel.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 238);
             casesLabel.Location = new Point(0, 0);
             casesLabel.Name = "casesLabel";
-            casesLabel.Size = new Size(912, 21);
+            casesLabel.Size = new Size(1042, 28);
             casesLabel.TabIndex = 0;
             casesLabel.Text = "Zachorowania na COVID-19 w 2020 roku";
             casesLabel.TextAlign = ContentAlignment.TopCenter;
@@ -51,17 +56,20 @@
             // dataGridView
             // 
             dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView.Location = new Point(3, 53);
+            dataGridView.Location = new Point(3, 71);
+            dataGridView.Margin = new Padding(3, 4, 3, 4);
             dataGridView.Name = "dataGridView";
-            dataGridView.Size = new Size(906, 502);
+            dataGridView.RowHeadersWidth = 51;
+            dataGridView.Size = new Size(1035, 669);
             dataGridView.TabIndex = 2;
             // 
             // beforeButton
             // 
             beforeButton.Dock = DockStyle.Right;
-            beforeButton.Location = new Point(307, 0);
+            beforeButton.Location = new Point(352, 0);
+            beforeButton.Margin = new Padding(3, 4, 3, 4);
             beforeButton.Name = "beforeButton";
-            beforeButton.Size = new Size(142, 23);
+            beforeButton.Size = new Size(162, 31);
             beforeButton.TabIndex = 3;
             beforeButton.Text = "Dane przed 03.2020";
             beforeButton.UseVisualStyleBackColor = true;
@@ -70,9 +78,10 @@
             // afterButton
             // 
             afterButton.Dock = DockStyle.Right;
-            afterButton.Location = new Point(449, 0);
+            afterButton.Location = new Point(514, 0);
+            afterButton.Margin = new Padding(3, 4, 3, 4);
             afterButton.Name = "afterButton";
-            afterButton.Size = new Size(142, 23);
+            afterButton.Size = new Size(162, 31);
             afterButton.TabIndex = 4;
             afterButton.Text = "Dane po 03.2020";
             afterButton.UseVisualStyleBackColor = true;
@@ -80,23 +89,71 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(ChoiceExportCases);
+            panel1.Controls.Add(ChoiceImportCases);
+            panel1.Controls.Add(ImportCases);
+            panel1.Controls.Add(ExportCases);
             panel1.Controls.Add(beforeButton);
             panel1.Controls.Add(afterButton);
-            panel1.Location = new Point(3, 24);
+            panel1.Location = new Point(3, 32);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Padding = new Padding(0, 0, 318, 0);
-            panel1.Size = new Size(909, 23);
+            panel1.Padding = new Padding(0, 0, 363, 0);
+            panel1.Size = new Size(1039, 31);
             panel1.TabIndex = 5;
+            // 
+            // ChoiceExportCases
+            // 
+            ChoiceExportCases.FormattingEnabled = true;
+            ChoiceExportCases.Items.AddRange(new object[] { "JSON", "XML", "YAML" });
+            ChoiceExportCases.Location = new Point(888, -1);
+            ChoiceExportCases.Name = "ChoiceExportCases";
+            ChoiceExportCases.Size = new Size(151, 28);
+            ChoiceExportCases.TabIndex = 8;
+            ChoiceExportCases.SelectedIndex = 0;
+            ChoiceExportCases.DropDownStyle = ComboBoxStyle.DropDownList;
+            // 
+            // ChoiceImportCases
+            // 
+            ChoiceImportCases.FormattingEnabled = true;
+            ChoiceImportCases.Items.AddRange(new object[] { "JSON", "XML", "YAML" });
+            ChoiceImportCases.Location = new Point(103, 0);
+            ChoiceImportCases.Name = "ChoiceImportCases";
+            ChoiceImportCases.Size = new Size(151, 28);
+            ChoiceImportCases.TabIndex = 7;
+            ChoiceImportCases.SelectedIndex = 0;
+            ChoiceImportCases.DropDownStyle = ComboBoxStyle.DropDownList;
+            // 
+            // ImportCases
+            // 
+            ImportCases.Location = new Point(3, -1);
+            ImportCases.Name = "ImportCases";
+            ImportCases.Size = new Size(94, 29);
+            ImportCases.TabIndex = 6;
+            ImportCases.Text = "IMPORT";
+            ImportCases.UseVisualStyleBackColor = true;
+            ImportCases.Click += import_Click;
+            // 
+            // ExportCases
+            // 
+            ExportCases.Location = new Point(788, -1);
+            ExportCases.Name = "ExportCases";
+            ExportCases.Size = new Size(94, 28);
+            ExportCases.TabIndex = 5;
+            ExportCases.Text = "EXPORT";
+            ExportCases.UseVisualStyleBackColor = true;
+            ExportCases.Click += export_Click;
             // 
             // CasesUC
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(panel1);
             Controls.Add(dataGridView);
             Controls.Add(casesLabel);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "CasesUC";
-            Size = new Size(912, 558);
+            Size = new Size(1042, 744);
             ((System.ComponentModel.ISupportInitialize)dataGridView).EndInit();
             panel1.ResumeLayout(false);
             ResumeLayout(false);
@@ -109,5 +166,9 @@
         private Button beforeButton;
         private Button afterButton;
         private Panel panel1;
+        private ComboBox ChoiceExportCases;
+        private ComboBox ChoiceImportCases;
+        private Button ImportCases;
+        private Button ExportCases;
     }
 }
