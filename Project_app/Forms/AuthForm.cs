@@ -52,16 +52,17 @@ namespace Project_app
                 var response = client.Execute(request);
                 HttpStatusCode statusCode = response.StatusCode;
                 int numericStatusCode = (int)statusCode;
+                dynamic data = JObject.Parse(response.Content);
                 if (numericStatusCode == 200)
                 {
                     this.Hide();
+                    user.token = data.token;
                     MainForm main = new MainForm(user);
                     main.ShowDialog();
                     this.Close();
                 }
                 else if (numericStatusCode == 400)
                 {
-                    dynamic data = JObject.Parse(response.Content);
                     errorLabel.Text = data.message;
                 }
             }

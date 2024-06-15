@@ -72,9 +72,9 @@
             // 
             welcomeLabel.Anchor = AnchorStyles.Right;
             welcomeLabel.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            welcomeLabel.Location = new Point(724, 474);
+            welcomeLabel.Location = new Point(493, 474);
             welcomeLabel.Name = "welcomeLabel";
-            welcomeLabel.Size = new Size(182, 25);
+            welcomeLabel.Size = new Size(413, 71);
             welcomeLabel.TabIndex = 4;
             welcomeLabel.TextAlign = ContentAlignment.MiddleRight;
             // 

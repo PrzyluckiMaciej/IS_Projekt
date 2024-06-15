@@ -20,7 +20,7 @@ namespace Project_app
             InitializeComponent();
             columnButton.Visible = false;
             this.user = user;
-            welcomeLabel.Text = "Witaj, "+user.username;
+            welcomeLabel.Text = "Witaj, " + user.username;
         }
 
         //użyte do pobrania nazw kolumn z bazy danych w celu utworzenia klasy do implementacji ORM
