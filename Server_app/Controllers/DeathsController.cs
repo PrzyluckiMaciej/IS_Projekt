@@ -1,4 +1,6 @@
 ﻿using Insight.Database;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MySql.Data.MySqlClient;
 using Server_app.Services.DB_data;
@@ -17,7 +19,8 @@ namespace Server_app.Controllers
             repo = con.As<ICountryRepository>();
         }
 
-        [HttpGet("getDeathsBefore")]
+        [Authorize(Roles = "read", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpGet("get_deaths_before")]
         public IActionResult GetAllDeathsBefore()
         {
             var response = repo.GetAllDeathsBefore();
@@ -29,7 +32,8 @@ namespace Server_app.Controllers
             return Ok(response);
         }
 
-        [HttpGet("getDeathsAfter")]
+        [Authorize(Roles = "read", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpGet("get_deaths_after")]
         public IActionResult GetAllDeathsAfter()
         {
             var response = repo.GetAllDeathsAfter();

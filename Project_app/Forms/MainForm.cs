@@ -13,9 +13,9 @@ namespace Project_app
         public MainForm(User user)
         {
             mainView = new MainView(user);
-            casesUC = new CasesUC();
-            deathsUC = new DeathsUC();
-            examUC = new ExamUC();
+            casesUC = new CasesUC(user.token);
+            deathsUC = new DeathsUC(user.token);
+            examUC = new ExamUC(user.token);
             graphUC = new GraphUC();
             this.user = user;
             InitializeComponent();

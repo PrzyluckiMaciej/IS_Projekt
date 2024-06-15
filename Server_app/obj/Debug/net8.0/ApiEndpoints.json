@@ -2,7 +2,7 @@
   {
     "ContainingType": "Server_app.Controllers.CasesController",
     "Method": "GetAllCasesAfter",
-    "RelativePath": "api/Cases/getCasesAfter",
+    "RelativePath": "api/Cases/get_cases_after",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -12,7 +12,7 @@
   {
     "ContainingType": "Server_app.Controllers.CasesController",
     "Method": "GetAllCasesBefore",
-    "RelativePath": "api/Cases/getCasesBefore",
+    "RelativePath": "api/Cases/get_cases_before",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -22,7 +22,7 @@
   {
     "ContainingType": "Server_app.Controllers.DeathsController",
     "Method": "GetAllDeathsAfter",
-    "RelativePath": "api/Deaths/getDeathsAfter",
+    "RelativePath": "api/Deaths/get_deaths_after",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -32,7 +32,7 @@
   {
     "ContainingType": "Server_app.Controllers.DeathsController",
     "Method": "GetAllDeathsBefore",
-    "RelativePath": "api/Deaths/getDeathsBefore",
+    "RelativePath": "api/Deaths/get_deaths_before",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -40,9 +40,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Server_app.Controllers.ExamController",
+    "ContainingType": "Server_app.Controllers.ExamsController",
     "Method": "GetAllExamResultsAfter",
-    "RelativePath": "api/Exam/getExamsAfter",
+    "RelativePath": "api/Exams/get_exams_after",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -50,9 +50,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Server_app.Controllers.ExamController",
+    "ContainingType": "Server_app.Controllers.ExamsController",
     "Method": "GetAllExamResultsBefore",
-    "RelativePath": "api/Exam/getExamsBefore",
+    "RelativePath": "api/Exams/get_exams_before",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

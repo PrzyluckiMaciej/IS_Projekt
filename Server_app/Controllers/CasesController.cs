@@ -1,4 +1,6 @@
 ﻿using Insight.Database;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MySql.Data.MySqlClient;
 using Server_app.Services.DB_data;
@@ -17,7 +19,8 @@ namespace Server_app.Controllers
             repo = con.As<ICountryRepository>();
         }
 
-        [HttpGet("getCasesBefore")]
+        [Authorize(Roles = "read", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpGet("get_cases_before")]
         public IActionResult GetAllCasesBefore()
         {
             var response = repo.GetAllCasesBefore();
@@ -29,7 +32,8 @@ namespace Server_app.Controllers
             return Ok(response);
         }
 
-        [HttpGet("getCasesAfter")]
+        [Authorize(Roles = "read", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpGet("get_cases_after")]
         public IActionResult GetAllCasesAfter()
         {
             var response = repo.GetAllCasesAfter();

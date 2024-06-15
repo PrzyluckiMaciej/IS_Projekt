@@ -20,6 +20,11 @@ using System.IO;
 using System.Runtime.Serialization.Json;
 using Newtonsoft.Json;
 using YamlDotNet.Serialization;
+using Newtonsoft.Json.Linq;
+using RestSharp;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+using System.Net;
+using Project_app.Data_management;
 
 
 namespace Project_app
@@ -30,28 +35,58 @@ namespace Project_app
         private MySqlConnection con;
         private IExamRepository repo;
         private string when;
-        public ExamUC()
+        private string token;
+        public ExamUC(string token)
         {
             connectionStr = "SERVER=localhost;DATABASE=covid;UID=covidAdmin;PASSWORD=covid;";
             con = new MySqlConnection(connectionStr);
             repo = con.As<IExamRepository>();
             InitializeComponent();
+            this.token = token;
         }
 
         private void beforeButton_Click(object sender, EventArgs e)
         {
-            IList<ExamResult> results = repo.GetAllExamResultsBefore();
-            dataGridView.DataSource = results;
-            when = "before";
-            sizeDGV(dataGridView);
+            var client = new RestClient("http://localhost:8080/api");
+            client.AddDefaultHeader("Authorization", string.Format("Bearer {0}", token));
+            var request = new RestRequest("/exams/get_exams_before", Method.Get);
+            request.RequestFormat = DataFormat.None;
+            var response = client.Execute(request);
+            HttpStatusCode statusCode = response.StatusCode;
+            int numericStatusCode = (int)statusCode;
+            if (numericStatusCode == 200)
+            {
+                var data = JArray.Parse(response.Content).ToObject<IList<ExamResult>>();
+                dataGridView.DataSource = data;
+                when = "before";
+                sizeDGV(dataGridView);
+            }
+            else if (numericStatusCode == 403)
+            {
+                MessageBox.Show("Odmowa dostępu.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void afterButton_Click(object sender, EventArgs e)
         {
-            IList<ExamResult> results = repo.GetAllExamResultsAfter();
-            dataGridView.DataSource = results;
-            when = "after";
-            sizeDGV(dataGridView);
+            var client = new RestClient("http://localhost:8080/api");
+            client.AddDefaultHeader("Authorization", string.Format("Bearer {0}", token));
+            var request = new RestRequest("/exams/get_exams_after", Method.Get);
+            request.RequestFormat = DataFormat.None;
+            var response = client.Execute(request);
+            HttpStatusCode statusCode = response.StatusCode;
+            int numericStatusCode = (int)statusCode;
+            if (numericStatusCode == 200)
+            {
+                var data = JArray.Parse(response.Content).ToObject<IList<ExamResult>>();
+                dataGridView.DataSource = data;
+                when = "after";
+                sizeDGV(dataGridView);
+            }
+            else if (numericStatusCode == 403)
+            {
+                MessageBox.Show("Odmowa dostępu.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void export_Click(object sender, EventArgs e)
