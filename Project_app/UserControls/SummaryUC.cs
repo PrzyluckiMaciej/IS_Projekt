@@ -1,7 +1,9 @@
 ﻿using Insight.Database;
 using MySql.Data.MySqlClient;
+using Newtonsoft.Json.Linq;
 using Project_app.ORM_classes;
 using Project_app.ORM_interfaces;
+using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
@@ -9,43 +11,99 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
+using YamlDotNet.Core.Tokens;
 
 namespace Project_app
 {
-    public partial class GraphUC : UserControl
+    public partial class SummaryUC : UserControl
     {
         private string connectionStr;
         private MySqlConnection con;
         private ICountryRepository countryRepo;
         private IExamRepository examRepo;
-        public GraphUC()
+        private string token;
+        public SummaryUC(string token)
         {
             connectionStr = "SERVER=localhost;DATABASE=covid;UID=covidAdmin;PASSWORD=covid;";
             con = new MySqlConnection(connectionStr);
             countryRepo = con.As<ICountryRepository>();
             examRepo = con.As<IExamRepository>();
             InitializeComponent();
+            this.token = token;
+            generateCasesChart();
+            generateExamChart();
+        }
+
+        private void refreshButton_Click(object sender, EventArgs e)
+        {
+            casesDeathsChart.Annotations.Clear();
+            examsChart.Annotations.Clear();
             generateCasesChart();
             generateExamChart();
         }
 
         public void generateCasesChart()
         {
-            IList<AverageCountryData> casesBefore = countryRepo.GetAverageCasesBefore();
-            IList<AverageCountryData> casesAfter = countryRepo.GetAverageCasesAfter();
+            IList<AverageCountryData> casesBefore = [];
+            IList<AverageCountryData> casesAfter = [];
+            var client = new RestClient("http://localhost:8080/api");
+            client.AddDefaultHeader("Authorization", string.Format("Bearer {0}", token));
+            var request = new RestRequest("/cases/get_average_cases_before", Method.Get);
+            request.RequestFormat = DataFormat.None;
+            var response = client.Execute(request);
+            HttpStatusCode statusCode = response.StatusCode;
+            int numericStatusCode = (int)statusCode;
+            if (numericStatusCode == 200)
+            {
+                casesBefore = JArray.Parse(response.Content).ToObject<IList<AverageCountryData>>();
+            }
+            request = new RestRequest("/cases/get_average_cases_after", Method.Get);
+            request.RequestFormat = DataFormat.None;
+            response = client.Execute(request);
+            statusCode = response.StatusCode;
+            numericStatusCode = (int)statusCode;
+            if (numericStatusCode == 200)
+            {
+                casesAfter = JArray.Parse(response.Content).ToObject<IList<AverageCountryData>>();
+            }
+
             List<AverageCountryData> cases = new List<AverageCountryData>();
             cases.AddRange(casesBefore);
             cases.AddRange(casesAfter);
 
-            IList<AverageCountryData> deathsBefore = countryRepo.GetAverageDeathsBefore();
-            IList<AverageCountryData> deathsAfter = countryRepo.GetAverageDeathsAfter();
+            maxCasesLabel.Text = "Największa liczba zachorowań: "+calculateCasesDeaths(cases).ToString();
+
+            IList<AverageCountryData> deathsBefore = [];
+            IList<AverageCountryData> deathsAfter = [];
+            request = new RestRequest("/deaths/get_average_deaths_before", Method.Get);
+            request.RequestFormat = DataFormat.None;
+            response = client.Execute(request);
+            statusCode = response.StatusCode;
+            numericStatusCode = (int)statusCode;
+            if (numericStatusCode == 200)
+            {
+                deathsBefore = JArray.Parse(response.Content).ToObject<IList<AverageCountryData>>();
+            }
+            request = new RestRequest("/deaths/get_average_deaths_after", Method.Get);
+            request.RequestFormat = DataFormat.None;
+            response = client.Execute(request);
+            statusCode = response.StatusCode;
+            numericStatusCode = (int)statusCode;
+            if (numericStatusCode == 200)
+            {
+                deathsAfter = JArray.Parse(response.Content).ToObject<IList<AverageCountryData>>();
+            }
+
             List<AverageCountryData> deaths = new List<AverageCountryData>();
             deaths.AddRange(deathsBefore);
             deaths.AddRange(deathsAfter);
+
+            maxDeathsLabel.Text = "Największa liczba śmierci:"+calculateCasesDeaths(deaths).ToString();
 
             var objChart = casesDeathsChart.ChartAreas[0];
             objChart.AxisX.IntervalType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Number;
@@ -77,17 +135,44 @@ namespace Project_app
             {
                 casesDeathsChart.Series["Śmierci"].Points.AddXY(i.month, i.average);
             }
+            casesDeathsChart.ChartAreas[0].AxisX.Title = "Miesiące";
+            casesDeathsChart.ChartAreas[0].AxisY.Title = "Liczba zachorowań/śmierci";
             createVerticalLine(casesDeathsChart, 3);
             stylizeChart(casesDeathsChart);
         }
 
         public void generateExamChart()
         {
-            IList<AverageExamData> examsBefore = examRepo.GetAverageExamPerYearBefore();
-            IList<AverageExamData> examsAfter = examRepo.GetAverageExamPerYearAfter();
+            IList<AverageExamData> examsBefore = [];
+            IList<AverageExamData> examsAfter = [];
+            var client = new RestClient("http://localhost:8080/api");
+            client.AddDefaultHeader("Authorization", string.Format("Bearer {0}", token));
+            var request = new RestRequest("/exams/get_average_exams_before", Method.Get);
+            request.RequestFormat = DataFormat.None;
+            var response = client.Execute(request);
+            HttpStatusCode statusCode = response.StatusCode;
+            int numericStatusCode = (int)statusCode;
+            if (numericStatusCode == 200)
+            {
+                examsBefore = JArray.Parse(response.Content).ToObject<IList<AverageExamData>>();
+            }
+            request = new RestRequest("/exams/get_average_exams_after", Method.Get);
+            request.RequestFormat = DataFormat.None;
+            response = client.Execute(request);
+            statusCode = response.StatusCode;
+            numericStatusCode = (int)statusCode;
+            if (numericStatusCode == 200)
+            {
+                examsAfter = JArray.Parse(response.Content).ToObject<IList<AverageExamData>>();
+            }
             List<AverageExamData> exams = new List<AverageExamData>();
             exams.AddRange(examsBefore);
             exams.AddRange(examsAfter);
+
+            double min = calculateMinExams(exams);
+            double max = calculateMaxExams(exams);
+            maxExamAvgLabel.Text = "Najwyższa średnia: "+max.ToString();
+            minExamAvgLabel.Text = "Najniższa średnia: "+min.ToString();
 
             var objChart = examsChart.ChartAreas[0];
             objChart.AxisX.IntervalType = DateTimeIntervalType.Number;
@@ -95,8 +180,8 @@ namespace Project_app
             objChart.AxisX.Maximum = 2023;
 
             objChart.AxisY.IntervalType = DateTimeIntervalType.Number;
-            objChart.AxisY.Minimum = 40;
-            objChart.AxisY.Maximum = 70;
+            objChart.AxisY.Minimum = 5*(int)Math.Round(min/5.0)-5;
+            objChart.AxisY.Maximum = 5 * (int)Math.Round(max / 5.0) + 5;
 
             examsChart.Series.Clear();
 
@@ -109,6 +194,8 @@ namespace Project_app
             {
                 examsChart.Series["Średnia"].Points.AddXY(i.rok, i.srednia);
             }
+            examsChart.ChartAreas[0].AxisX.Title = "Rok";
+            examsChart.ChartAreas[0].AxisY.Title = "Średnia wyników z egzaminów";
             createVerticalLine(examsChart, 2020);
             stylizeChart(examsChart);
         }
@@ -133,6 +220,21 @@ namespace Project_app
             line.LineWidth = 2;
             line.X = x;
             chart.Annotations.Add(line);
+        }
+
+        public double calculateCasesDeaths(List<AverageCountryData> list) 
+        {
+            return list.Max(i => i.average);
+        }
+
+        public double calculateMaxExams(List<AverageExamData> list)
+        {
+            return list.Max(i => i.srednia);
+        }
+
+        public double calculateMinExams(List<AverageExamData> list)
+        {
+            return list.Min(i => i.srednia);
         }
     }
 }

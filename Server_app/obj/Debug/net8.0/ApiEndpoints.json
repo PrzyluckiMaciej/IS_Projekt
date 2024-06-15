@@ -1,6 +1,26 @@
 [
   {
     "ContainingType": "Server_app.Controllers.CasesController",
+    "Method": "GetAverageCasesAfter",
+    "RelativePath": "api/Cases/get_average_cases_after",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.CasesController",
+    "Method": "GetAverageCasesBefore",
+    "RelativePath": "api/Cases/get_average_cases_before",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.CasesController",
     "Method": "GetAllCasesAfter",
     "RelativePath": "api/Cases/get_cases_after",
     "HttpMethod": "GET",
@@ -21,6 +41,26 @@
   },
   {
     "ContainingType": "Server_app.Controllers.DeathsController",
+    "Method": "GetAverageDeathsAfter",
+    "RelativePath": "api/Deaths/get_average_deaths_after",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.DeathsController",
+    "Method": "GetAverageDeathsBefore",
+    "RelativePath": "api/Deaths/get_average_deaths_before",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.DeathsController",
     "Method": "GetAllDeathsAfter",
     "RelativePath": "api/Deaths/get_deaths_after",
     "HttpMethod": "GET",
@@ -33,6 +73,26 @@
     "ContainingType": "Server_app.Controllers.DeathsController",
     "Method": "GetAllDeathsBefore",
     "RelativePath": "api/Deaths/get_deaths_before",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.ExamsController",
+    "Method": "GetAverageExamPerYearAfter",
+    "RelativePath": "api/Exams/get_average_exams_after",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.ExamsController",
+    "Method": "GetAverageExamPerYearBefore",
+    "RelativePath": "api/Exams/get_average_exams_before",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

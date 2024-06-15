@@ -14,10 +14,12 @@ namespace Server_app.Controllers
     {
         private IExamRepository repo;
         private MySqlConnection con;
+        private string errorMessage;
         public ExamsController()
         {
             con = new MySqlConnection("SERVER=localhost;DATABASE=covid;UID=covidAdmin;PASSWORD=covid;");
             repo = con.As<IExamRepository>();
+            errorMessage = "Nie znaleziono danych o egzaminach.";
         }
 
         [Authorize(Roles = "read", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
@@ -28,7 +30,7 @@ namespace Server_app.Controllers
             if (response == null)
                 return BadRequest(new
                 {
-                    message = "Nie znaleziono danych o egzaminach."
+                    message = errorMessage
                 });
             return Ok(response);
         }
@@ -41,7 +43,33 @@ namespace Server_app.Controllers
             if (response == null)
                 return BadRequest(new
                 {
-                    message = "Nie znaleziono danych o egzaminach."
+                    message = errorMessage
+                });
+            return Ok(response);
+        }
+
+        [Authorize(Roles = "read", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpGet("get_average_exams_before")]
+        public IActionResult GetAverageExamPerYearBefore()
+        {
+            var response = repo.GetAverageExamPerYearBefore();
+            if (response == null)
+                return BadRequest(new
+                {
+                    message = errorMessage
+                });
+            return Ok(response);
+        }
+
+        [Authorize(Roles = "read", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpGet("get_average_exams_after")]
+        public IActionResult GetAverageExamPerYearAfter()
+        {
+            var response = repo.GetAverageExamPerYearAfter();
+            if (response == null)
+                return BadRequest(new
+                {
+                    message = errorMessage
                 });
             return Ok(response);
         }

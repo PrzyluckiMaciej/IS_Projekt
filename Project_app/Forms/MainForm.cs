@@ -8,28 +8,27 @@ namespace Project_app
         CasesUC casesUC;
         DeathsUC deathsUC;
         ExamUC examUC;
-        GraphUC graphUC;
+        SummaryUC summaryUC;
         User user;
         public MainForm(User user)
         {
+            this.user = user;
             mainView = new MainView(user);
             casesUC = new CasesUC(user.token);
             deathsUC = new DeathsUC(user.token);
             examUC = new ExamUC(user.token);
-            graphUC = new GraphUC();
-            this.user = user;
+            summaryUC = new SummaryUC(user.token);
             InitializeComponent();
             ucPanel.Controls.Add(mainView);
         }
 
         private void hideUC()
         {
-            //mainViewUC.Visible = false;
             mainView.Visible = false;
             casesUC.Visible = false;
             deathsUC.Visible = false;
             examUC.Visible = false;
-            graphUC.Visible = false;
+            summaryUC.Visible = false;
         }
 
         private void casesButton_Click(object sender, EventArgs e)
@@ -60,11 +59,11 @@ namespace Project_app
             ucPanel.Controls.Add(examUC);
         }
 
-        private void graphButton_Click(object sender, EventArgs e)
+        private void summaryButton_Click(object sender, EventArgs e)
         {
             hideUC();
-            graphUC.Visible = true;
-            ucPanel.Controls.Add(graphUC);
+            summaryUC.Visible = true;
+            ucPanel.Controls.Add(summaryUC);
         }
     }
 }

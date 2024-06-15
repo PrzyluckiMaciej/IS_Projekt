@@ -46,7 +46,6 @@ D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\M
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
-D:\Studia\Integracja Systemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.GraphUC.resources
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\Azure.Core.dll
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\Azure.Identity.dll
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
@@ -285,3 +284,4 @@ C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\D
 C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.genruntimeconfig.cache
 C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\ref\Project_app.dll
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\YamlDotNet.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.SummaryUC.resources

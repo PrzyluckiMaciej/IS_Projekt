@@ -11,16 +11,12 @@
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:controllers\\casescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\server_app\\controllers\\deathscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:controllers\\deathscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\services\\users\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:services\\users\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\server_app\\controllers\\deathscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:controllers\\deathscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\server_app\\services\\db_data\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\server_app\\services\\db_data\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:services\\db_data\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\services\\users\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:services\\users\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\model\\authenticationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,30 +70,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DeathsController.cs",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Controllers\\DeathsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DeathsController.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Controllers\\DeathsController.cs",
-              "RelativeToolTip": "Controllers\\DeathsController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAABjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T13:04:50.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "IExamRepository.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Services\\DB_data\\IExamRepository.cs",
               "RelativeDocumentMoniker": "Services\\DB_data\\IExamRepository.cs",
               "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Services\\DB_data\\IExamRepository.cs",
               "RelativeToolTip": "Services\\DB_data\\IExamRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T12:45:46.439Z",
               "EditorCaption": ""
@@ -104,9 +91,9 @@
               "Title": "ExamsController.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Controllers\\ExamsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ExamsController.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Controllers\\ExamsController.cs*",
-              "RelativeToolTip": "Controllers\\ExamsController.cs*",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBYAAAAgAAAA",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Controllers\\ExamsController.cs",
+              "RelativeToolTip": "Controllers\\ExamsController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAcwEMAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T12:41:50.559Z",
               "EditorCaption": ""
@@ -126,26 +113,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAMAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T09:14:32.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UserServiceImpl.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Services\\Users\\UserServiceImpl.cs",
               "RelativeDocumentMoniker": "Services\\Users\\UserServiceImpl.cs",
               "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Services\\Users\\UserServiceImpl.cs",
               "RelativeToolTip": "Services\\Users\\UserServiceImpl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T09:07:45.02Z",
               "EditorCaption": ""
@@ -171,22 +158,35 @@
               "RelativeDocumentMoniker": "Controllers\\CasesController.cs",
               "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Controllers\\CasesController.cs",
               "RelativeToolTip": "Controllers\\CasesController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAgwCIAAABjAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowD8AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T12:54:54.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ICountryRepository.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Services\\DB_data\\ICountryRepository.cs",
               "RelativeDocumentMoniker": "Services\\DB_data\\ICountryRepository.cs",
               "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Services\\DB_data\\ICountryRepository.cs",
               "RelativeToolTip": "Services\\DB_data\\ICountryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T13:02:29.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeathsController.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Controllers\\DeathsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DeathsController.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Controllers\\DeathsController.cs",
+              "RelativeToolTip": "Controllers\\DeathsController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T13:04:50.194Z",
               "EditorCaption": ""
             },
             {

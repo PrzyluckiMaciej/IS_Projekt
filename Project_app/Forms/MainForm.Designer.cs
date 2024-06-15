@@ -38,7 +38,7 @@
             panel5 = new Panel();
             examButton = new Button();
             panel4 = new Panel();
-            graphButton = new Button();
+            summaryButton = new Button();
             ucPanel = new Panel();
             contentPanel = new Panel();
             menu.SuspendLayout();
@@ -156,26 +156,26 @@
             // 
             // panel4
             // 
-            panel4.Controls.Add(graphButton);
+            panel4.Controls.Add(summaryButton);
             panel4.Location = new Point(3, 238);
             panel4.Name = "panel4";
             panel4.Size = new Size(200, 42);
             panel4.TabIndex = 5;
             // 
-            // graphButton
+            // summaryButton
             // 
-            graphButton.FlatStyle = FlatStyle.Flat;
-            graphButton.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            graphButton.ForeColor = SystemColors.Control;
-            graphButton.Location = new Point(-3, -8);
-            graphButton.Name = "graphButton";
-            graphButton.Padding = new Padding(5, 0, 0, 0);
-            graphButton.Size = new Size(257, 55);
-            graphButton.TabIndex = 2;
-            graphButton.Text = "Wykresy";
-            graphButton.TextAlign = ContentAlignment.MiddleLeft;
-            graphButton.UseVisualStyleBackColor = true;
-            graphButton.Click += graphButton_Click;
+            summaryButton.FlatStyle = FlatStyle.Flat;
+            summaryButton.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            summaryButton.ForeColor = SystemColors.Control;
+            summaryButton.Location = new Point(-3, -8);
+            summaryButton.Name = "summaryButton";
+            summaryButton.Padding = new Padding(5, 0, 0, 0);
+            summaryButton.Size = new Size(257, 55);
+            summaryButton.TabIndex = 2;
+            summaryButton.Text = "Podsumowanie";
+            summaryButton.TextAlign = ContentAlignment.MiddleLeft;
+            summaryButton.UseVisualStyleBackColor = true;
+            summaryButton.Click += summaryButton_Click;
             // 
             // ucPanel
             // 
@@ -230,7 +230,7 @@
         private Label mainPageLabel;
         private Button casesButton;
         private Panel panel4;
-        private Button graphButton;
+        private Button summaryButton;
         private Panel ucPanel;
         private Panel contentPanel;
     }

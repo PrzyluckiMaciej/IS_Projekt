@@ -48,7 +48,7 @@ namespace Project_app
             casesLabel.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 238);
             casesLabel.Location = new Point(0, 0);
             casesLabel.Name = "casesLabel";
-            casesLabel.Size = new Size(1042, 28);
+            casesLabel.Size = new Size(912, 21);
             casesLabel.TabIndex = 0;
             casesLabel.Text = "Zachorowania na COVID-19 w 2020 roku";
             casesLabel.TextAlign = ContentAlignment.TopCenter;
@@ -56,20 +56,18 @@ namespace Project_app
             // dataGridView
             // 
             dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView.Location = new Point(3, 71);
-            dataGridView.Margin = new Padding(3, 4, 3, 4);
+            dataGridView.Location = new Point(3, 53);
             dataGridView.Name = "dataGridView";
             dataGridView.RowHeadersWidth = 51;
-            dataGridView.Size = new Size(1035, 669);
+            dataGridView.Size = new Size(906, 502);
             dataGridView.TabIndex = 2;
             // 
             // beforeButton
             // 
             beforeButton.Dock = DockStyle.Right;
-            beforeButton.Location = new Point(352, 0);
-            beforeButton.Margin = new Padding(3, 4, 3, 4);
+            beforeButton.Location = new Point(304, 0);
             beforeButton.Name = "beforeButton";
-            beforeButton.Size = new Size(162, 31);
+            beforeButton.Size = new Size(142, 25);
             beforeButton.TabIndex = 3;
             beforeButton.Text = "Dane przed 03.2020";
             beforeButton.UseVisualStyleBackColor = true;
@@ -78,10 +76,9 @@ namespace Project_app
             // afterButton
             // 
             afterButton.Dock = DockStyle.Right;
-            afterButton.Location = new Point(514, 0);
-            afterButton.Margin = new Padding(3, 4, 3, 4);
+            afterButton.Location = new Point(446, 0);
             afterButton.Name = "afterButton";
-            afterButton.Size = new Size(162, 31);
+            afterButton.Size = new Size(142, 25);
             afterButton.TabIndex = 4;
             afterButton.Text = "Dane po 03.2020";
             afterButton.UseVisualStyleBackColor = true;
@@ -95,40 +92,42 @@ namespace Project_app
             panel1.Controls.Add(ExportCases);
             panel1.Controls.Add(beforeButton);
             panel1.Controls.Add(afterButton);
-            panel1.Location = new Point(3, 32);
-            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Location = new Point(3, 24);
             panel1.Name = "panel1";
-            panel1.Padding = new Padding(0, 0, 363, 0);
-            panel1.Size = new Size(1039, 31);
+            panel1.Padding = new Padding(0, 0, 318, 0);
+            panel1.Size = new Size(906, 25);
             panel1.TabIndex = 5;
             // 
             // ChoiceExportCases
             // 
+            ChoiceExportCases.DropDownStyle = ComboBoxStyle.DropDownList;
             ChoiceExportCases.FormattingEnabled = true;
             ChoiceExportCases.Items.AddRange(new object[] { "JSON", "XML", "YAML" });
-            ChoiceExportCases.Location = new Point(888, -1);
+            ChoiceExportCases.Location = new Point(773, 1);
+            ChoiceExportCases.Margin = new Padding(3, 2, 3, 2);
             ChoiceExportCases.Name = "ChoiceExportCases";
-            ChoiceExportCases.Size = new Size(151, 28);
+            ChoiceExportCases.Size = new Size(133, 23);
             ChoiceExportCases.TabIndex = 8;
             ChoiceExportCases.SelectedIndex = 0;
-            ChoiceExportCases.DropDownStyle = ComboBoxStyle.DropDownList;
             // 
             // ChoiceImportCases
             // 
+            ChoiceImportCases.DropDownStyle = ComboBoxStyle.DropDownList;
             ChoiceImportCases.FormattingEnabled = true;
             ChoiceImportCases.Items.AddRange(new object[] { "JSON", "XML", "YAML" });
-            ChoiceImportCases.Location = new Point(103, 0);
+            ChoiceImportCases.Location = new Point(88, 1);
+            ChoiceImportCases.Margin = new Padding(3, 2, 3, 2);
             ChoiceImportCases.Name = "ChoiceImportCases";
-            ChoiceImportCases.Size = new Size(151, 28);
+            ChoiceImportCases.Size = new Size(133, 23);
             ChoiceImportCases.TabIndex = 7;
             ChoiceImportCases.SelectedIndex = 0;
-            ChoiceImportCases.DropDownStyle = ComboBoxStyle.DropDownList;
             // 
             // ImportCases
             // 
-            ImportCases.Location = new Point(3, -1);
+            ImportCases.Location = new Point(0, 0);
+            ImportCases.Margin = new Padding(3, 2, 3, 2);
             ImportCases.Name = "ImportCases";
-            ImportCases.Size = new Size(94, 29);
+            ImportCases.Size = new Size(82, 25);
             ImportCases.TabIndex = 6;
             ImportCases.Text = "IMPORT";
             ImportCases.UseVisualStyleBackColor = true;
@@ -136,9 +135,10 @@ namespace Project_app
             // 
             // ExportCases
             // 
-            ExportCases.Location = new Point(788, -1);
+            ExportCases.Location = new Point(685, 0);
+            ExportCases.Margin = new Padding(3, 2, 3, 2);
             ExportCases.Name = "ExportCases";
-            ExportCases.Size = new Size(94, 28);
+            ExportCases.Size = new Size(82, 25);
             ExportCases.TabIndex = 5;
             ExportCases.Text = "EXPORT";
             ExportCases.UseVisualStyleBackColor = true;
@@ -146,14 +146,13 @@ namespace Project_app
             // 
             // CasesUC
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(panel1);
             Controls.Add(dataGridView);
             Controls.Add(casesLabel);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "CasesUC";
-            Size = new Size(1042, 744);
+            Size = new Size(912, 558);
             ((System.ComponentModel.ISupportInitialize)dataGridView).EndInit();
             panel1.ResumeLayout(false);
             ResumeLayout(false);

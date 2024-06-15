@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\deathsuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\usercontrols\\casesuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\project_app\\usercontrols\\casesuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\casesuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\usercontrols\\deathsuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\deathsuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\usercontrols\\examuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +19,68 @@
       "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\examuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\project_app\\usercontrols\\dataexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\dataexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\usercontrols\\casesuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\casesuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\project_app\\data_management\\db_connector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:data_management\\db_connector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\usercontrols\\deathsuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\deathsuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\project_app\\usercontrols\\summaryuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\summaryuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\project_app\\usercontrols\\summaryuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\summaryuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\project_app\\usercontrols\\summaryuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\summaryuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\usercontrols\\casesuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\casesuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\orm_classes\\averagecountrydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:orm_classes\\averagecountrydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\project_app\\forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\project_app\\usercontrols\\deathsuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\deathsuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\project_app\\usercontrols\\examuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\examuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\orm_interfaces\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:orm_interfaces\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\usercontrols\\dataexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\dataexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\forms\\authform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:forms\\authform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\project_app\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\forms\\authform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -59,20 +99,12 @@
       "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:authentication\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\usercontrols\\casesuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\casesuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\orm_classes\\countryset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:orm_classes\\countryset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\orm_interfaces\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:orm_interfaces\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\orm_interfaces\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:orm_interfaces\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\orm_classes\\examresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,28 +115,8 @@
       "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:orm_classes\\averageexamdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\orm_classes\\averagecountrydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:orm_classes\\averagecountrydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\usercontrols\\graphuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\graphuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\usercontrols\\graphuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\graphuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\usercontrols\\deathsuc.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\deathsuc.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\usercontrols\\casesuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{377D702A-6BD3-4CFF-A4C1-C806F591C2AF}|Project_app.csproj|solutionrelative:usercontrols\\casesuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,11 +126,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "ExamUC.cs [Projekt]",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\ExamUC.cs",
               "RelativeDocumentMoniker": "UserControls\\ExamUC.cs",
@@ -130,58 +142,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ExamUC.cs",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\ExamUC.cs",
-              "RelativeDocumentMoniker": "UserControls\\ExamUC.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\ExamUC.cs",
-              "RelativeToolTip": "UserControls\\ExamUC.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAcwDcAAAA0AAAA",
+              "DocumentIndex": 6,
+              "Title": "SummaryUC.cs [Projekt]",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\SummaryUC.cs",
+              "RelativeDocumentMoniker": "UserControls\\SummaryUC.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\SummaryUC.cs [Projekt]",
+              "RelativeToolTip": "UserControls\\SummaryUC.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T07:51:08.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainView.cs [Projekt]",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\MainView.cs",
-              "RelativeDocumentMoniker": "UserControls\\MainView.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\MainView.cs [Projekt]",
-              "RelativeToolTip": "UserControls\\MainView.cs [Projekt]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T09:45:56.49Z",
+              "WhenOpened": "2024-06-06T16:46:10.583Z",
               "EditorCaption": " [Projekt]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainView.cs",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\MainView.cs",
-              "RelativeDocumentMoniker": "UserControls\\MainView.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\MainView.cs",
-              "RelativeToolTip": "UserControls\\MainView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA6AAAA",
+              "DocumentIndex": 7,
+              "Title": "SummaryUC.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\SummaryUC.cs",
+              "RelativeDocumentMoniker": "UserControls\\SummaryUC.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\SummaryUC.cs",
+              "RelativeToolTip": "UserControls\\SummaryUC.cs",
+              "ViewState": "AQIAAKAAAAAAAAAAAAAjwLcAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:53:59.394Z",
+              "WhenOpened": "2024-06-07T07:32:09.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Authentication\\User.cs",
-              "RelativeDocumentMoniker": "Authentication\\User.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Authentication\\User.cs",
-              "RelativeToolTip": "Authentication\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T10:26:04.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "MainForm.cs [Projekt]",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "Forms\\MainForm.cs",
@@ -194,19 +180,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\MainForm.cs",
-              "RelativeDocumentMoniker": "Forms\\MainForm.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\MainForm.cs",
-              "RelativeToolTip": "Forms\\MainForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAsAAAA",
+              "Title": "ExamUC.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\ExamUC.cs",
+              "RelativeDocumentMoniker": "UserControls\\ExamUC.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\ExamUC.cs",
+              "RelativeToolTip": "UserControls\\ExamUC.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAwwDoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T07:47:19.871Z",
+              "WhenOpened": "2024-06-07T07:51:08.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "CasesUC.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\CasesUC.cs",
+              "RelativeDocumentMoniker": "UserControls\\CasesUC.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\CasesUC.cs",
+              "RelativeToolTip": "UserControls\\CasesUC.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T18:02:34.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DeathsUC.cs [Projekt]",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\DeathsUC.cs",
               "RelativeDocumentMoniker": "UserControls\\DeathsUC.cs",
@@ -224,156 +223,52 @@
               "RelativeDocumentMoniker": "UserControls\\DeathsUC.cs",
               "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\DeathsUC.cs",
               "RelativeToolTip": "UserControls\\DeathsUC.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAowDkAAAAgAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADgAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-14T14:39:04.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CasesUC.cs",
+              "DocumentIndex": 4,
+              "Title": "CasesUC.cs [Projekt]",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\CasesUC.cs",
               "RelativeDocumentMoniker": "UserControls\\CasesUC.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\CasesUC.cs",
-              "RelativeToolTip": "UserControls\\CasesUC.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAmwE0AAAAdAAAA",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\CasesUC.cs [Projekt]",
+              "RelativeToolTip": "UserControls\\CasesUC.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T18:02:34.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DB_Connector.cs",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Data_management\\DB_Connector.cs",
-              "RelativeDocumentMoniker": "Data_management\\DB_Connector.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Data_management\\DB_Connector.cs",
-              "RelativeToolTip": "Data_management\\DB_Connector.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T13:56:15.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DataExporter.cs",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\DataExporter.cs",
-              "RelativeDocumentMoniker": "UserControls\\DataExporter.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\DataExporter.cs",
-              "RelativeToolTip": "UserControls\\DataExporter.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:23:10.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AuthForm.cs [Projekt]",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\AuthForm.cs",
-              "RelativeDocumentMoniker": "Forms\\AuthForm.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\AuthForm.cs [Projekt]",
-              "RelativeToolTip": "Forms\\AuthForm.cs [Projekt]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T09:33:52.825Z",
+              "WhenOpened": "2024-06-06T18:02:31.71Z",
               "EditorCaption": " [Projekt]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthForm.cs",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\AuthForm.cs",
-              "RelativeDocumentMoniker": "Forms\\AuthForm.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\AuthForm.cs",
-              "RelativeToolTip": "Forms\\AuthForm.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowDYAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T09:40:55.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 9,
               "Title": "CasesUC.Designer.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\CasesUC.Designer.cs",
               "RelativeDocumentMoniker": "UserControls\\CasesUC.Designer.cs",
               "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\CasesUC.Designer.cs",
               "RelativeToolTip": "UserControls\\CasesUC.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAIAAAA",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAQwHoAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-14T14:22:47.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ICountryRepository.cs",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_interfaces\\ICountryRepository.cs",
-              "RelativeDocumentMoniker": "ORM_interfaces\\ICountryRepository.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_interfaces\\ICountryRepository.cs",
-              "RelativeToolTip": "ORM_interfaces\\ICountryRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "DocumentIndex": 8,
+              "Title": "SummaryUC.Designer.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\SummaryUC.Designer.cs",
+              "RelativeDocumentMoniker": "UserControls\\SummaryUC.Designer.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\SummaryUC.Designer.cs",
+              "RelativeToolTip": "UserControls\\SummaryUC.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJMAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T19:04:34.355Z",
+              "WhenOpened": "2024-06-15T18:34:49.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IExamRepository.cs",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_interfaces\\IExamRepository.cs",
-              "RelativeDocumentMoniker": "ORM_interfaces\\IExamRepository.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_interfaces\\IExamRepository.cs",
-              "RelativeToolTip": "ORM_interfaces\\IExamRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T17:18:59.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CountrySet.cs",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_classes\\CountrySet.cs",
-              "RelativeDocumentMoniker": "ORM_classes\\CountrySet.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_classes\\CountrySet.cs",
-              "RelativeToolTip": "ORM_classes\\CountrySet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:53:46.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ExamResult.cs",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_classes\\ExamResult.cs",
-              "RelativeDocumentMoniker": "ORM_classes\\ExamResult.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_classes\\ExamResult.cs",
-              "RelativeToolTip": "ORM_classes\\ExamResult.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:54:57.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AverageExamData.cs",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_classes\\AverageExamData.cs",
-              "RelativeDocumentMoniker": "ORM_classes\\AverageExamData.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_classes\\AverageExamData.cs",
-              "RelativeToolTip": "ORM_classes\\AverageExamData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T12:30:56.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 10,
               "Title": "AverageCountryData.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_classes\\AverageCountryData.cs",
               "RelativeDocumentMoniker": "ORM_classes\\AverageCountryData.cs",
@@ -386,45 +281,201 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T09:41:34.548Z",
+              "WhenOpened": "2024-06-15T09:41:34.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "Forms\\MainForm.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\MainForm.cs",
+              "RelativeToolTip": "Forms\\MainForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T07:47:19.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "GraphUC.cs",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\GraphUC.cs",
-              "RelativeDocumentMoniker": "UserControls\\GraphUC.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\GraphUC.cs",
-              "RelativeToolTip": "UserControls\\GraphUC.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAADIAAAB2AAAA",
+              "DocumentIndex": 17,
+              "Title": "ICountryRepository.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_interfaces\\ICountryRepository.cs",
+              "RelativeDocumentMoniker": "ORM_interfaces\\ICountryRepository.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_interfaces\\ICountryRepository.cs",
+              "RelativeToolTip": "ORM_interfaces\\ICountryRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T07:32:09.559Z",
+              "WhenOpened": "2024-06-06T19:04:34.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\MainForm.Designer.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\MainForm.Designer.cs",
+              "RelativeToolTip": "Forms\\MainForm.Designer.cs",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAewLEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T15:55:56.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeathsUC.Designer.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\DeathsUC.Designer.cs",
+              "RelativeDocumentMoniker": "UserControls\\DeathsUC.Designer.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\DeathsUC.Designer.cs",
+              "RelativeToolTip": "UserControls\\DeathsUC.Designer.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAowHkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T15:51:06.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExamUC.Designer.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\ExamUC.Designer.cs",
+              "RelativeDocumentMoniker": "UserControls\\ExamUC.Designer.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\ExamUC.Designer.cs",
+              "RelativeToolTip": "UserControls\\ExamUC.Designer.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowE4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T15:35:19.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "GraphUC.cs [Projekt]",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\GraphUC.cs",
-              "RelativeDocumentMoniker": "UserControls\\GraphUC.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\GraphUC.cs [Projekt]",
-              "RelativeToolTip": "UserControls\\GraphUC.cs [Projekt]",
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Authentication\\User.cs",
+              "RelativeDocumentMoniker": "Authentication\\User.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Authentication\\User.cs",
+              "RelativeToolTip": "Authentication\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T16:46:10.583Z",
-              "EditorCaption": " [Projekt]"
+              "WhenOpened": "2024-06-15T10:26:04.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainView.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\MainView.cs",
+              "RelativeDocumentMoniker": "UserControls\\MainView.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\MainView.cs",
+              "RelativeToolTip": "UserControls\\MainView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:53:59.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MainView.cs [Projekt]",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\MainView.cs",
+              "RelativeDocumentMoniker": "UserControls\\MainView.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\MainView.cs [Projekt]",
+              "RelativeToolTip": "UserControls\\MainView.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:45:56.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DataExporter.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\DataExporter.cs",
+              "RelativeDocumentMoniker": "UserControls\\DataExporter.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\DataExporter.cs",
+              "RelativeToolTip": "UserControls\\DataExporter.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:23:10.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthForm.cs [Projekt]",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\AuthForm.cs",
+              "RelativeDocumentMoniker": "Forms\\AuthForm.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\AuthForm.cs [Projekt]",
+              "RelativeToolTip": "Forms\\AuthForm.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T09:33:52.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthForm.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\AuthForm.cs",
+              "RelativeDocumentMoniker": "Forms\\AuthForm.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\AuthForm.cs",
+              "RelativeToolTip": "Forms\\AuthForm.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDYAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T09:40:55.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IExamRepository.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_interfaces\\IExamRepository.cs",
+              "RelativeDocumentMoniker": "ORM_interfaces\\IExamRepository.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_interfaces\\IExamRepository.cs",
+              "RelativeToolTip": "ORM_interfaces\\IExamRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T17:18:59.132Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "CountrySet.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_classes\\CountrySet.cs",
+              "RelativeDocumentMoniker": "ORM_classes\\CountrySet.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_classes\\CountrySet.cs",
+              "RelativeToolTip": "ORM_classes\\CountrySet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:53:46.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ExamResult.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_classes\\ExamResult.cs",
+              "RelativeDocumentMoniker": "ORM_classes\\ExamResult.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_classes\\ExamResult.cs",
+              "RelativeToolTip": "ORM_classes\\ExamResult.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:54:57.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AverageExamData.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_classes\\AverageExamData.cs",
+              "RelativeDocumentMoniker": "ORM_classes\\AverageExamData.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\ORM_classes\\AverageExamData.cs",
+              "RelativeToolTip": "ORM_classes\\AverageExamData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T12:30:56.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "DeathsUC.resx",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\DeathsUC.resx",
               "RelativeDocumentMoniker": "UserControls\\DeathsUC.resx",
@@ -433,18 +484,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2024-06-14T14:38:58.776Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CasesUC.cs [Design]",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\CasesUC.cs",
-              "RelativeDocumentMoniker": "UserControls\\CasesUC.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\CasesUC.cs [Design]",
-              "RelativeToolTip": "UserControls\\CasesUC.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T18:02:31.71Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -27,18 +27,17 @@ namespace Project_app
 {
     public partial class CasesUC : UserControl
     {
-        private string connectionStr;
-        private MySqlConnection con;
-        private ICountryRepository repo;
         private string when;
         private string token;
         public CasesUC(string token)
         {
-            connectionStr = "SERVER=localhost;DATABASE=covid;UID=covidAdmin;PASSWORD=covid;";
-            con = new MySqlConnection(connectionStr);
-            repo = con.As<ICountryRepository>();
             InitializeComponent();
             this.token = token;
+            dataGridView.Visible = false;
+            beforeButton.FlatStyle = FlatStyle.Flat;
+            afterButton.FlatStyle = FlatStyle.Flat;
+            beforeButton.FlatAppearance.BorderSize = 0;
+            afterButton.FlatAppearance.BorderSize = 0;
         }
 
         private void beforeButton_Click(object sender, EventArgs e)
@@ -52,8 +51,12 @@ namespace Project_app
             int numericStatusCode = (int)statusCode;
             if (numericStatusCode == 200)
             {
+                beforeButton.FlatAppearance.BorderColor = Color.Green;
+                afterButton.FlatAppearance.BorderSize = 0;
+                beforeButton.FlatAppearance.BorderSize = 1;
                 var data = JArray.Parse(response.Content).ToObject<IList<CountrySet>>();
                 dataGridView.DataSource = data;
+                dataGridView.Visible = true;
                 when = "before";
             }
             else if (numericStatusCode == 403)
@@ -73,8 +76,12 @@ namespace Project_app
             int numericStatusCode = (int)statusCode;
             if (numericStatusCode == 200)
             {
+                beforeButton.FlatAppearance.BorderSize = 0;
+                afterButton.FlatAppearance.BorderSize = 1;
+                afterButton.FlatAppearance.BorderColor = Color.Green;
                 var data = JArray.Parse(response.Content).ToObject<IList<CountrySet>>();
                 dataGridView.DataSource = data;
+                dataGridView.Visible = true;
                 when = "after";
             }
             else if (numericStatusCode == 403)
