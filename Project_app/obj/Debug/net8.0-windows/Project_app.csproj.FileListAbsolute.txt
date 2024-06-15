@@ -284,3 +284,4 @@ C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\bin\D
 C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_.29F5018C.Up2Date
 C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.genruntimeconfig.cache
 C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\ref\Project_app.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\YamlDotNet.dll
