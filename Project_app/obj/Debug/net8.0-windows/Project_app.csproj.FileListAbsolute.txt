@@ -3,7 +3,6 @@ D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\P
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\Project_app.runtimeconfig.json
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\Project_app.dll
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\Project_app.pdb
-D:\Studia\Integracja Systemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.Form1.resources
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.csproj.GenerateResource.cache
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.GeneratedMSBuildEditorConfig.editorconfig
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.AssemblyInfoInputs.cache
@@ -185,3 +184,7 @@ D:\Studia\Integracja Systemów\IS_Projekt — kopia\Project_app\bin\Debug\net8.0
 D:\Studia\Integracja Systemów\IS_Projekt — kopia\Project_app\obj\Debug\net8.0-windows\Project_app.AuthForm.resources
 D:\Studia\Integracja Systemów\IS_Projekt — kopia\Project_app\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
 D:\Studia\Integracja Systemów\IS_Projekt — kopia\Project_app\obj\Debug\net8.0-windows\Project_app.MainForm.resources
+D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\RestSharp.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.AuthForm.resources
+D:\Studia\Integracja Systemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.MainForm.resources

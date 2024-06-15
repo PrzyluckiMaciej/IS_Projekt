@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m8DJ8OsIJIAaZ8ipPxEPBYXyb/rRed467lN40VlqZg4z0ADoOp0o20PaauczUuVgy5kO4ktH1T2QQdQNAABWzg==",
+  "dgSpecHash": "dr+ni/Gl610ch5J1dMWuZddmpekmn0hm7oa21k91Vyb22oFrYm533BuhrrhNe1CG08lvtSIDFVgniwLWgR0JBA==",
   "success": true,
-  "projectFilePath": "D:\\Studia\\Integracja Systemów\\IS_Projekt — kopia\\Server_app\\Server_app.csproj",
+  "projectFilePath": "D:\\Studia\\Integracja Systemów\\IS_Projekt\\Server_app\\Server_app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\macie\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.6\\microsoft.aspnetcore.authentication.jwtbearer.8.0.6.nupkg.sha512",
     "C:\\Users\\macie\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.6.0\\microsoft.identitymodel.abstractions.7.6.0.nupkg.sha512",

@@ -34,3 +34,39 @@ D:\Studia\Integracja Systemów\IS_Projekt — kopia\Server_app\obj\Debug\net8.0\
 D:\Studia\Integracja Systemów\IS_Projekt — kopia\Server_app\obj\Debug\net8.0\Server_app.pdb
 D:\Studia\Integracja Systemów\IS_Projekt — kopia\Server_app\obj\Debug\net8.0\Server_app.genruntimeconfig.cache
 D:\Studia\Integracja Systemów\IS_Projekt — kopia\Server_app\obj\Debug\net8.0\ref\Server_app.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\bin\Debug\net8.0\appsettings.Development.json
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\bin\Debug\net8.0\appsettings.json
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\bin\Debug\net8.0\Server_app.exe
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\bin\Debug\net8.0\Server_app.deps.json
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\bin\Debug\net8.0\Server_app.runtimeconfig.json
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\bin\Debug\net8.0\Server_app.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\bin\Debug\net8.0\Server_app.pdb
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\Server_app.csproj.AssemblyReference.cache
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\Server_app.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\Server_app.AssemblyInfoInputs.cache
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\Server_app.AssemblyInfo.cs
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\Server_app.csproj.CoreCompileInputs.cache
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\Server_app.MvcApplicationPartsAssemblyInfo.cache
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\Server_app.sourcelink.json
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\staticwebassets.build.json
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\staticwebassets.development.json
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\staticwebassets\msbuild.Server_app.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\staticwebassets\msbuild.build.Server_app.props
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server_app.props
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server_app.props
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\scopedcss\bundle\Server_app.styles.css
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\Server_app.csproj.Up2Date
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\Server_app.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\refint\Server_app.dll
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\Server_app.pdb
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\Server_app.genruntimeconfig.cache
+D:\Studia\Integracja Systemów\IS_Projekt\Server_app\obj\Debug\net8.0\ref\Server_app.dll
