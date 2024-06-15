@@ -1,5 +1,65 @@
 [
   {
+    "ContainingType": "Server_app.Controllers.CasesController",
+    "Method": "GetAllCasesAfter",
+    "RelativePath": "api/Cases/getCasesAfter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.CasesController",
+    "Method": "GetAllCasesBefore",
+    "RelativePath": "api/Cases/getCasesBefore",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.DeathsController",
+    "Method": "GetAllDeathsAfter",
+    "RelativePath": "api/Deaths/getDeathsAfter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.DeathsController",
+    "Method": "GetAllDeathsBefore",
+    "RelativePath": "api/Deaths/getDeathsBefore",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.ExamController",
+    "Method": "GetAllExamResultsAfter",
+    "RelativePath": "api/Exam/getExamsAfter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.ExamController",
+    "Method": "GetAllExamResultsBefore",
+    "RelativePath": "api/Exam/getExamsBefore",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Server_app.Controllers.UsersController",
     "Method": "Authenticate",
     "RelativePath": "api/Users/authenticate",
