@@ -73,5 +73,37 @@ namespace Server_app.Controllers
                 });
             return Ok(response);
         }
+
+        [Authorize(Roles = "write", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpDelete("clear_before")]
+        public IActionResult ClearExamsBefore()
+        {
+            repo.ClearExamsBefore();
+            return Ok();
+        }
+
+        [Authorize(Roles = "write", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpPost("insert_before")]
+        public IActionResult InsertExamsBefore(ExamResult result)
+        {
+            repo.InsertExamsBefore(result);
+            return Ok();
+        }
+
+        [Authorize(Roles = "write", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpDelete("clear_after")]
+        public IActionResult ClearExamsAfter()
+        {
+            repo.ClearExamsAfter();
+            return Ok();
+        }
+
+        [Authorize(Roles = "write", AuthenticationSchemes =JwtBearerDefaults.AuthenticationScheme)]
+        [HttpPost("insert_after")]
+        public IActionResult InsertExamsAfter(ExamResult result)
+        {
+            repo.InsertExamsAfter(result);
+            return Ok();
+        }
     }
 }

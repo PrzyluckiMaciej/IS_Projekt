@@ -108,7 +108,6 @@ namespace Project_app
             ChoiceExportCases.Name = "ChoiceExportCases";
             ChoiceExportCases.Size = new Size(133, 23);
             ChoiceExportCases.TabIndex = 8;
-            ChoiceExportCases.SelectedIndex = 0;
             // 
             // ChoiceImportCases
             // 
@@ -120,7 +119,6 @@ namespace Project_app
             ChoiceImportCases.Name = "ChoiceImportCases";
             ChoiceImportCases.Size = new Size(133, 23);
             ChoiceImportCases.TabIndex = 7;
-            ChoiceImportCases.SelectedIndex = 0;
             // 
             // ImportCases
             // 

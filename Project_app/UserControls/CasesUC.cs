@@ -22,6 +22,7 @@ using YamlDotNet.Serialization;
 using Newtonsoft.Json.Linq;
 using RestSharp;
 using System.Net;
+using Library.Forms;
 
 namespace Project_app
 {
@@ -29,6 +30,7 @@ namespace Project_app
     {
         private string when;
         private string token;
+        RestClient client;
         public CasesUC(string token)
         {
             InitializeComponent();
@@ -38,12 +40,14 @@ namespace Project_app
             afterButton.FlatStyle = FlatStyle.Flat;
             beforeButton.FlatAppearance.BorderSize = 0;
             afterButton.FlatAppearance.BorderSize = 0;
+            client = new RestClient("http://localhost:8080/api");
+            client.AddDefaultHeader("Authorization", string.Format("Bearer {0}", token));
+            ChoiceExportCases.SelectedIndex = 0;
+            ChoiceImportCases.SelectedIndex = 0;
         }
 
         private void beforeButton_Click(object sender, EventArgs e)
         {
-            var client = new RestClient("http://localhost:8080/api");
-            client.AddDefaultHeader("Authorization", string.Format("Bearer {0}", token));
             var request = new RestRequest("/cases/get_cases_before", Method.Get);
             request.RequestFormat = DataFormat.None;
             var response = client.Execute(request);
@@ -54,10 +58,11 @@ namespace Project_app
                 beforeButton.FlatAppearance.BorderColor = Color.Green;
                 afterButton.FlatAppearance.BorderSize = 0;
                 beforeButton.FlatAppearance.BorderSize = 1;
-                var data = JArray.Parse(response.Content).ToObject<IList<CountrySet>>();
+                var data = JArray.Parse(response.Content).ToObject<SortableBindingList<CountrySet>>();
                 dataGridView.DataSource = data;
                 dataGridView.Visible = true;
                 when = "before";
+                configureDGV(dataGridView);
             }
             else if (numericStatusCode == 403)
             {
@@ -67,8 +72,6 @@ namespace Project_app
 
         private void afterButton_Click(object sender, EventArgs e)
         {
-            var client = new RestClient("http://localhost:8080/api");
-            client.AddDefaultHeader("Authorization", string.Format("Bearer {0}", token));
             var request = new RestRequest("/cases/get_cases_after", Method.Get);
             request.RequestFormat = DataFormat.None;
             var response = client.Execute(request);
@@ -79,10 +82,11 @@ namespace Project_app
                 beforeButton.FlatAppearance.BorderSize = 0;
                 afterButton.FlatAppearance.BorderSize = 1;
                 afterButton.FlatAppearance.BorderColor = Color.Green;
-                var data = JArray.Parse(response.Content).ToObject<IList<CountrySet>>();
+                var data = JArray.Parse(response.Content).ToObject<SortableBindingList<CountrySet>>();
                 dataGridView.DataSource = data;
                 dataGridView.Visible = true;
                 when = "after";
+                configureDGV(dataGridView);
             }
             else if (numericStatusCode == 403)
             {
@@ -101,5 +105,10 @@ namespace Project_app
         {
             MessageBox.Show("Import do zrobienia.", "Import", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+        private void configureDGV(DataGridView dgv)
+        {
+            dgv.Columns[0].SortMode = DataGridViewColumnSortMode.NotSortable;
+        }
+
     }
 }

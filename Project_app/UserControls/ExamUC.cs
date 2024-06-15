@@ -24,6 +24,8 @@ using Newtonsoft.Json.Linq;
 using RestSharp;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using System.Net;
+using Library.Forms;
+using Project_app.UserControls;
 
 
 namespace Project_app
@@ -32,6 +34,7 @@ namespace Project_app
     {
         private string when;
         private string token;
+        RestClient client;
         public ExamUC(string token)
         {
             InitializeComponent();
@@ -41,12 +44,14 @@ namespace Project_app
             afterButton.FlatStyle = FlatStyle.Flat;
             beforeButton.FlatAppearance.BorderSize = 0;
             afterButton.FlatAppearance.BorderSize = 0;
+            ChoiceExportExams.SelectedIndex = 0;
+            ChoiceImportExams.SelectedIndex = 0;
+            client = new RestClient("http://localhost:8080/api");
+            client.AddDefaultHeader("Authorization", string.Format("Bearer {0}", token));
         }
 
         private void beforeButton_Click(object sender, EventArgs e)
         {
-            var client = new RestClient("http://localhost:8080/api");
-            client.AddDefaultHeader("Authorization", string.Format("Bearer {0}", token));
             var request = new RestRequest("/exams/get_exams_before", Method.Get);
             request.RequestFormat = DataFormat.None;
             var response = client.Execute(request);
@@ -57,11 +62,11 @@ namespace Project_app
                 beforeButton.FlatAppearance.BorderColor = Color.Green;
                 afterButton.FlatAppearance.BorderSize = 0;
                 beforeButton.FlatAppearance.BorderSize = 1;
-                var data = JArray.Parse(response.Content).ToObject<IList<ExamResult>>();
+                var data = JArray.Parse(response.Content).ToObject<SortableBindingList<ExamResult>>();
                 dataGridView.DataSource = data;
                 dataGridView.Visible = true;
                 when = "before";
-                sizeDGV(dataGridView);
+                configureDGV(dataGridView);
             }
             else if (numericStatusCode == 403)
             {
@@ -71,8 +76,6 @@ namespace Project_app
 
         private void afterButton_Click(object sender, EventArgs e)
         {
-            var client = new RestClient("http://localhost:8080/api");
-            client.AddDefaultHeader("Authorization", string.Format("Bearer {0}", token));
             var request = new RestRequest("/exams/get_exams_after", Method.Get);
             request.RequestFormat = DataFormat.None;
             var response = client.Execute(request);
@@ -83,11 +86,11 @@ namespace Project_app
                 beforeButton.FlatAppearance.BorderSize = 0;
                 afterButton.FlatAppearance.BorderSize = 1;
                 afterButton.FlatAppearance.BorderColor = Color.Green;
-                var data = JArray.Parse(response.Content).ToObject<IList<ExamResult>>();
+                var data = JArray.Parse(response.Content).ToObject<SortableBindingList<ExamResult>>();
                 dataGridView.DataSource = data;
                 dataGridView.Visible = true;
                 when = "after";
-                sizeDGV(dataGridView);
+                configureDGV(dataGridView);
             }
             else if (numericStatusCode == 403)
             {
@@ -104,16 +107,23 @@ namespace Project_app
 
         private void import_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Import do zrobienia.", "Import", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string selectedFormat = ChoiceImportExams.SelectedItem.ToString().ToUpper();
+            DataImporter.ImportData<ExamResult>(selectedFormat, when, "exams", token);
+            if (when == "before") beforeButton.PerformClick();
+            if (when == "after") afterButton.PerformClick();
         }
 
-        private void sizeDGV(DataGridView dgv)
+        private void configureDGV(DataGridView dgv)
         {
             DataGridViewElementStates states = DataGridViewElementStates.None;
             dgv.ScrollBars = ScrollBars.Vertical;
             var totalWidth = dgv.Columns.GetColumnsWidth(states) + dgv.RowHeadersWidth;
             dgv.Width = totalWidth;
             dgv.Left = (this.ClientSize.Width - dgv.Width) / 2;
+            dgv.Columns[0].SortMode = DataGridViewColumnSortMode.NotSortable;
+            dgv.Columns[1].SortMode = DataGridViewColumnSortMode.NotSortable;
+            dgv.Columns[2].SortMode = DataGridViewColumnSortMode.NotSortable;
+            dgv.Columns[3].SortMode = DataGridViewColumnSortMode.NotSortable;
         }
     }
 }

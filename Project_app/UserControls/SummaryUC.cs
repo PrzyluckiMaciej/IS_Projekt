@@ -22,17 +22,9 @@ namespace Project_app
 {
     public partial class SummaryUC : UserControl
     {
-        private string connectionStr;
-        private MySqlConnection con;
-        private ICountryRepository countryRepo;
-        private IExamRepository examRepo;
         private string token;
         public SummaryUC(string token)
         {
-            connectionStr = "SERVER=localhost;DATABASE=covid;UID=covidAdmin;PASSWORD=covid;";
-            con = new MySqlConnection(connectionStr);
-            countryRepo = con.As<ICountryRepository>();
-            examRepo = con.As<IExamRepository>();
             InitializeComponent();
             this.token = token;
             generateCasesChart();

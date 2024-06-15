@@ -41,7 +41,7 @@ namespace Project_app
                             XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<T>));
                             using (StreamWriter writer = new StreamWriter(filePath))
                             {
-                                xmlSerializer.Serialize(writer, data);
+                                xmlSerializer.Serialize(writer, data.ToList());
                             }
                             break;
 

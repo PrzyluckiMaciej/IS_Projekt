@@ -8,5 +8,9 @@ namespace Server_app.Services.DB_data
         IList<ExamResult> GetAllExamResultsBefore();
         IList<AverageExamData> GetAverageExamPerYearAfter();
         IList<AverageExamData> GetAverageExamPerYearBefore();
+        void ClearExamsAfter();
+        void InsertExamsAfter(ExamResult examResult);
+        void ClearExamsBefore();
+        void InsertExamsBefore(ExamResult examResult);
     }
 }

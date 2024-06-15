@@ -107,7 +107,6 @@
             ChoiceExportDeaths.Name = "ChoiceExportDeaths";
             ChoiceExportDeaths.Size = new Size(133, 23);
             ChoiceExportDeaths.TabIndex = 12;
-            ChoiceExportDeaths.SelectedIndex = 0;
             // 
             // ChoiceImportDeaths
             // 
@@ -119,7 +118,6 @@
             ChoiceImportDeaths.Name = "ChoiceImportDeaths";
             ChoiceImportDeaths.Size = new Size(133, 23);
             ChoiceImportDeaths.TabIndex = 11;
-            ChoiceImportDeaths.SelectedIndex = 0;
             // 
             // ImportDeaths
             // 

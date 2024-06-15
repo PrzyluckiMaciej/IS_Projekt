@@ -81,6 +81,26 @@
   },
   {
     "ContainingType": "Server_app.Controllers.ExamsController",
+    "Method": "ClearExamsAfter",
+    "RelativePath": "api/Exams/clear_after",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.ExamsController",
+    "Method": "ClearExamsBefore",
+    "RelativePath": "api/Exams/clear_before",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.ExamsController",
     "Method": "GetAverageExamPerYearAfter",
     "RelativePath": "api/Exams/get_average_exams_after",
     "HttpMethod": "GET",
@@ -117,6 +137,38 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.ExamsController",
+    "Method": "InsertExamsAfter",
+    "RelativePath": "api/Exams/insert_after",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "result",
+        "Type": "Server_app.Entities.ExamResult",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.ExamsController",
+    "Method": "InsertExamsBefore",
+    "RelativePath": "api/Exams/insert_before",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "result",
+        "Type": "Server_app.Entities.ExamResult",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

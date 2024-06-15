@@ -7,12 +7,24 @@
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:controllers\\examscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\server_app\\controllers\\casescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:controllers\\casescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\server_app\\services\\db_data\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:services\\db_data\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\server_app\\entities\\examresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:entities\\examresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\services\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:services\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\server_app\\controllers\\casescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:controllers\\casescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\server_app\\controllers\\deathscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +35,12 @@
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:services\\db_data\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\server_app\\services\\db_data\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:services\\db_data\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\services\\users\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:services\\users\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\model\\authenticationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:model\\authenticationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\services\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:services\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\model\\authenticationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,17 +74,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "ExamResult.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Entities\\ExamResult.cs",
+              "RelativeDocumentMoniker": "Entities\\ExamResult.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Entities\\ExamResult.cs",
+              "RelativeToolTip": "Entities\\ExamResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T20:07:27.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "IExamRepository.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Services\\DB_data\\IExamRepository.cs",
               "RelativeDocumentMoniker": "Services\\DB_data\\IExamRepository.cs",
               "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Services\\DB_data\\IExamRepository.cs",
               "RelativeToolTip": "Services\\DB_data\\IExamRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T12:45:46.439Z",
               "EditorCaption": ""
@@ -93,14 +110,14 @@
               "RelativeDocumentMoniker": "Controllers\\ExamsController.cs",
               "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Controllers\\ExamsController.cs",
               "RelativeToolTip": "Controllers\\ExamsController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAcwEMAAAA9AAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAcwGMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T12:41:50.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Startup.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
@@ -113,20 +130,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAMAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T09:14:32.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UserServiceImpl.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Services\\Users\\UserServiceImpl.cs",
               "RelativeDocumentMoniker": "Services\\Users\\UserServiceImpl.cs",
@@ -139,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Services\\Users\\IUserService.cs",
               "RelativeDocumentMoniker": "Services\\Users\\IUserService.cs",
@@ -152,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "CasesController.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Controllers\\CasesController.cs",
               "RelativeDocumentMoniker": "Controllers\\CasesController.cs",
@@ -165,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ICountryRepository.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Services\\DB_data\\ICountryRepository.cs",
               "RelativeDocumentMoniker": "Services\\DB_data\\ICountryRepository.cs",
@@ -178,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "DeathsController.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Controllers\\DeathsController.cs",
               "RelativeDocumentMoniker": "Controllers\\DeathsController.cs",
@@ -191,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AuthenticationResponse.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Model\\AuthenticationResponse.cs",
               "RelativeDocumentMoniker": "Model\\AuthenticationResponse.cs",
@@ -204,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AuthenticationRequest.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Model\\AuthenticationRequest.cs",
               "RelativeDocumentMoniker": "Model\\AuthenticationRequest.cs",
@@ -217,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Entities\\User.cs",
@@ -230,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Role.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "Entities\\Role.cs",
@@ -243,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -256,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",

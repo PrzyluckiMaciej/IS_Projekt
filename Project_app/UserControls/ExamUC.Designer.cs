@@ -76,7 +76,6 @@
             ChoiceExportExams.Name = "ChoiceExportExams";
             ChoiceExportExams.Size = new Size(133, 23);
             ChoiceExportExams.TabIndex = 16;
-            ChoiceExportExams.SelectedIndex = 0;
             // 
             // ChoiceImportExams
             // 
@@ -88,7 +87,6 @@
             ChoiceImportExams.Name = "ChoiceImportExams";
             ChoiceImportExams.Size = new Size(133, 23);
             ChoiceImportExams.TabIndex = 15;
-            ChoiceImportExams.SelectedIndex = 0;
             // 
             // ImportExams
             // 
@@ -136,6 +134,7 @@
             // 
             // dataGridView
             // 
+            dataGridView.AllowUserToOrderColumns = true;
             dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView.Location = new Point(3, 53);
             dataGridView.Name = "dataGridView";
