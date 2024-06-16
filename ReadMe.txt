@@ -81,3 +81,4 @@ c) Inne:
 
 Źródła danych:
 - Wyniki egzaminów maturalnych: https://dane.gov.pl/pl/dataset/2621,srednie-wyniki-egzaminu-maturalnego
+- Zachorowania i śmierci na Covid-19: https://github.com/owid/covid-19-data/tree/master/public/data/archived/ecdc
