@@ -25,10 +25,17 @@ Maciej Przyłucki:
 - Poziomy izolacji w bazie danych
 - Opracowanie pliku ReadMe
 
+Wykorzystane technologie:
+- Visual Studio (wersja: 17.9.1)
+- .NET (wersja: 8.0)
+- C# (wersja 12.0)
+- Xampp (wersja: 3.3.0)
+- phpMyAdmin (wersja 5.2.1)
+
 Przygotowanie bazy danych:
-Korzystając z usługi phpmyadmin należy utworzyć nową bazę danych o nazwie "covid",
+Korzystając z usługi phpMyAdmin należy utworzyć nową bazę danych o nazwie "covid",
 a następnie wykonać kod SQL znajdujący się w pliku "db_data.sql", która odpowiada za
-zdefiniowanie wymaganych procedur oraz utorzenie tabel. Należy także utworzyć
+zdefiniowanie wymaganych procedur oraz utworzenie tabel. Należy także utworzyć
 użytkownika za pomocą poleceń znajdujących się w pliku "db_user.sql".
 
 Uruchamianie:
@@ -53,12 +60,12 @@ i autoryzacji oraz wykorzystuje poziomy izolacji w bazie danych.
 Interfejs graficzny aplikacji klienta powstał z użyciem Windows Forms. Przy zalogowaniu się
 poziom izolacji w bazie danych ustawiany jest na "SERIALIZABLE", który jest najbezpieczniejszym
 poziomem izolacji i pozwala na uniknięcie największej liczby anomalii transakcji.
-Aplikacja pozwala na sprawdzenie licby zachorowań i śmierci w każdym dniu z podziałem
-na kraje w roku 2020, a także na sprawdzenie wyników egzaminów naturalnych ze wszystkich
+Aplikacja pozwala na sprawdzenie liczby zachorowań i śmierci w każdym dniu z podziałem
+na kraje w roku 2020, a także na sprawdzenie wyników egzaminów maturalnych ze wszystkich
 przedmiotów w latach 2015-2023. Tabele wyświetlające dane z bazy pozwalają na sortowanie 
 rekordów względem wybranych kolumn. W zakładce "Podsumowanie" znajdują się wykresy
 przedstawiające zmiany średniej liczby zachorowań i śmierci na całym świecie w danym
-miesiącu oraz średniego wyniku egzaminów na dany rok.
+miesiącu oraz średniego wyniku egzaminów maturalnych na dany rok.
 
 Przykładowe pytania, na które odpowiada aplikacja:
 - W jakim dniu odnotowano najwięcej zgonów na Covid-19?
@@ -67,24 +74,24 @@ Przykładowe pytania, na które odpowiada aplikacja:
 
 Przy realizacji projektu wykorzystano następujące zasoby:
 a) Pakiety NuGet w aplikacji klienta:
-    - MySql.Data: pakiet służący do nawiązania połączenia z bazą danych.
-    - Insight.Database: pakiet służący do implementacji ORM. 
+    - MySql.Data (wersja 8.4.0): pakiet służący do nawiązania połączenia z bazą danych.
+    - Insight.Database (wersja 8.0.0): pakiet służący do implementacji ORM. 
       (https://github.com/jonwagner/Insight.Database?tab=readme-ov-file)
-    - Insight.Database.Providers.MySql: dodatek do pakietu Insight.Database
+    - Insight.Database.Providers.MySql (wersja 8.0.0): dodatek do pakietu Insight.Database
       pozwalający na integrację z pakietem MySql.Data.
-    - RestSharp: pakiet obsługujący wysyłanie żądań przez klienta.
+    - RestSharp (wersja 111.2.0): pakiet obsługujący wysyłanie żądań przez klienta.
       (https://github.com/restsharp/RestSharp)
-    - Newtonsoft.Json: pakiet do serializacji i deserializacji danych
+    - Newtonsoft.Json (wersja 13.0.3): pakiet do serializacji i deserializacji danych
       w formacie JSON.
-    - YamlDotNet: pakiet do serializacji i deserializacji danych
+    - YamlDotNet (wersja 15.1.6): pakiet do serializacji i deserializacji danych
       w formacie YAML.
-    - WinForms.DataVisualization: pakiet służący do wizualizacji danych.
+    - WinForms.DataVisualization (wersja 1.9.2): pakiet służący do wizualizacji danych.
       W projekcie wykorzystany został do utworzenia i stylizowania wykresów.
 b) Pakiety NuGet w aplikacji serwera:
-    - MySql.Data
-    - Insight.Database
-    - Insight.Database.Providers.MySql
-    - Microsoft.AspNetCore.Authentication.JwtBearer i System.IdentityModel.Tokens.Jwt:
+    - MySql.Data (wersja 8.4.0)
+    - Insight.Database (wersja 8.0.0)
+    - Insight.Database.Providers.MySql (wersja 8.0.0)
+    - Microsoft.AspNetCore.Authentication.JwtBearer (wersja 8.0.6) i System.IdentityModel.Tokens.Jwt (wersja 7.6.0):
       pakiety służące do generowania i autoryzacji tokenów JWT.
 c) Inne:
     - SortableBindingList: klasa listy, która umożliwia sortowanie danych

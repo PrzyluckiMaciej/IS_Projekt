@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Server_app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf56116bcdedd1dd3f49ae2d0b184e1a3706b3e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec9dede226649cf3cb34eb80ab5a6866da7260f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Server_app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Server_app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
