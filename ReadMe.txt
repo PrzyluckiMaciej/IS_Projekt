@@ -36,9 +36,12 @@ na konto jednego ze zdefiniowanych użtykowników:
 Opis:
 Zarówno aplikacja klienta jak i serwera napisane zostały w języku C#.
 Aplikacja serwera wykorzystuje ASP.NET Web API w celu komunikacji z klientem.
+Aplikacja pozwala na import i eksport danych w formatach XML, JSON i YAML, wykorzystuje ORM
+w celu dostępu do bazy danych, korzysta z usługi REST, używa tokenów JWT do uwierzytelniania
+i autoryzacji oraz wykorzystuje poziomy izolacji w bazie danych.
 Interfejs graficzny aplikacji klienta powstał z użyciem Windows Forms. 
 Aplikacja pozwala na sprawdzenie licby zachorowań i śmierci w każdym dniu z podziałem
-na kraje w roku 202, a także na sprawdzenie wyników egzaminów naturalnych ze wszystkich
+na kraje w roku 2020, a także na sprawdzenie wyników egzaminów naturalnych ze wszystkich
 przedmiotów w latach 2015-2023. Tabele wyświetlające dane z bazy pozwalają na sortowanie 
 rekordów względem wybranych kolumn. W zakładce "Podsumowanie" znajdują się wykresy
 przedstawiające zmiany średniej liczby zachorowań i śmierci na całym świecie w danym
