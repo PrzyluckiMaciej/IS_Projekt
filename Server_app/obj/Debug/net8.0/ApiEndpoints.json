@@ -1,6 +1,26 @@
 [
   {
     "ContainingType": "Server_app.Controllers.CasesController",
+    "Method": "ClearCasesAfter",
+    "RelativePath": "api/Cases/clear_after",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.CasesController",
+    "Method": "ClearCasesBefore",
+    "RelativePath": "api/Cases/clear_before",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.CasesController",
     "Method": "GetAverageCasesAfter",
     "RelativePath": "api/Cases/get_average_cases_after",
     "HttpMethod": "GET",
@@ -34,6 +54,58 @@
     "Method": "GetAllCasesBefore",
     "RelativePath": "api/Cases/get_cases_before",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.CasesController",
+    "Method": "InsertCasesAfter",
+    "RelativePath": "api/Cases/insert_after",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "result",
+        "Type": "Server_app.Entities.CountrySet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.CasesController",
+    "Method": "InsertCasesBefore",
+    "RelativePath": "api/Cases/insert_before",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "result",
+        "Type": "Server_app.Entities.CountrySet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.DeathsController",
+    "Method": "ClearDeathsAfter",
+    "RelativePath": "api/Deaths/clear_after",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.DeathsController",
+    "Method": "ClearDeathsBefore",
+    "RelativePath": "api/Deaths/clear_before",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
@@ -77,6 +149,38 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.DeathsController",
+    "Method": "InsertDeathsAfter",
+    "RelativePath": "api/Deaths/insert_after",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "result",
+        "Type": "Server_app.Entities.CountrySet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.DeathsController",
+    "Method": "InsertDeathsBefore",
+    "RelativePath": "api/Deaths/insert_before",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "result",
+        "Type": "Server_app.Entities.CountrySet",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

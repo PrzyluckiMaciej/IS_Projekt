@@ -194,7 +194,6 @@ C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\D
 C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.CasesUC.resources
 C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.DeathsUC.resources
 C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.ExamUC.resources
-C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.GraphUC.resources
 C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.MainView.resources
 C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.csproj.GenerateResource.cache
 C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.GeneratedMSBuildEditorConfig.editorconfig
@@ -285,3 +284,4 @@ C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\D
 C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\ref\Project_app.dll
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\bin\Debug\net8.0-windows\YamlDotNet.dll
 D:\Studia\Integracja Systemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.SummaryUC.resources
+C:\Users\Patryk\Desktop\Projekt IntegracjaSystemów\IS_Projekt\Project_app\obj\Debug\net8.0-windows\Project_app.SummaryUC.resources

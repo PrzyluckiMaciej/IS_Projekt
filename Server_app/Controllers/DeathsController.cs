@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MySql.Data.MySqlClient;
+using Server_app.Entities;
 using Server_app.Services.DB_data;
 
 namespace Server_app.Controllers
@@ -71,6 +72,37 @@ namespace Server_app.Controllers
                     message = errorMessage
                 });
             return Ok(response);
+        }
+        [Authorize(Roles = "write", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpDelete("clear_before")]
+        public IActionResult ClearDeathsBefore()
+        {
+            repo.ClearDeathsBefore();
+            return Ok();
+        }
+
+        [Authorize(Roles = "write", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpPost("insert_before")]
+        public IActionResult InsertDeathsBefore(CountrySet result)
+        {
+            repo.InsertDeathsBefore(result);
+            return Ok();
+        }
+
+        [Authorize(Roles = "write", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpDelete("clear_after")]
+        public IActionResult ClearDeathsAfter()
+        {
+            repo.ClearDeathsAfter();
+            return Ok();
+        }
+
+        [Authorize(Roles = "write", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpPost("insert_after")]
+        public IActionResult InsertDeathsAfter(CountrySet result)
+        {
+            repo.InsertDeathsAfter(result);
+            return Ok();
         }
     }
 }

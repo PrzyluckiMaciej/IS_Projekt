@@ -24,6 +24,7 @@ using Newtonsoft.Json.Linq;
 using RestSharp;
 using System.Net;
 using Library.Forms;
+using Project_app.UserControls;
 
 namespace Project_app
 {
@@ -104,7 +105,10 @@ namespace Project_app
 
         private void import_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Import do zrobienia.", "Import", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string selectedFormat = ChoiceImportDeaths.SelectedItem.ToString().ToUpper();
+            DataImporter.ImportData<CountrySet>(selectedFormat, when, "deaths", token);
+            if (when == "before") beforeButton.PerformClick();
+            if (when == "after") afterButton.PerformClick();
         }
 
         private void configureDGV(DataGridView dgv)

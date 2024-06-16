@@ -181,7 +181,7 @@ namespace Project_app.ORM_classes
         public int Seychelles { get; set; }
         public int Sierra_Leone { get; set; }
         public int Singapore { get; set; }
-        public int Sint_Maarten__Dutch_part_ { get; set; }
+        public int Sint_Maarten_Dutch_part { get; set; }
         public int Slovakia { get; set; }
         public int Slovenia { get; set; }
         public int Solomon_Islands { get; set; }

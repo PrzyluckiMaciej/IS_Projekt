@@ -1,0 +1,649 @@
+rodzaj_egzaminu;poziom_egzaminu;przedmiot;plec;rok;wartosc
+pisemny;podstawowy;jezyk polski;kobiety;2020;55.3
+pisemny;podstawowy;jezyk bialoruski;kobiety;2020;75.6
+pisemny;podstawowy;jezyk litewski;kobiety;2020;82.7
+pisemny;podstawowy;jezyk ukrainski;kobiety;2020;81.3
+pisemny;podstawowy;matematyka;kobiety;2020;52.4
+pisemny;podstawowy;jezyk angielski;kobiety;2020;69.9
+pisemny;podstawowy;jezyk niemiecki;kobiety;2020;55.1
+pisemny;podstawowy;jezyk francuski;kobiety;2020;84.7
+pisemny;podstawowy;jezyk rosyjski;kobiety;2020;60.9
+pisemny;podstawowy;jezyk hiszpanski;kobiety;2020;75.0
+pisemny;podstawowy;jezyk wloski;kobiety;2020;80.4
+pisemny;podstawowy;jezyk polski;mezczyzni;2020;48.4
+pisemny;podstawowy;jezyk bialoruski;mezczyzni;2020;64.1
+pisemny;podstawowy;jezyk litewski;mezczyzni;2020;79.8
+pisemny;podstawowy;jezyk ukrainski;mezczyzni;2020;73.0
+pisemny;podstawowy;matematyka;mezczyzni;2020;52.1
+pisemny;podstawowy;jezyk angielski;mezczyzni;2020;72.6
+pisemny;podstawowy;jezyk niemiecki;mezczyzni;2020;55.2
+pisemny;podstawowy;jezyk francuski;mezczyzni;2020;82.7
+pisemny;podstawowy;jezyk rosyjski;mezczyzni;2020;57.8
+pisemny;podstawowy;jezyk hiszpanski;mezczyzni;2020;75.7
+pisemny;podstawowy;jezyk wloski;mezczyzni;2020;75.0
+pisemny;podstawowy;jezyk polski;ogolem;2020;52.1
+pisemny;podstawowy;jezyk bialoruski;ogolem;2020;71.0
+pisemny;podstawowy;jezyk litewski;ogolem;2020;81.4
+pisemny;podstawowy;jezyk ukrainski;ogolem;2020;77.7
+pisemny;podstawowy;matematyka;ogolem;2020;52.3
+pisemny;podstawowy;jezyk angielski;ogolem;2020;71.1
+pisemny;podstawowy;jezyk niemiecki;ogolem;2020;55.1
+pisemny;podstawowy;jezyk francuski;ogolem;2020;84.1
+pisemny;podstawowy;jezyk rosyjski;ogolem;2020;59.7
+pisemny;podstawowy;jezyk hiszpanski;ogolem;2020;75.2
+pisemny;podstawowy;jezyk wloski;ogolem;2020;78.9
+pisemny;rozszerzony;jezyk polski;kobiety;2020;58.1
+pisemny;rozszerzony;jezyk bialoruski;kobiety;2020;98.6
+pisemny;rozszerzony;jezyk litewski;kobiety;2020;85.2
+pisemny;rozszerzony;jezyk ukrainski;kobiety;2020;82.6
+pisemny;rozszerzony;matematyka;kobiety;2020;37.6
+pisemny;rozszerzony;jezyk angielski;kobiety;2020;55.7
+pisemny;rozszerzony;jezyk niemiecki;kobiety;2020;56.1
+pisemny;rozszerzony;jezyk francuski;kobiety;2020;60.6
+pisemny;rozszerzony;jezyk rosyjski;kobiety;2020;65.8
+pisemny;rozszerzony;jezyk hiszpanski;kobiety;2020;55.7
+pisemny;rozszerzony;jezyk wloski;kobiety;2020;70.7
+pisemny;rozszerzony;wiedza o spoleczenstwie;kobiety;2020;27.0
+pisemny;rozszerzony;geografia;kobiety;2020;20.3
+pisemny;rozszerzony;biologia;kobiety;2020;43.0
+pisemny;rozszerzony;chemia;kobiety;2020;36.4
+pisemny;rozszerzony;historia;kobiety;2020;30.9
+pisemny;rozszerzony;fizyka;kobiety;2020;35.4
+pisemny;rozszerzony;historia muzyki;kobiety;2020;53.2
+pisemny;rozszerzony;historia sztuki;kobiety;2020;42.5
+pisemny;rozszerzony;filozofia;kobiety;2020;38.2
+pisemny;rozszerzony;jezyk lacinski i kultura antyczna;kobiety;2020;45.5
+pisemny;rozszerzony;informatyka;kobiety;2020;32.6
+pisemny;rozszerzony;jezyk kaszubski;kobiety;2020;63.2
+pisemny;rozszerzony;jezyk lemkowski;kobiety;2020;0.0
+pisemny;rozszerzony;jezyk polski;mezczyzni;2020;54.7
+pisemny;rozszerzony;jezyk bialoruski;mezczyzni;2020;98.8
+pisemny;rozszerzony;jezyk litewski;mezczyzni;2020;82.7
+pisemny;rozszerzony;jezyk ukrainski;mezczyzni;2020;68.3
+pisemny;rozszerzony;matematyka;mezczyzni;2020;31.2
+pisemny;rozszerzony;jezyk angielski;mezczyzni;2020;55.9
+pisemny;rozszerzony;jezyk niemiecki;mezczyzni;2020;55.8
+pisemny;rozszerzony;jezyk francuski;mezczyzni;2020;57.9
+pisemny;rozszerzony;jezyk rosyjski;mezczyzni;2020;68.9
+pisemny;rozszerzony;jezyk hiszpanski;mezczyzni;2020;54.0
+pisemny;rozszerzony;jezyk wloski;mezczyzni;2020;71.0
+pisemny;rozszerzony;wiedza o spoleczenstwie;mezczyzni;2020;32.5
+pisemny;rozszerzony;geografia;mezczyzni;2020;20.8
+pisemny;rozszerzony;biologia;mezczyzni;2020;43.2
+pisemny;rozszerzony;chemia;mezczyzni;2020;43.5
+pisemny;rozszerzony;historia;mezczyzni;2020;35.6
+pisemny;rozszerzony;fizyka;mezczyzni;2020;34.2
+pisemny;rozszerzony;historia muzyki;mezczyzni;2020;44.0
+pisemny;rozszerzony;historia sztuki;mezczyzni;2020;34.2
+pisemny;rozszerzony;filozofia;mezczyzni;2020;36.5
+pisemny;rozszerzony;jezyk lacinski i kultura antyczna;mezczyzni;2020;53.2
+pisemny;rozszerzony;informatyka;mezczyzni;2020;28.6
+pisemny;rozszerzony;jezyk kaszubski;mezczyzni;2020;64.3
+pisemny;rozszerzony;jezyk lemkowski;mezczyzni;2020;0.0
+pisemny;rozszerzony;jezyk polski;ogolem;2020;57.3
+pisemny;rozszerzony;jezyk bialoruski;ogolem;2020;98.6
+pisemny;rozszerzony;jezyk litewski;ogolem;2020;84.4
+pisemny;rozszerzony;jezyk ukrainski;ogolem;2020;76.0
+pisemny;rozszerzony;matematyka;ogolem;2020;33.7
+pisemny;rozszerzony;jezyk angielski;ogolem;2020;55.8
+pisemny;rozszerzony;jezyk niemiecki;ogolem;2020;56.0
+pisemny;rozszerzony;jezyk francuski;ogolem;2020;60.0
+pisemny;rozszerzony;jezyk rosyjski;ogolem;2020;66.9
+pisemny;rozszerzony;jezyk hiszpanski;ogolem;2020;55.3
+pisemny;rozszerzony;jezyk wloski;ogolem;2020;70.8
+pisemny;rozszerzony;wiedza o spoleczenstwie;ogolem;2020;29.3
+pisemny;rozszerzony;geografia;ogolem;2020;20.5
+pisemny;rozszerzony;biologia;ogolem;2020;43.0
+pisemny;rozszerzony;chemia;ogolem;2020;38.3
+pisemny;rozszerzony;historia;ogolem;2020;33.4
+pisemny;rozszerzony;fizyka;ogolem;2020;34.5
+pisemny;rozszerzony;historia muzyki;ogolem;2020;49.5
+pisemny;rozszerzony;historia sztuki;ogolem;2020;40.9
+pisemny;rozszerzony;filozofia;ogolem;2020;37.4
+pisemny;rozszerzony;jezyk lacinski i kultura antyczna;ogolem;2020;47.7
+pisemny;rozszerzony;informatyka;ogolem;2020;29.0
+pisemny;rozszerzony;jezyk kaszubski;ogolem;2020;63.5
+pisemny;rozszerzony;jezyk lemkowski;ogolem;2020;0.0
+ustny;nie dotyczy;jezyk polski;kobiety;2020;0.0
+ustny;nie dotyczy;jezyk angielski;kobiety;2020;0.0
+ustny;nie dotyczy;jezyk niemiecki;kobiety;2020;0.0
+ustny;nie dotyczy;jezyk francuski;kobiety;2020;0.0
+ustny;nie dotyczy;jezyk rosyjski;kobiety;2020;0.0
+ustny;nie dotyczy;jezyk hiszpanski;kobiety;2020;0.0
+ustny;nie dotyczy;jezyk wloski;kobiety;2020;0.0
+ustny;nie dotyczy;jezyk polski;mezczyzni;2020;0.0
+ustny;nie dotyczy;jezyk angielski;mezczyzni;2020;0.0
+ustny;nie dotyczy;jezyk niemiecki;mezczyzni;2020;0.0
+ustny;nie dotyczy;jezyk francuski;mezczyzni;2020;0.0
+ustny;nie dotyczy;jezyk rosyjski;mezczyzni;2020;0.0
+ustny;nie dotyczy;jezyk hiszpanski;mezczyzni;2020;0.0
+ustny;nie dotyczy;jezyk wloski;mezczyzni;2020;0.0
+ustny;nie dotyczy;jezyk polski;ogolem;2020;0.0
+ustny;nie dotyczy;jezyk angielski;ogolem;2020;0.0
+ustny;nie dotyczy;jezyk niemiecki;ogolem;2020;0.0
+ustny;nie dotyczy;jezyk francuski;ogolem;2020;0.0
+ustny;nie dotyczy;jezyk rosyjski;ogolem;2020;0.0
+ustny;nie dotyczy;jezyk hiszpanski;ogolem;2020;0.0
+ustny;nie dotyczy;jezyk wloski;ogolem;2020;0.0
+pisemny;podstawowy;jezyk polski;kobiety;2021;58.1
+pisemny;podstawowy;jezyk bialoruski;kobiety;2021;72.0
+pisemny;podstawowy;jezyk litewski;kobiety;2021;80.3
+pisemny;podstawowy;jezyk ukrainski;kobiety;2021;84.0
+pisemny;podstawowy;matematyka;kobiety;2021;56.5
+pisemny;podstawowy;jezyk angielski;kobiety;2021;75.4
+pisemny;podstawowy;jezyk niemiecki;kobiety;2021;58.6
+pisemny;podstawowy;jezyk francuski;kobiety;2021;81.5
+pisemny;podstawowy;jezyk rosyjski;kobiety;2021;69.4
+pisemny;podstawowy;jezyk hiszpanski;kobiety;2021;75.9
+pisemny;podstawowy;jezyk wloski;kobiety;2021;80.2
+pisemny;podstawowy;jezyk polski;mezczyzni;2021;51.9
+pisemny;podstawowy;jezyk bialoruski;mezczyzni;2021;59.7
+pisemny;podstawowy;jezyk litewski;mezczyzni;2021;68.4
+pisemny;podstawowy;jezyk ukrainski;mezczyzni;2021;80.2
+pisemny;podstawowy;matematyka;mezczyzni;2021;56.3
+pisemny;podstawowy;jezyk angielski;mezczyzni;2021;77.4
+pisemny;podstawowy;jezyk niemiecki;mezczyzni;2021;57.9
+pisemny;podstawowy;jezyk francuski;mezczyzni;2021;83.5
+pisemny;podstawowy;jezyk rosyjski;mezczyzni;2021;65.2
+pisemny;podstawowy;jezyk hiszpanski;mezczyzni;2021;77.8
+pisemny;podstawowy;jezyk wloski;mezczyzni;2021;82.2
+pisemny;podstawowy;jezyk polski;ogolem;2021;55.2
+pisemny;podstawowy;jezyk bialoruski;ogolem;2021;67.0
+pisemny;podstawowy;jezyk litewski;ogolem;2021;75.1
+pisemny;podstawowy;jezyk ukrainski;ogolem;2021;82.7
+pisemny;podstawowy;matematyka;ogolem;2021;56.4
+pisemny;podstawowy;jezyk angielski;ogolem;2021;76.3
+pisemny;podstawowy;jezyk niemiecki;ogolem;2021;58.4
+pisemny;podstawowy;jezyk francuski;ogolem;2021;82.0
+pisemny;podstawowy;jezyk rosyjski;ogolem;2021;67.9
+pisemny;podstawowy;jezyk hiszpanski;ogolem;2021;76.4
+pisemny;podstawowy;jezyk wloski;ogolem;2021;80.8
+pisemny;rozszerzony;jezyk polski;kobiety;2021;50.3
+pisemny;rozszerzony;jezyk bialoruski;kobiety;2021;100.0
+pisemny;rozszerzony;jezyk litewski;kobiety;2021;87.4
+pisemny;rozszerzony;jezyk ukrainski;kobiety;2021;66.6
+pisemny;rozszerzony;matematyka;kobiety;2021;34.4
+pisemny;rozszerzony;jezyk angielski;kobiety;2021;65.3
+pisemny;rozszerzony;jezyk niemiecki;kobiety;2021;58.2
+pisemny;rozszerzony;jezyk francuski;kobiety;2021;63.9
+pisemny;rozszerzony;jezyk rosyjski;kobiety;2021;74.8
+pisemny;rozszerzony;jezyk hiszpanski;kobiety;2021;60.0
+pisemny;rozszerzony;jezyk wloski;kobiety;2021;71.6
+pisemny;rozszerzony;wiedza o spoleczenstwie;kobiety;2021;25.1
+pisemny;rozszerzony;geografia;kobiety;2021;33.0
+pisemny;rozszerzony;biologia;kobiety;2021;32.8
+pisemny;rozszerzony;chemia;kobiety;2021;33.3
+pisemny;rozszerzony;historia;kobiety;2021;33.4
+pisemny;rozszerzony;fizyka;kobiety;2021;38.1
+pisemny;rozszerzony;historia muzyki;kobiety;2021;48.8
+pisemny;rozszerzony;historia sztuki;kobiety;2021;44.7
+pisemny;rozszerzony;filozofia;kobiety;2021;29.0
+pisemny;rozszerzony;jezyk lacinski i kultura antyczna;kobiety;2021;48.8
+pisemny;rozszerzony;informatyka;kobiety;2021;40.2
+pisemny;rozszerzony;jezyk kaszubski;kobiety;2021;55.0
+pisemny;rozszerzony;jezyk lemkowski;kobiety;2021;89.0
+pisemny;rozszerzony;jezyk polski;mezczyzni;2021;44.9
+pisemny;rozszerzony;jezyk bialoruski;mezczyzni;2021;100.0
+pisemny;rozszerzony;jezyk litewski;mezczyzni;2021;68.1
+pisemny;rozszerzony;jezyk ukrainski;mezczyzni;2021;63.6
+pisemny;rozszerzony;matematyka;mezczyzni;2021;29.3
+pisemny;rozszerzony;jezyk angielski;mezczyzni;2021;64.6
+pisemny;rozszerzony;jezyk niemiecki;mezczyzni;2021;58.7
+pisemny;rozszerzony;jezyk francuski;mezczyzni;2021;62.9
+pisemny;rozszerzony;jezyk rosyjski;mezczyzni;2021;77.4
+pisemny;rozszerzony;jezyk hiszpanski;mezczyzni;2021;58.1
+pisemny;rozszerzony;jezyk wloski;mezczyzni;2021;73.0
+pisemny;rozszerzony;wiedza o spoleczenstwie;mezczyzni;2021;32.0
+pisemny;rozszerzony;geografia;mezczyzni;2021;33.9
+pisemny;rozszerzony;biologia;mezczyzni;2021;34.5
+pisemny;rozszerzony;chemia;mezczyzni;2021;40.0
+pisemny;rozszerzony;historia;mezczyzni;2021;39.7
+pisemny;rozszerzony;fizyka;mezczyzni;2021;36.9
+pisemny;rozszerzony;historia muzyki;mezczyzni;2021;40.0
+pisemny;rozszerzony;historia sztuki;mezczyzni;2021;40.1
+pisemny;rozszerzony;filozofia;mezczyzni;2021;29.9
+pisemny;rozszerzony;jezyk lacinski i kultura antyczna;mezczyzni;2021;50.8
+pisemny;rozszerzony;informatyka;mezczyzni;2021;37.7
+pisemny;rozszerzony;jezyk kaszubski;mezczyzni;2021;71.7
+pisemny;rozszerzony;jezyk lemkowski;mezczyzni;2021;0.0
+pisemny;rozszerzony;jezyk polski;ogolem;2021;49.1
+pisemny;rozszerzony;jezyk bialoruski;ogolem;2021;100.0
+pisemny;rozszerzony;jezyk litewski;ogolem;2021;79.3
+pisemny;rozszerzony;jezyk ukrainski;ogolem;2021;65.4
+pisemny;rozszerzony;matematyka;ogolem;2021;31.4
+pisemny;rozszerzony;jezyk angielski;ogolem;2021;65.0
+pisemny;rozszerzony;jezyk niemiecki;ogolem;2021;58.4
+pisemny;rozszerzony;jezyk francuski;ogolem;2021;63.7
+pisemny;rozszerzony;jezyk rosyjski;ogolem;2021;75.8
+pisemny;rozszerzony;jezyk hiszpanski;ogolem;2021;59.6
+pisemny;rozszerzony;jezyk wloski;ogolem;2021;72.0
+pisemny;rozszerzony;wiedza o spoleczenstwie;ogolem;2021;27.9
+pisemny;rozszerzony;geografia;ogolem;2021;33.4
+pisemny;rozszerzony;biologia;ogolem;2021;33.2
+pisemny;rozszerzony;chemia;ogolem;2021;35.0
+pisemny;rozszerzony;historia;ogolem;2021;36.6
+pisemny;rozszerzony;fizyka;ogolem;2021;37.2
+pisemny;rozszerzony;historia muzyki;ogolem;2021;45.4
+pisemny;rozszerzony;historia sztuki;ogolem;2021;43.9
+pisemny;rozszerzony;filozofia;ogolem;2021;29.4
+pisemny;rozszerzony;jezyk lacinski i kultura antyczna;ogolem;2021;49.4
+pisemny;rozszerzony;informatyka;ogolem;2021;37.9
+pisemny;rozszerzony;jezyk kaszubski;ogolem;2021;61.3
+pisemny;rozszerzony;jezyk lemkowski;ogolem;2021;89.0
+ustny;nie dotyczy;jezyk polski;kobiety;2021;0.0
+ustny;nie dotyczy;jezyk angielski;kobiety;2021;0.0
+ustny;nie dotyczy;jezyk niemiecki;kobiety;2021;0.0
+ustny;nie dotyczy;jezyk francuski;kobiety;2021;0.0
+ustny;nie dotyczy;jezyk rosyjski;kobiety;2021;0.0
+ustny;nie dotyczy;jezyk hiszpanski;kobiety;2021;0.0
+ustny;nie dotyczy;jezyk wloski;kobiety;2021;0.0
+ustny;nie dotyczy;jezyk polski;mezczyzni;2021;0.0
+ustny;nie dotyczy;jezyk angielski;mezczyzni;2021;0.0
+ustny;nie dotyczy;jezyk niemiecki;mezczyzni;2021;0.0
+ustny;nie dotyczy;jezyk francuski;mezczyzni;2021;0.0
+ustny;nie dotyczy;jezyk rosyjski;mezczyzni;2021;0.0
+ustny;nie dotyczy;jezyk hiszpanski;mezczyzni;2021;0.0
+ustny;nie dotyczy;jezyk wloski;mezczyzni;2021;0.0
+ustny;nie dotyczy;jezyk polski;ogolem;2021;0.0
+ustny;nie dotyczy;jezyk angielski;ogolem;2021;0.0
+ustny;nie dotyczy;jezyk niemiecki;ogolem;2021;0.0
+ustny;nie dotyczy;jezyk francuski;ogolem;2021;0.0
+ustny;nie dotyczy;jezyk rosyjski;ogolem;2021;0.0
+ustny;nie dotyczy;jezyk hiszpanski;ogolem;2021;0.0
+ustny;nie dotyczy;jezyk wloski;ogolem;2021;0.0
+pisemny;podstawowy;jezyk polski;kobiety;2022;57.2
+pisemny;podstawowy;jezyk bialoruski;kobiety;2022;70.5
+pisemny;podstawowy;jezyk litewski;kobiety;2022;80.0
+pisemny;podstawowy;jezyk ukrainski;kobiety;2022;73.7
+pisemny;podstawowy;matematyka;kobiety;2022;57.4
+pisemny;podstawowy;jezyk angielski;kobiety;2022;74.8
+pisemny;podstawowy;jezyk niemiecki;kobiety;2022;56.6
+pisemny;podstawowy;jezyk francuski;kobiety;2022;80.8
+pisemny;podstawowy;jezyk rosyjski;kobiety;2022;67.6
+pisemny;podstawowy;jezyk hiszpanski;kobiety;2022;77.0
+pisemny;podstawowy;jezyk wloski;kobiety;2022;77.9
+pisemny;podstawowy;jezyk polski;mezczyzni;2022;50.3
+pisemny;podstawowy;jezyk bialoruski;mezczyzni;2022;71.3
+pisemny;podstawowy;jezyk litewski;mezczyzni;2022;66.6
+pisemny;podstawowy;jezyk ukrainski;mezczyzni;2022;68.9
+pisemny;podstawowy;matematyka;mezczyzni;2022;57.8
+pisemny;podstawowy;jezyk angielski;mezczyzni;2022;78.2
+pisemny;podstawowy;jezyk niemiecki;mezczyzni;2022;58.0
+pisemny;podstawowy;jezyk francuski;mezczyzni;2022;81.8
+pisemny;podstawowy;jezyk rosyjski;mezczyzni;2022;68.0
+pisemny;podstawowy;jezyk hiszpanski;mezczyzni;2022;76.0
+pisemny;podstawowy;jezyk wloski;mezczyzni;2022;74.4
+pisemny;podstawowy;jezyk polski;ogolem;2022;54.1
+pisemny;podstawowy;jezyk bialoruski;ogolem;2022;70.9
+pisemny;podstawowy;jezyk litewski;ogolem;2022;73.6
+pisemny;podstawowy;jezyk ukrainski;ogolem;2022;72.2
+pisemny;podstawowy;matematyka;ogolem;2022;57.6
+pisemny;podstawowy;jezyk angielski;ogolem;2022;76.4
+pisemny;podstawowy;jezyk niemiecki;ogolem;2022;57.1
+pisemny;podstawowy;jezyk francuski;ogolem;2022;81.1
+pisemny;podstawowy;jezyk rosyjski;ogolem;2022;67.7
+pisemny;podstawowy;jezyk hiszpanski;ogolem;2022;76.7
+pisemny;podstawowy;jezyk wloski;ogolem;2022;76.7
+pisemny;rozszerzony;jezyk polski;kobiety;2022;55.3
+pisemny;rozszerzony;jezyk bialoruski;kobiety;2022;99.4
+pisemny;rozszerzony;jezyk litewski;kobiety;2022;80.0
+pisemny;rozszerzony;jezyk ukrainski;kobiety;2022;73.8
+pisemny;rozszerzony;matematyka;kobiety;2022;36.9
+pisemny;rozszerzony;jezyk angielski;kobiety;2022;63.3
+pisemny;rozszerzony;jezyk niemiecki;kobiety;2022;52.3
+pisemny;rozszerzony;jezyk francuski;kobiety;2022;60.9
+pisemny;rozszerzony;jezyk rosyjski;kobiety;2022;78.6
+pisemny;rozszerzony;jezyk hiszpanski;kobiety;2022;53.8
+pisemny;rozszerzony;jezyk wloski;kobiety;2022;67.3
+pisemny;rozszerzony;wiedza o spoleczenstwie;kobiety;2022;28.3
+pisemny;rozszerzony;geografia;kobiety;2022;39.7
+pisemny;rozszerzony;biologia;kobiety;2022;43.2
+pisemny;rozszerzony;chemia;kobiety;2022;34.9
+pisemny;rozszerzony;historia;kobiety;2022;35.5
+pisemny;rozszerzony;fizyka;kobiety;2022;37.7
+pisemny;rozszerzony;historia muzyki;kobiety;2022;40.9
+pisemny;rozszerzony;historia sztuki;kobiety;2022;39.9
+pisemny;rozszerzony;filozofia;kobiety;2022;39.0
+pisemny;rozszerzony;jezyk lacinski i kultura antyczna;kobiety;2022;48.6
+pisemny;rozszerzony;informatyka;kobiety;2022;42.8
+pisemny;rozszerzony;jezyk kaszubski;kobiety;2022;61.8
+pisemny;rozszerzony;jezyk lemkowski;kobiety;2022;0.0
+pisemny;rozszerzony;jezyk polski;mezczyzni;2022;51.9
+pisemny;rozszerzony;jezyk bialoruski;mezczyzni;2022;100.0
+pisemny;rozszerzony;jezyk litewski;mezczyzni;2022;85.1
+pisemny;rozszerzony;jezyk ukrainski;mezczyzni;2022;64.8
+pisemny;rozszerzony;matematyka;mezczyzni;2022;30.9
+pisemny;rozszerzony;jezyk angielski;mezczyzni;2022;62.4
+pisemny;rozszerzony;jezyk niemiecki;mezczyzni;2022;52.2
+pisemny;rozszerzony;jezyk francuski;mezczyzni;2022;61.0
+pisemny;rozszerzony;jezyk rosyjski;mezczyzni;2022;79.7
+pisemny;rozszerzony;jezyk hiszpanski;mezczyzni;2022;47.1
+pisemny;rozszerzony;jezyk wloski;mezczyzni;2022;69.6
+pisemny;rozszerzony;wiedza o spoleczenstwie;mezczyzni;2022;33.5
+pisemny;rozszerzony;geografia;mezczyzni;2022;41.2
+pisemny;rozszerzony;biologia;mezczyzni;2022;44.1
+pisemny;rozszerzony;chemia;mezczyzni;2022;42.4
+pisemny;rozszerzony;historia;mezczyzni;2022;40.4
+pisemny;rozszerzony;fizyka;mezczyzni;2022;36.3
+pisemny;rozszerzony;historia muzyki;mezczyzni;2022;32.6
+pisemny;rozszerzony;historia sztuki;mezczyzni;2022;34.1
+pisemny;rozszerzony;filozofia;mezczyzni;2022;38.6
+pisemny;rozszerzony;jezyk lacinski i kultura antyczna;mezczyzni;2022;46.0
+pisemny;rozszerzony;informatyka;mezczyzni;2022;39.9
+pisemny;rozszerzony;jezyk kaszubski;mezczyzni;2022;57.1
+pisemny;rozszerzony;jezyk lemkowski;mezczyzni;2022;0.0
+pisemny;rozszerzony;jezyk polski;ogolem;2022;54.5
+pisemny;rozszerzony;jezyk bialoruski;ogolem;2022;99.7
+pisemny;rozszerzony;jezyk litewski;ogolem;2022;81.8
+pisemny;rozszerzony;jezyk ukrainski;ogolem;2022;70.8
+pisemny;rozszerzony;matematyka;ogolem;2022;33.2
+pisemny;rozszerzony;jezyk angielski;ogolem;2022;62.8
+pisemny;rozszerzony;jezyk niemiecki;ogolem;2022;52.3
+pisemny;rozszerzony;jezyk francuski;ogolem;2022;60.9
+pisemny;rozszerzony;jezyk rosyjski;ogolem;2022;79.0
+pisemny;rozszerzony;jezyk hiszpanski;ogolem;2022;52.2
+pisemny;rozszerzony;jezyk wloski;ogolem;2022;67.9
+pisemny;rozszerzony;wiedza o spoleczenstwie;ogolem;2022;30.4
+pisemny;rozszerzony;geografia;ogolem;2022;40.4
+pisemny;rozszerzony;biologia;ogolem;2022;43.4
+pisemny;rozszerzony;chemia;ogolem;2022;36.8
+pisemny;rozszerzony;historia;ogolem;2022;38.0
+pisemny;rozszerzony;fizyka;ogolem;2022;36.7
+pisemny;rozszerzony;historia muzyki;ogolem;2022;37.9
+pisemny;rozszerzony;historia sztuki;ogolem;2022;38.9
+pisemny;rozszerzony;filozofia;ogolem;2022;38.8
+pisemny;rozszerzony;jezyk lacinski i kultura antyczna;ogolem;2022;47.7
+pisemny;rozszerzony;informatyka;ogolem;2022;40.1
+pisemny;rozszerzony;jezyk kaszubski;ogolem;2022;60.7
+pisemny;rozszerzony;jezyk lemkowski;ogolem;2022;0.0
+ustny;nie dotyczy;jezyk polski;kobiety;2022;0.0
+ustny;nie dotyczy;jezyk angielski;kobiety;2022;0.0
+ustny;nie dotyczy;jezyk niemiecki;kobiety;2022;0.0
+ustny;nie dotyczy;jezyk francuski;kobiety;2022;0.0
+ustny;nie dotyczy;jezyk rosyjski;kobiety;2022;0.0
+ustny;nie dotyczy;jezyk hiszpanski;kobiety;2022;0.0
+ustny;nie dotyczy;jezyk wloski;kobiety;2022;0.0
+ustny;nie dotyczy;jezyk polski;mezczyzni;2022;0.0
+ustny;nie dotyczy;jezyk angielski;mezczyzni;2022;0.0
+ustny;nie dotyczy;jezyk niemiecki;mezczyzni;2022;0.0
+ustny;nie dotyczy;jezyk francuski;mezczyzni;2022;0.0
+ustny;nie dotyczy;jezyk rosyjski;mezczyzni;2022;0.0
+ustny;nie dotyczy;jezyk hiszpanski;mezczyzni;2022;0.0
+ustny;nie dotyczy;jezyk wloski;mezczyzni;2022;0.0
+ustny;nie dotyczy;jezyk polski;ogolem;2022;0.0
+ustny;nie dotyczy;jezyk angielski;ogolem;2022;0.0
+ustny;nie dotyczy;jezyk niemiecki;ogolem;2022;0.0
+ustny;nie dotyczy;jezyk francuski;ogolem;2022;0.0
+ustny;nie dotyczy;jezyk rosyjski;ogolem;2022;0.0
+ustny;nie dotyczy;jezyk hiszpanski;ogolem;2022;0.0
+ustny;nie dotyczy;jezyk wloski;ogolem;2022;0.0
+pisemny;podstawowy;jezyk polski;kobiety;2023;59.3
+pisemny;podstawowy;jezyk bialoruski;kobiety;2023;44.0
+pisemny;podstawowy;jezyk litewski;kobiety;2023;0.0
+pisemny;podstawowy;jezyk ukrainski;kobiety;2023;0.0
+pisemny;podstawowy;matematyka;kobiety;2023;46.7
+pisemny;podstawowy;jezyk angielski;kobiety;2023;67.5
+pisemny;podstawowy;jezyk niemiecki;kobiety;2023;49.7
+pisemny;podstawowy;jezyk francuski;kobiety;2023;70.3
+pisemny;podstawowy;jezyk rosyjski;kobiety;2023;68.4
+pisemny;podstawowy;jezyk hiszpanski;kobiety;2023;63.3
+pisemny;podstawowy;jezyk wloski;kobiety;2023;87.5
+pisemny;podstawowy;jezyk polski;mezczyzni;2023;55.4
+pisemny;podstawowy;jezyk bialoruski;mezczyzni;2023;0.0
+pisemny;podstawowy;jezyk litewski;mezczyzni;2023;0.0
+pisemny;podstawowy;jezyk ukrainski;mezczyzni;2023;0.0
+pisemny;podstawowy;matematyka;mezczyzni;2023;53.3
+pisemny;podstawowy;jezyk angielski;mezczyzni;2023;76.5
+pisemny;podstawowy;jezyk niemiecki;mezczyzni;2023;52.4
+pisemny;podstawowy;jezyk francuski;mezczyzni;2023;80.8
+pisemny;podstawowy;jezyk rosyjski;mezczyzni;2023;69.2
+pisemny;podstawowy;jezyk hiszpanski;mezczyzni;2023;74.7
+pisemny;podstawowy;jezyk wloski;mezczyzni;2023;91.5
+pisemny;podstawowy;jezyk polski;ogolem;2023;57.0
+pisemny;podstawowy;jezyk bialoruski;ogolem;2023;44.0
+pisemny;podstawowy;jezyk litewski;ogolem;2023;0.0
+pisemny;podstawowy;jezyk ukrainski;ogolem;2023;0.0
+pisemny;podstawowy;matematyka;ogolem;2023;50.6
+pisemny;podstawowy;jezyk angielski;ogolem;2023;72.9
+pisemny;podstawowy;jezyk niemiecki;ogolem;2023;50.8
+pisemny;podstawowy;jezyk francuski;ogolem;2023;74.7
+pisemny;podstawowy;jezyk rosyjski;ogolem;2023;68.8
+pisemny;podstawowy;jezyk hiszpanski;ogolem;2023;66.1
+pisemny;podstawowy;jezyk wloski;ogolem;2023;89.0
+pisemny;rozszerzony;jezyk polski;kobiety;2023;50.3
+pisemny;rozszerzony;jezyk bialoruski;kobiety;2023;0.0
+pisemny;rozszerzony;jezyk litewski;kobiety;2023;100.0
+pisemny;rozszerzony;jezyk ukrainski;kobiety;2023;80.7
+pisemny;rozszerzony;matematyka;kobiety;2023;14.2
+pisemny;rozszerzony;jezyk angielski;kobiety;2023;52.9
+pisemny;rozszerzony;jezyk niemiecki;kobiety;2023;40.6
+pisemny;rozszerzony;jezyk francuski;kobiety;2023;36.8
+pisemny;rozszerzony;jezyk rosyjski;kobiety;2023;72.6
+pisemny;rozszerzony;jezyk hiszpanski;kobiety;2023;40.1
+pisemny;rozszerzony;jezyk wloski;kobiety;2023;62.1
+pisemny;rozszerzony;wiedza o spoleczenstwie;kobiety;2023;18.8
+pisemny;rozszerzony;geografia;kobiety;2023;35.4
+pisemny;rozszerzony;biologia;kobiety;2023;25.9
+pisemny;rozszerzony;chemia;kobiety;2023;13.2
+pisemny;rozszerzony;historia;kobiety;2023;21.5
+pisemny;rozszerzony;fizyka;kobiety;2023;11.2
+pisemny;rozszerzony;historia muzyki;kobiety;2023;23.9
+pisemny;rozszerzony;historia sztuki;kobiety;2023;41.3
+pisemny;rozszerzony;filozofia;kobiety;2023;21.0
+pisemny;rozszerzony;jezyk lacinski i kultura antyczna;kobiety;2023;13.1
+pisemny;rozszerzony;informatyka;kobiety;2023;27.0
+pisemny;rozszerzony;jezyk kaszubski;kobiety;2023;35.0
+pisemny;rozszerzony;jezyk lemkowski;kobiety;2023;0.0
+pisemny;rozszerzony;jezyk polski;mezczyzni;2023;44.3
+pisemny;rozszerzony;jezyk bialoruski;mezczyzni;2023;0.0
+pisemny;rozszerzony;jezyk litewski;mezczyzni;2023;85.0
+pisemny;rozszerzony;jezyk ukrainski;mezczyzni;2023;58.0
+pisemny;rozszerzony;matematyka;mezczyzni;2023;18.4
+pisemny;rozszerzony;jezyk angielski;mezczyzni;2023;58.5
+pisemny;rozszerzony;jezyk niemiecki;mezczyzni;2023;47.5
+pisemny;rozszerzony;jezyk francuski;mezczyzni;2023;49.3
+pisemny;rozszerzony;jezyk rosyjski;mezczyzni;2023;72.9
+pisemny;rozszerzony;jezyk hiszpanski;mezczyzni;2023;39.5
+pisemny;rozszerzony;jezyk wloski;mezczyzni;2023;70.2
+pisemny;rozszerzony;wiedza o spoleczenstwie;mezczyzni;2023;25.8
+pisemny;rozszerzony;geografia;mezczyzni;2023;37.8
+pisemny;rozszerzony;biologia;mezczyzni;2023;26.4
+pisemny;rozszerzony;chemia;mezczyzni;2023;15.6
+pisemny;rozszerzony;historia;mezczyzni;2023;28.9
+pisemny;rozszerzony;fizyka;mezczyzni;2023;16.2
+pisemny;rozszerzony;historia muzyki;mezczyzni;2023;25.8
+pisemny;rozszerzony;historia sztuki;mezczyzni;2023;30.6
+pisemny;rozszerzony;filozofia;mezczyzni;2023;22.3
+pisemny;rozszerzony;jezyk lacinski i kultura antyczna;mezczyzni;2023;19.9
+pisemny;rozszerzony;informatyka;mezczyzni;2023;30.5
+pisemny;rozszerzony;jezyk kaszubski;mezczyzni;2023;8.0
+pisemny;rozszerzony;jezyk lemkowski;mezczyzni;2023;0.0
+pisemny;rozszerzony;jezyk polski;ogolem;2023;48.5
+pisemny;rozszerzony;jezyk bialoruski;ogolem;2023;0.0
+pisemny;rozszerzony;jezyk litewski;ogolem;2023;92.5
+pisemny;rozszerzony;jezyk ukrainski;ogolem;2023;69.3
+pisemny;rozszerzony;matematyka;ogolem;2023;17.4
+pisemny;rozszerzony;jezyk angielski;ogolem;2023;56.5
+pisemny;rozszerzony;jezyk niemiecki;ogolem;2023;43.8
+pisemny;rozszerzony;jezyk francuski;ogolem;2023;42.2
+pisemny;rozszerzony;jezyk rosyjski;ogolem;2023;72.7
+pisemny;rozszerzony;jezyk hiszpanski;ogolem;2023;39.9
+pisemny;rozszerzony;jezyk wloski;ogolem;2023;66.1
+pisemny;rozszerzony;wiedza o spoleczenstwie;ogolem;2023;22.1
+pisemny;rozszerzony;geografia;ogolem;2023;36.6
+pisemny;rozszerzony;biologia;ogolem;2023;26.0
+pisemny;rozszerzony;chemia;ogolem;2023;14.0
+pisemny;rozszerzony;historia;ogolem;2023;27.2
+pisemny;rozszerzony;fizyka;ogolem;2023;15.8
+pisemny;rozszerzony;historia muzyki;ogolem;2023;25.2
+pisemny;rozszerzony;historia sztuki;ogolem;2023;39.4
+pisemny;rozszerzony;filozofia;ogolem;2023;21.8
+pisemny;rozszerzony;jezyk lacinski i kultura antyczna;ogolem;2023;17.2
+pisemny;rozszerzony;informatyka;ogolem;2023;30.3
+pisemny;rozszerzony;jezyk kaszubski;ogolem;2023;21.5
+pisemny;rozszerzony;jezyk lemkowski;ogolem;2023;0.0
+ustny;nie dotyczy;jezyk polski;kobiety;2023;61.1
+ustny;nie dotyczy;jezyk bialoruski;kobiety;2023;49.0
+ustny;nie dotyczy;jezyk litewski;kobiety;2023;0.0
+ustny;nie dotyczy;jezyk ukrainski;kobiety;2023;0.0
+ustny;nie dotyczy;jezyk angielski;kobiety;2023;61.2
+ustny;nie dotyczy;jezyk niemiecki;kobiety;2023;50.8
+ustny;nie dotyczy;jezyk francuski;kobiety;2023;63.3
+ustny;nie dotyczy;jezyk rosyjski;kobiety;2023;68.0
+ustny;nie dotyczy;jezyk hiszpanski;kobiety;2023;61.8
+ustny;nie dotyczy;jezyk wloski;kobiety;2023;86.0
+ustny;nie dotyczy;jezyk polski;mezczyzni;2023;59.2
+ustny;nie dotyczy;jezyk bialoruski;mezczyzni;2023;0.0
+ustny;nie dotyczy;jezyk litewski;mezczyzni;2023;0.0
+ustny;nie dotyczy;jezyk ukrainski;mezczyzni;2023;0.0
+ustny;nie dotyczy;jezyk angielski;mezczyzni;2023;70.3
+ustny;nie dotyczy;jezyk niemiecki;mezczyzni;2023;56.9
+ustny;nie dotyczy;jezyk francuski;mezczyzni;2023;98.3
+ustny;nie dotyczy;jezyk rosyjski;mezczyzni;2023;71.8
+ustny;nie dotyczy;jezyk hiszpanski;mezczyzni;2023;80.0
+ustny;nie dotyczy;jezyk wloski;mezczyzni;2023;86.8
+ustny;nie dotyczy;jezyk polski;ogolem;2023;59.9
+ustny;nie dotyczy;jezyk bialoruski;ogolem;2023;49.0
+ustny;nie dotyczy;jezyk litewski;ogolem;2023;0.0
+ustny;nie dotyczy;jezyk ukrainski;ogolem;2023;0.0
+ustny;nie dotyczy;jezyk angielski;ogolem;2023;66.7
+ustny;nie dotyczy;jezyk niemiecki;ogolem;2023;53.1
+ustny;nie dotyczy;jezyk francuski;ogolem;2023;76.0
+ustny;nie dotyczy;jezyk rosyjski;ogolem;2023;69.6
+ustny;nie dotyczy;jezyk hiszpanski;ogolem;2023;66.0
+ustny;nie dotyczy;jezyk wloski;ogolem;2023;86.3
+pisemny;podstawowy;jezyk polski;kobiety;2023;67.2
+pisemny;podstawowy;jezyk bialoruski;kobiety;2023;78.8
+pisemny;podstawowy;jezyk litewski;kobiety;2023;77.5
+pisemny;podstawowy;jezyk ukrainski;kobiety;2023;74.9
+pisemny;podstawowy;matematyka;kobiety;2023;69.8
+pisemny;podstawowy;jezyk angielski;kobiety;2023;83.6
+pisemny;podstawowy;jezyk niemiecki;kobiety;2023;66.4
+pisemny;podstawowy;jezyk francuski;kobiety;2023;78.8
+pisemny;podstawowy;jezyk rosyjski;kobiety;2023;77.2
+pisemny;podstawowy;jezyk hiszpanski;kobiety;2023;76.3
+pisemny;podstawowy;jezyk wloski;kobiety;2023;77.9
+pisemny;podstawowy;jezyk polski;mezczyzni;2023;62.9
+pisemny;podstawowy;jezyk bialoruski;mezczyzni;2023;68.9
+pisemny;podstawowy;jezyk litewski;mezczyzni;2023;69.3
+pisemny;podstawowy;jezyk ukrainski;mezczyzni;2023;71.7
+pisemny;podstawowy;matematyka;mezczyzni;2023;73.0
+pisemny;podstawowy;jezyk angielski;mezczyzni;2023;86.2
+pisemny;podstawowy;jezyk niemiecki;mezczyzni;2023;74.5
+pisemny;podstawowy;jezyk francuski;mezczyzni;2023;80.7
+pisemny;podstawowy;jezyk rosyjski;mezczyzni;2023;81.2
+pisemny;podstawowy;jezyk hiszpanski;mezczyzni;2023;76.6
+pisemny;podstawowy;jezyk wloski;mezczyzni;2023;81.4
+pisemny;podstawowy;jezyk polski;ogolem;2023;65.6
+pisemny;podstawowy;jezyk bialoruski;ogolem;2023;75.1
+pisemny;podstawowy;jezyk litewski;ogolem;2023;73.4
+pisemny;podstawowy;jezyk ukrainski;ogolem;2023;73.6
+pisemny;podstawowy;matematyka;ogolem;2023;71.0
+pisemny;podstawowy;jezyk angielski;ogolem;2023;84.6
+pisemny;podstawowy;jezyk niemiecki;ogolem;2023;69.0
+pisemny;podstawowy;jezyk francuski;ogolem;2023;79.3
+pisemny;podstawowy;jezyk rosyjski;ogolem;2023;78.4
+pisemny;podstawowy;jezyk hiszpanski;ogolem;2023;76.4
+pisemny;podstawowy;jezyk wloski;ogolem;2023;78.7
+pisemny;rozszerzony;jezyk polski;kobiety;2023;50.0
+pisemny;rozszerzony;jezyk bialoruski;kobiety;2023;100.0
+pisemny;rozszerzony;jezyk litewski;kobiety;2023;73.7
+pisemny;rozszerzony;jezyk ukrainski;kobiety;2023;72.0
+pisemny;rozszerzony;matematyka;kobiety;2023;48.3
+pisemny;rozszerzony;jezyk angielski;kobiety;2023;67.5
+pisemny;rozszerzony;jezyk niemiecki;kobiety;2023;57.6
+pisemny;rozszerzony;jezyk francuski;kobiety;2023;56.6
+pisemny;rozszerzony;jezyk rosyjski;kobiety;2023;70.9
+pisemny;rozszerzony;jezyk hiszpanski;kobiety;2023;54.4
+pisemny;rozszerzony;jezyk wloski;kobiety;2023;67.1
+pisemny;rozszerzony;wiedza o spoleczenstwie;kobiety;2023;38.7
+pisemny;rozszerzony;geografia;kobiety;2023;52.0
+pisemny;rozszerzony;biologia;kobiety;2023;47.1
+pisemny;rozszerzony;chemia;kobiety;2023;44.6
+pisemny;rozszerzony;historia;kobiety;2023;39.8
+pisemny;rozszerzony;fizyka;kobiety;2023;38.6
+pisemny;rozszerzony;historia muzyki;kobiety;2023;52.6
+pisemny;rozszerzony;historia sztuki;kobiety;2023;46.5
+pisemny;rozszerzony;filozofia;kobiety;2023;43.8
+pisemny;rozszerzony;jezyk lacinski i kultura antyczna;kobiety;2023;56.0
+pisemny;rozszerzony;informatyka;kobiety;2023;42.0
+pisemny;rozszerzony;jezyk kaszubski;kobiety;2023;56.7
+pisemny;rozszerzony;jezyk lemkowski;kobiety;2023;100.0
+pisemny;rozszerzony;jezyk polski;mezczyzni;2023;47.9
+pisemny;rozszerzony;jezyk bialoruski;mezczyzni;2023;96.7
+pisemny;rozszerzony;jezyk litewski;mezczyzni;2023;80.0
+pisemny;rozszerzony;jezyk ukrainski;mezczyzni;2023;76.3
+pisemny;rozszerzony;matematyka;mezczyzni;2023;52.3
+pisemny;rozszerzony;jezyk angielski;mezczyzni;2023;71.2
+pisemny;rozszerzony;jezyk niemiecki;mezczyzni;2023;60.2
+pisemny;rozszerzony;jezyk francuski;mezczyzni;2023;62.6
+pisemny;rozszerzony;jezyk rosyjski;mezczyzni;2023;74.3
+pisemny;rozszerzony;jezyk hiszpanski;mezczyzni;2023;49.8
+pisemny;rozszerzony;jezyk wloski;mezczyzni;2023;70.2
+pisemny;rozszerzony;wiedza o spoleczenstwie;mezczyzni;2023;47.6
+pisemny;rozszerzony;geografia;mezczyzni;2023;54.2
+pisemny;rozszerzony;biologia;mezczyzni;2023;50.8
+pisemny;rozszerzony;chemia;mezczyzni;2023;52.2
+pisemny;rozszerzony;historia;mezczyzni;2023;50.8
+pisemny;rozszerzony;fizyka;mezczyzni;2023;45.3
+pisemny;rozszerzony;historia muzyki;mezczyzni;2023;53.0
+pisemny;rozszerzony;historia sztuki;mezczyzni;2023;44.9
+pisemny;rozszerzony;filozofia;mezczyzni;2023;49.3
+pisemny;rozszerzony;jezyk lacinski i kultura antyczna;mezczyzni;2023;70.9
+pisemny;rozszerzony;informatyka;mezczyzni;2023;45.1
+pisemny;rozszerzony;jezyk kaszubski;mezczyzni;2023;48.0
+pisemny;rozszerzony;jezyk lemkowski;mezczyzni;2023;100.0
+pisemny;rozszerzony;jezyk polski;ogolem;2023;49.7
+pisemny;rozszerzony;jezyk bialoruski;ogolem;2023;99.3
+pisemny;rozszerzony;jezyk litewski;ogolem;2023;75.8
+pisemny;rozszerzony;jezyk ukrainski;ogolem;2023;73.2
+pisemny;rozszerzony;matematyka;ogolem;2023;50.2
+pisemny;rozszerzony;jezyk angielski;ogolem;2023;68.9
+pisemny;rozszerzony;jezyk niemiecki;ogolem;2023;58.3
+pisemny;rozszerzony;jezyk francuski;ogolem;2023;58.0
+pisemny;rozszerzony;jezyk rosyjski;ogolem;2023;72.0
+pisemny;rozszerzony;jezyk hiszpanski;ogolem;2023;53.4
+pisemny;rozszerzony;jezyk wloski;ogolem;2023;67.8
+pisemny;rozszerzony;wiedza o spoleczenstwie;ogolem;2023;41.8
+pisemny;rozszerzony;geografia;ogolem;2023;52.9
+pisemny;rozszerzony;biologia;ogolem;2023;48.0
+pisemny;rozszerzony;chemia;ogolem;2023;46.5
+pisemny;rozszerzony;historia;ogolem;2023;45.1
+pisemny;rozszerzony;fizyka;ogolem;2023;43.2
+pisemny;rozszerzony;historia muzyki;ogolem;2023;52.8
+pisemny;rozszerzony;historia sztuki;ogolem;2023;46.3
+pisemny;rozszerzony;filozofia;ogolem;2023;45.7
+pisemny;rozszerzony;jezyk lacinski i kultura antyczna;ogolem;2023;60.5
+pisemny;rozszerzony;informatyka;ogolem;2023;44.6
+pisemny;rozszerzony;jezyk kaszubski;ogolem;2023;53.6
+pisemny;rozszerzony;jezyk lemkowski;ogolem;2023;100.0
+ustny;nie dotyczy;jezyk polski;kobiety;2023;74.1
+ustny;nie dotyczy;jezyk bialoruski;kobiety;2023;88.0
+ustny;nie dotyczy;jezyk litewski;kobiety;2023;80.0
+ustny;nie dotyczy;jezyk ukrainski;kobiety;2023;80.5
+ustny;nie dotyczy;jezyk angielski;kobiety;2023;80.8
+ustny;nie dotyczy;jezyk niemiecki;kobiety;2023;71.9
+ustny;nie dotyczy;jezyk francuski;kobiety;2023;81.9
+ustny;nie dotyczy;jezyk rosyjski;kobiety;2023;77.3
+ustny;nie dotyczy;jezyk hiszpanski;kobiety;2023;76.7
+ustny;nie dotyczy;jezyk wloski;kobiety;2023;78.1
+ustny;nie dotyczy;jezyk polski;mezczyzni;2023;70.5
+ustny;nie dotyczy;jezyk bialoruski;mezczyzni;2023;84.0
+ustny;nie dotyczy;jezyk litewski;mezczyzni;2023;59.5
+ustny;nie dotyczy;jezyk ukrainski;mezczyzni;2023;85.1
+ustny;nie dotyczy;jezyk angielski;mezczyzni;2023;83.8
+ustny;nie dotyczy;jezyk niemiecki;mezczyzni;2023;77.5
+ustny;nie dotyczy;jezyk francuski;mezczyzni;2023;87.6
+ustny;nie dotyczy;jezyk rosyjski;mezczyzni;2023;83.4
+ustny;nie dotyczy;jezyk hiszpanski;mezczyzni;2023;77.0
+ustny;nie dotyczy;jezyk wloski;mezczyzni;2023;90.1
+ustny;nie dotyczy;jezyk polski;ogolem;2023;72.8
+ustny;nie dotyczy;jezyk bialoruski;ogolem;2023;86.5
+ustny;nie dotyczy;jezyk litewski;ogolem;2023;69.7
+ustny;nie dotyczy;jezyk ukrainski;ogolem;2023;82.5
+ustny;nie dotyczy;jezyk angielski;ogolem;2023;81.9
+ustny;nie dotyczy;jezyk niemiecki;ogolem;2023;73.7
+ustny;nie dotyczy;jezyk francuski;ogolem;2023;83.6
+ustny;nie dotyczy;jezyk rosyjski;ogolem;2023;79.1
+ustny;nie dotyczy;jezyk hiszpanski;ogolem;2023;76.8
+ustny;nie dotyczy;jezyk wloski;ogolem;2023;80.9

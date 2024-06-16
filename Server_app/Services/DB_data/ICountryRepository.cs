@@ -12,5 +12,13 @@ namespace Server_app.Services.DB_data
         IList<AverageCountryData> GetAverageCasesBefore();
         IList<AverageCountryData> GetAverageDeathsAfter();
         IList<AverageCountryData> GetAverageDeathsBefore();
+        void ClearCasesAfter();
+        void InsertCasesAfter(CountrySet countrySet);
+        void ClearCasesBefore();
+        void InsertCasesBefore(CountrySet countrySet);
+        void ClearDeathsAfter();
+        void InsertDeathsAfter(CountrySet countrySet);
+        void ClearDeathsBefore();
+        void InsertDeathsBefore(CountrySet countrySet);
     }
 }
