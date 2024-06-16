@@ -14,6 +14,7 @@ Patryk Przybyś:
 - Eksport danych ze wszystkich tabel bazy do plików JSON, XML, YAML
 - Import danych do wszystkich tabel bazy z plików JSON, XML, YAML
 - Opracowanie pliku ReadMe
+- Nagranie filmu prezentującego działanie aplikacji
 
 Maciej Przyłucki:
 - Zgromadzenie danych odnośnie wyników maturalnych
