@@ -41,6 +41,7 @@
             summaryButton = new Button();
             ucPanel = new Panel();
             contentPanel = new Panel();
+            logoutButton = new Button();
             menu.SuspendLayout();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -58,6 +59,7 @@
             menu.Controls.Add(panel3);
             menu.Controls.Add(panel5);
             menu.Controls.Add(panel4);
+            menu.Controls.Add(logoutButton);
             menu.Dock = DockStyle.Left;
             menu.Location = new Point(0, 0);
             menu.Name = "menu";
@@ -195,6 +197,22 @@
             contentPanel.Size = new Size(912, 558);
             contentPanel.TabIndex = 2;
             // 
+            // logoutButton
+            // 
+            logoutButton.FlatAppearance.BorderSize = 0;
+            logoutButton.FlatStyle = FlatStyle.Flat;
+            logoutButton.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            logoutButton.ForeColor = SystemColors.Control;
+            logoutButton.Location = new Point(3, 286);
+            logoutButton.Name = "logoutButton";
+            logoutButton.Padding = new Padding(5, 0, 0, 0);
+            logoutButton.Size = new Size(257, 55);
+            logoutButton.TabIndex = 6;
+            logoutButton.Text = "Wyloguj się";
+            logoutButton.TextAlign = ContentAlignment.MiddleLeft;
+            logoutButton.UseVisualStyleBackColor = true;
+            logoutButton.Click += logoutButton_Click;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -233,5 +251,6 @@
         private Button summaryButton;
         private Panel ucPanel;
         private Panel contentPanel;
+        private Button logoutButton;
     }
 }

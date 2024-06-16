@@ -1,4 +1,5 @@
 using Project_app.Authentication;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Project_app
 {
@@ -64,6 +65,15 @@ namespace Project_app
             hideUC();
             summaryUC.Visible = true;
             ucPanel.Controls.Add(summaryUC);
+        }
+
+        private void logoutButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            user.token = "";
+            AuthForm auth = new AuthForm();
+            auth.ShowDialog();
+            this.Close();
         }
     }
 }

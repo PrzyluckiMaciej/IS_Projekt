@@ -1,0 +1,304 @@
+[
+  {
+    "ContainingType": "Server_app.Controllers.CasesController",
+    "Method": "ClearCasesAfter",
+    "RelativePath": "api/Cases/clear_after",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.CasesController",
+    "Method": "ClearCasesBefore",
+    "RelativePath": "api/Cases/clear_before",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.CasesController",
+    "Method": "GetAverageCasesAfter",
+    "RelativePath": "api/Cases/get_average_cases_after",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.CasesController",
+    "Method": "GetAverageCasesBefore",
+    "RelativePath": "api/Cases/get_average_cases_before",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.CasesController",
+    "Method": "GetAllCasesAfter",
+    "RelativePath": "api/Cases/get_cases_after",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.CasesController",
+    "Method": "GetAllCasesBefore",
+    "RelativePath": "api/Cases/get_cases_before",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.CasesController",
+    "Method": "InsertCasesAfter",
+    "RelativePath": "api/Cases/insert_after",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "result",
+        "Type": "Server_app.Entities.CountrySet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.CasesController",
+    "Method": "InsertCasesBefore",
+    "RelativePath": "api/Cases/insert_before",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "result",
+        "Type": "Server_app.Entities.CountrySet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.DeathsController",
+    "Method": "ClearDeathsAfter",
+    "RelativePath": "api/Deaths/clear_after",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.DeathsController",
+    "Method": "ClearDeathsBefore",
+    "RelativePath": "api/Deaths/clear_before",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.DeathsController",
+    "Method": "GetAverageDeathsAfter",
+    "RelativePath": "api/Deaths/get_average_deaths_after",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.DeathsController",
+    "Method": "GetAverageDeathsBefore",
+    "RelativePath": "api/Deaths/get_average_deaths_before",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.DeathsController",
+    "Method": "GetAllDeathsAfter",
+    "RelativePath": "api/Deaths/get_deaths_after",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.DeathsController",
+    "Method": "GetAllDeathsBefore",
+    "RelativePath": "api/Deaths/get_deaths_before",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.DeathsController",
+    "Method": "InsertDeathsAfter",
+    "RelativePath": "api/Deaths/insert_after",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "result",
+        "Type": "Server_app.Entities.CountrySet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.DeathsController",
+    "Method": "InsertDeathsBefore",
+    "RelativePath": "api/Deaths/insert_before",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "result",
+        "Type": "Server_app.Entities.CountrySet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.ExamsController",
+    "Method": "ClearExamsAfter",
+    "RelativePath": "api/Exams/clear_after",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.ExamsController",
+    "Method": "ClearExamsBefore",
+    "RelativePath": "api/Exams/clear_before",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.ExamsController",
+    "Method": "GetAverageExamPerYearAfter",
+    "RelativePath": "api/Exams/get_average_exams_after",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.ExamsController",
+    "Method": "GetAverageExamPerYearBefore",
+    "RelativePath": "api/Exams/get_average_exams_before",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.ExamsController",
+    "Method": "GetAllExamResultsAfter",
+    "RelativePath": "api/Exams/get_exams_after",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.ExamsController",
+    "Method": "GetAllExamResultsBefore",
+    "RelativePath": "api/Exams/get_exams_before",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.ExamsController",
+    "Method": "InsertExamsAfter",
+    "RelativePath": "api/Exams/insert_after",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "result",
+        "Type": "Server_app.Entities.ExamResult",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.ExamsController",
+    "Method": "InsertExamsBefore",
+    "RelativePath": "api/Exams/insert_before",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "result",
+        "Type": "Server_app.Entities.ExamResult",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.IsolationController",
+    "Method": "SetIsolationLevel",
+    "RelativePath": "api/Isolation/set",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_app.Controllers.UsersController",
+    "Method": "Authenticate",
+    "RelativePath": "api/Users/authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Server_app.Model.AuthenticationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
