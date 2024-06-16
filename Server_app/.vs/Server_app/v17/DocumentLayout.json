@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:controllers\\examscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\server_app\\services\\db_data\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\services\\db_data\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:services\\db_data\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\server_app\\entities\\examresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\entities\\examresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:entities\\examresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,15 +23,15 @@
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:services\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\server_app\\controllers\\casescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\controllers\\casescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:controllers\\casescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\server_app\\controllers\\deathscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\controllers\\deathscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:controllers\\deathscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\server_app\\services\\db_data\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\services\\db_data\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:services\\db_data\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -55,7 +55,7 @@
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|d:\\studia\\integracja system\u00F3w\\is_projekt\\server_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51A5C173-7C31-4837-85AD-FDC4277F91EF}|Server_app.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -86,8 +86,7 @@
               "RelativeToolTip": "Entities\\ExamResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T20:07:27.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T20:07:27.522Z"
             },
             {
               "$type": "Document",
@@ -99,8 +98,7 @@
               "RelativeToolTip": "Services\\DB_data\\IExamRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T12:45:46.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T12:45:46.439Z"
             },
             {
               "$type": "Document",
@@ -110,7 +108,7 @@
               "RelativeDocumentMoniker": "Controllers\\ExamsController.cs",
               "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Server_app\\Controllers\\ExamsController.cs",
               "RelativeToolTip": "Controllers\\ExamsController.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAcwGMAAAAAAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAIwGMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T12:41:50.559Z",
               "EditorCaption": ""
@@ -125,8 +123,7 @@
               "RelativeToolTip": "Startup.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T09:16:13.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T09:16:13.826Z"
             },
             {
               "$type": "Document",
@@ -138,8 +135,7 @@
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T09:14:32.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T09:14:32.301Z"
             },
             {
               "$type": "Document",
@@ -151,8 +147,7 @@
               "RelativeToolTip": "Services\\Users\\UserServiceImpl.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T09:07:45.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T09:07:45.02Z"
             },
             {
               "$type": "Document",
@@ -164,8 +159,7 @@
               "RelativeToolTip": "Services\\Users\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T09:05:20.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T09:05:20.775Z"
             },
             {
               "$type": "Document",
@@ -177,8 +171,7 @@
               "RelativeToolTip": "Controllers\\CasesController.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAowD8AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T12:54:54.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T12:54:54.815Z"
             },
             {
               "$type": "Document",
@@ -190,8 +183,7 @@
               "RelativeToolTip": "Services\\DB_data\\ICountryRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T13:02:29.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T13:02:29.672Z"
             },
             {
               "$type": "Document",
@@ -203,8 +195,7 @@
               "RelativeToolTip": "Controllers\\DeathsController.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAqwA8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T13:04:50.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T13:04:50.194Z"
             },
             {
               "$type": "Document",
@@ -216,8 +207,7 @@
               "RelativeToolTip": "Model\\AuthenticationResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T09:03:26.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T09:03:26.867Z"
             },
             {
               "$type": "Document",
@@ -229,8 +219,7 @@
               "RelativeToolTip": "Model\\AuthenticationRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T09:02:35.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T09:02:35.271Z"
             },
             {
               "$type": "Document",
@@ -242,8 +231,7 @@
               "RelativeToolTip": "Entities\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T08:50:11.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T08:50:11.689Z"
             },
             {
               "$type": "Document",
@@ -255,8 +243,7 @@
               "RelativeToolTip": "Entities\\Role.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T08:49:16.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T08:49:16.249Z"
             },
             {
               "$type": "Document",
@@ -268,8 +255,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T08:47:37.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T08:47:37.232Z"
             },
             {
               "$type": "Document",
@@ -281,8 +267,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-15T08:46:59.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T08:46:59.668Z"
             }
           ]
         }
