@@ -12,18 +12,17 @@ Patryk Przybyś:
 - Zgromadzenie danych odnośnie zachorowań i śmierci na Covid-19
 - Podział danych na te sprzed i po początku pandemii
 - Eksport danych ze wszystkich tabel bazy do plików JSON, XML, YAML
-- Import danych do tabel zachorowań i śmierci
+- Import danych do wszystkich tabel bazy z plików JSON, XML, YAML
+- Opracowanie pliku ReadMe
 
 Maciej Przyłucki:
 - Zgromadzenie danych odnośnie wyników maturalnych
 - Aplikacja serwera z wykorzystaniem REST
 - Projekty interfejsów
 - Implementacja ORM
-- Import danych do tabel z wynikami egzaminów maturalnych
 - Uwierzytelnianie i autoryzacja przy użyciu tokena JWT
 - Prezentacja danych w wyniku podsumowania oraz w tabelach
 - Poziomy izolacji w bazie danych
-- Opracowanie pliku ReadMe
 
 Wykorzystane technologie:
 - Visual Studio (wersja: 17.9.1)
