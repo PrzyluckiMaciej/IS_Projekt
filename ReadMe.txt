@@ -1,11 +1,13 @@
 Integracja systemów
-Temat projektu: Zestawienie różnych danych statystycznych przed wybuchem pandemii COVID-19
+Temat projektu: 
+Zestawienie różnych danych statystycznych przed wybuchem pandemii COVID-19
 (przed 03.2020 r.) oraz w czasie jej trwania (po 03.2020 r.), prezentacja zmian
 wartości w wybranym okresie. 
 
-Skład grupy projektowej: Patryk Przybyś, Maciej Przyłucki
+Skład grupy projektowej: 
+Patryk Przybyś, Maciej Przyłucki
 
-Podział zrealizowanych zadań
+Podział zrealizowanych zadań:
 Patryk Przybyś:
 - Zgromadzenie danych odnośnie zachorowań i śmierci na Covid-19
 - Podział danych na te sprzed i po początku pandemii
@@ -73,3 +75,6 @@ c) Inne:
       umieszczonych w obiekcie typu DataGridView, który prezentuje dane
       w postaci tabeli.
       (https://martinwilley.com/net/code/forms/sortablebindinglist.html)
+
+Źródła danych:
+- Wyniki egzaminów maturalnych: https://dane.gov.pl/pl/dataset/2621,srednie-wyniki-egzaminu-maturalnego
