@@ -276,6 +276,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Server_app.Controllers.IsolationController",
+    "Method": "SetIsolationLevel",
+    "RelativePath": "api/Isolation/set",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Server_app.Controllers.UsersController",
     "Method": "Authenticate",
     "RelativePath": "api/Users/authenticate",

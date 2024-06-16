@@ -12,6 +12,7 @@ Patryk Przybyś:
 - Zgromadzenie danych odnośnie zachorowań i śmierci na Covid-19
 - Podział danych na te sprzed i po początku pandemii
 - Eksport danych ze wszystkich tabel bazy do plików JSON, XML, YAML
+- Import danych do tabel zachorowań i śmierci
 
 Maciej Przyłucki:
 - Zgromadzenie danych odnośnie wyników maturalnych
@@ -21,12 +22,22 @@ Maciej Przyłucki:
 - Import danych do tabel z wynikami egzaminów maturalnych
 - Uwierzytelnianie i autoryzacja przy użyciu tokena JWT
 - Prezentacja danych w wyniku podsumowania oraz w tabelach
+- Poziomy izolacji w bazie danych
 - Opracowanie pliku ReadMe
 
+Przygotowanie bazy danych:
+Korzystając z usługi phpmyadmin należy utworzyć nową bazę danych o nazwie "covid",
+a następnie wykonać kod SQL znajdujący się w pliku "db_data.sql", która odpowiada za
+zdefiniowanie wymaganych procedur oraz utorzenie tabel. Należy także utworzyć
+użytkownika za pomocą poleceń znajdujących się w pliku "db_user.sql".
+
 Uruchamianie:
-Aplikacja klienta znajduje się w folderze "Project_app", a aplikacja
-serwera w folderze "Server_app". Należy najpierw uruchomić aplikację
-serwera, a następnie klienta. Po uruchomieniu należy się zalogować
+Kody źródłowe aplikacji znajdują się w folderach "Project_app" (klient) oraz
+"Server_app" (serwer). Kody wykonywalne znajdują się w folderze "Executables".
+Aby uruchomić aplikację serwera należy otworzyć plik "Server_app.exe" w folderze
+"Server". Aby uruchomić aplikację klienta należy otworzyć plik "Project_app.exe"
+w folderze "Client".
+Należy najpierw uruchomić aplikację serwera, a następnie klienta. Po uruchomieniu należy się zalogować
 na konto jednego ze zdefiniowanych użtykowników:
 - Admin (nazwa użytkownika: "Admin", hasło: "admin"): ma uprawnienia do
   odczytu i zapisu.
@@ -39,7 +50,9 @@ Aplikacja serwera wykorzystuje ASP.NET Web API w celu komunikacji z klientem.
 Aplikacja pozwala na import i eksport danych w formatach XML, JSON i YAML, wykorzystuje ORM
 w celu dostępu do bazy danych, korzysta z usługi REST, używa tokenów JWT do uwierzytelniania
 i autoryzacji oraz wykorzystuje poziomy izolacji w bazie danych.
-Interfejs graficzny aplikacji klienta powstał z użyciem Windows Forms. 
+Interfejs graficzny aplikacji klienta powstał z użyciem Windows Forms. Przy zalogowaniu się
+poziom izolacji w bazie danych ustawiany jest na "SERIALIZABLE", który jest najbezpieczniejszym
+poziomem izolacji i pozwala na uniknięcie największej liczby anomalii transakcji.
 Aplikacja pozwala na sprawdzenie licby zachorowań i śmierci w każdym dniu z podziałem
 na kraje w roku 2020, a także na sprawdzenie wyników egzaminów naturalnych ze wszystkich
 przedmiotów w latach 2015-2023. Tabele wyświetlające dane z bazy pozwalają na sortowanie 

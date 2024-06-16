@@ -55,6 +55,8 @@ namespace Project_app
                 dynamic data = JObject.Parse(response.Content);
                 if (numericStatusCode == 200)
                 {
+                    request = new RestRequest("/isolation/set", Method.Post);
+                    response = client.Execute(request);
                     this.Hide();
                     user.token = data.token;
                     MainForm main = new MainForm(user);

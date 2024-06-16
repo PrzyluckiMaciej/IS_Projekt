@@ -1,31 +1,9 @@
 ﻿using Insight.Database;
 using Project_app.ORM_classes;
-using Project_app.ORM_interfaces;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using MySql.Data.MySqlClient;
-using Org.BouncyCastle.Crmf;
-using Newtonsoft.Json;
-using System.Xml.Serialization;
-
-using System.Collections.Generic;
-using System.IO;
-using System.Runtime.Serialization.Json;
-using Newtonsoft.Json;
-using YamlDotNet.Serialization;
 using Newtonsoft.Json.Linq;
 using RestSharp;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using System.Net;
-using Library.Forms;
-using Project_app.UserControls;
+using Project_app.UserControls.DataManagers;
 
 
 namespace Project_app

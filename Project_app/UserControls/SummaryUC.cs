@@ -1,22 +1,9 @@
 ﻿using Insight.Database;
-using MySql.Data.MySqlClient;
 using Newtonsoft.Json.Linq;
 using Project_app.ORM_classes;
-using Project_app.ORM_interfaces;
 using RestSharp;
-using System;
-using System.Collections.Generic;
-using System.Collections.Immutable;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
-using YamlDotNet.Core.Tokens;
 
 namespace Project_app
 {
