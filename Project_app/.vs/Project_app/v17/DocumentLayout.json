@@ -126,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -193,6 +193,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "Forms\\MainForm.cs",
+              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\MainForm.cs",
+              "RelativeToolTip": "Forms\\MainForm.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T07:47:19.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "CasesUC.cs [Projekt]",
               "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\UserControls\\CasesUC.cs",
@@ -214,19 +227,6 @@
               "ViewState": "AQIAAB4AAAAAAAAAAAAowGIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T18:02:34.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\MainForm.cs",
-              "RelativeDocumentMoniker": "Forms\\MainForm.cs",
-              "ToolTip": "D:\\Studia\\Integracja System\u00F3w\\IS_Projekt\\Project_app\\Forms\\MainForm.cs",
-              "RelativeToolTip": "Forms\\MainForm.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAArwEoAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T07:47:19.871Z",
               "EditorCaption": ""
             },
             {
